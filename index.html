@@ -30,22 +30,10 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
 <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.min.js"></script>
 
-  <!-- ... tailwind.css & leaflet.css ... -->
-      <style>
-          /* Pastikan header di atas segalanya */
-          header {
-              z-index: 9999;    /* atau z-[9999] di Tailwind */
-          }
-
-          /* Turunkan semua kontrol Leaflet di dalam #map */
-          #map .leaflet-control {
-              z-index: 0 !important;
-          }   
-      </style>
 </head>
 <body>
   <!--header-->
-  <header class="bg-orange-950 sticky top-0 z-[1000]">
+  <header class="bg-orange-950 fixed top-0 left-0 w-full z-[9999]">
     <nav class="text-white max-w-screen-xl mx-auto py-4 flex justify-between items-center px-4">
         <a href="" class="text-2xl font-bold">UMKM Teluk Pandan</a>
         <ul class="menu hidden md:flex md:bg-orange-950 md:relative md:top-0 md:divide-y-0">
@@ -194,14 +182,23 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
   </section>
 
-<!-- ======== PETA & DAFTAR UMKM RESPONSIVE ======== -->
+<!-- ======== PETA & DAFTAR UMKM ======== -->
 <section class="bg-white py-10">
   <!-- Anchor untuk scroll -->
   <span id="peta" class="block scroll-mt-20"></span>
 
   <div class="max-w-[1400px] mx-auto px-4 lg:flex lg:gap-4">
     
-<!-- Sidebar Ramping dengan Scroll -->
+<!-- Peta -->
+<div class="w-full lg:w-3/4 flex flex-col items-center">
+  <h3 class="text-3xl font-bold text-center mb-2">Peta Sebaran UMKM</h3>
+  <p class="text-center mb-4 text-gray-700 max-w-full px-2">
+    Peta ini menampilkan lokasi sebaran UMKM di Kecamatan Teluk Pandan. Klik ikon pada peta untuk melihat informasi lebih lanjut.
+  </p>
+  <div id="map" class="w-full h-[75vh] rounded-lg shadow-md"></div>
+</div>
+
+<!-- Sidebar dengan Scroll -->
 <div class="w-full lg:w-1/4 mb-6 lg:mb-0">
   <div class="bg-white/95 p-5 rounded-xl shadow-lg border border-gray-200 overflow-y-auto"
        style="height: 86vh;">
@@ -211,15 +208,6 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
     <div id="list-umkm" class="space-y-4"></div> 
   </div>
-</div>
-
-<!-- Peta Lebih Luas -->
-<div class="w-full lg:w-3/4 flex flex-col items-center">
-  <h3 class="text-3xl font-bold text-center mb-2">Peta Sebaran UMKM</h3>
-  <p class="text-center mb-4 text-gray-700 max-w-full px-2">
-    Peta ini menampilkan lokasi sebaran UMKM di Kecamatan Teluk Pandan. Klik ikon pada peta untuk melihat informasi lebih lanjut.
-  </p>
-  <div id="map" class="w-full h-[75vh] rounded-lg shadow-md"></div>
 </div>
 
   </div>
@@ -320,8 +308,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <!--footer-->
 <footer class="w-11/12 md:container mx-auto py-4 text-center text-orange-950"> &copy; 2025 Peta Sebaran UMKM Teluk Pandan | by Annisa Maulina</footer>
-
-
 
 </body>
 </html>
