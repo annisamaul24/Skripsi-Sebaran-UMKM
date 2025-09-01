@@ -1,0 +1,1335 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235736111111,
+          -5.55458611111111
+        ]
+      },
+      "properties": {
+        "ID": 34,
+        "NAMA_USAHA": "Mie Ayam Bakso Bude Rawen",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Gebang Hilir, Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual mie ayam dan bakso.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/34.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237461111111,
+          -5.55456388888888
+        ]
+      },
+      "properties": {
+        "ID": 47,
+        "NAMA_USAHA": "Agen Sinar Shop",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jalan Way Ratay, Gebang, Pesawaran",
+        "DESKRIPSI": "Menyediakan layanan untuk berbagai transaksi perbankan seperti tarik tunai, setor tunai, transfer, pembayaran tagihan, dan pembelian pulsa.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/47.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237963888888,
+          -5.55460555555555
+        ]
+      },
+      "properties": {
+        "ID": 48,
+        "NAMA_USAHA": "Toko Jihan",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang",
+        "DESKRIPSI": "Menjual berbagai perlengkapan bayi seperti pakaian, popok, botol susu, mainan, dan kebutuhan lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/48.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.238038888888,
+          -5.554575
+        ]
+      },
+      "properties": {
+        "ID": 49,
+        "NAMA_USAHA": "Seblak Prasmanan Ummah Alhatim",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Pesawaran",
+        "DESKRIPSI": "Menjual seblak prasmanan dengan berbagai pilihan topping, mulai dari harga seribuan. Bisa pilih topping sesuka hati, enak dan hemat!",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/49.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229005555555,
+          -5.55955277777777
+        ]
+      },
+      "properties": {
+        "ID": 88,
+        "NAMA_USAHA": "Arsyilla Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kec. Teluk Pandan",
+        "DESKRIPSI": "Konter",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/88.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228847222222,
+          -5.55988611111111
+        ]
+      },
+      "properties": {
+        "ID": 89,
+        "NAMA_USAHA": "Fazli Fashion",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Butik",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/89.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228236111111,
+          -5.56084166666666
+        ]
+      },
+      "properties": {
+        "ID": 90,
+        "NAMA_USAHA": "Warung Pak Bahri",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menujual bensin dan kebutuhan sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/90.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228327777777,
+          -5.56093333333333
+        ]
+      },
+      "properties": {
+        "ID": 91,
+        "NAMA_USAHA": "Warung Ibu Mini",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.30 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menjual kebutuhan sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/91.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2282843,
+          -5.5610156
+        ]
+      },
+      "properties": {
+        "ID": 92,
+        "NAMA_USAHA": "Warung Ibu yus",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menjual kebutuhan sehari hari ada kuota",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/92.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228386111111,
+          -5.56062777777777
+        ]
+      },
+      "properties": {
+        "ID": 93,
+        "NAMA_USAHA": "Bengkel Motor Putri Bone",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Kebutuhan sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/93.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227719444444,
+          -5.56020555555555
+        ]
+      },
+      "properties": {
+        "ID": 94,
+        "NAMA_USAHA": "Warung Ibu Dewi",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Desa Gebang, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/94.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227369444444,
+          -5.55998611111111
+        ]
+      },
+      "properties": {
+        "ID": 95,
+        "NAMA_USAHA": "Warung Teh Evi",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "09.00 - 20.00",
+        "ALAMAT": "Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menjual jajanan",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/95.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227388888888,
+          -5.56002777777777
+        ]
+      },
+      "properties": {
+        "ID": 96,
+        "NAMA_USAHA": "Jual Beli Kelapa",
+        "JENIS_USAHA": "Pertanian dan Perdagangan Bibit",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Jual beli kelapa, dan terdapat warung",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/96.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226669444444,
+          -5.55968055555555
+        ]
+      },
+      "properties": {
+        "ID": 97,
+        "NAMA_USAHA": "Warung Nde Awing",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Warung jajan",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/97.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.226977777777,
+          -5.55931666666666
+        ]
+      },
+      "properties": {
+        "ID": 98,
+        "NAMA_USAHA": "Warung Ibu Rosa",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Kampung Baru, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menjual jajanan",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/98.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.224236111111,
+          -5.55988333333333
+        ]
+      },
+      "properties": {
+        "ID": 99,
+        "NAMA_USAHA": "Ayam Pak Amizon",
+        "JENIS_USAHA": "Pertanian dan Perdagangan Bibit",
+        "JAM_OPERASIONAL": "00.00 - 24.00",
+        "ALAMAT": "Gebang Induk, Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Ternak Ayam",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/99.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.222980555555,
+          -5.55890555555555
+        ]
+      },
+      "properties": {
+        "ID": 100,
+        "NAMA_USAHA": "Ayam Pak Aminudin",
+        "JENIS_USAHA": "Pertanian dan Perdagangan Bibit",
+        "JAM_OPERASIONAL": "00.00 - 24.00",
+        "ALAMAT": "Gebang Induk, Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Ternak ayam",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/100.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227419444444,
+          -5.56131111111111
+        ]
+      },
+      "properties": {
+        "ID": 101,
+        "NAMA_USAHA": "Warung Kak Emi",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menjual Kebutuhan Sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/101.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227833333333,
+          -5.56156388888888
+        ]
+      },
+      "properties": {
+        "ID": 102,
+        "NAMA_USAHA": "Warung Ibu Winda",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 23.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menjual kebutuhan sehari hari, es, sembako",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/102.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.227744444444,
+          -5.56188888888888
+        ]
+      },
+      "properties": {
+        "ID": 103,
+        "NAMA_USAHA": "Mie Ayam dan Bakso Long Adun",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Bengkel motor",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/103.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228277777777,
+          -5.56256111111111
+        ]
+      },
+      "properties": {
+        "ID": 104,
+        "NAMA_USAHA": "Bengkel Bang Faisal",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang",
+        "DESKRIPSI": "Bengkel motor",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/104.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232325,
+          -5.56877777777777
+        ]
+      },
+      "properties": {
+        "ID": 105,
+        "NAMA_USAHA": "Bengkel Lay",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08-00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang",
+        "DESKRIPSI": "Bengkel",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/105.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230069444444,
+          -5.57189722222222
+        ]
+      },
+      "properties": {
+        "ID": 106,
+        "NAMA_USAHA": "Toko Pancing Seribu",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 19.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Gebang",
+        "DESKRIPSI": "Menjual alat pancing",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/106.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229963888888,
+          -5.57215555555555
+        ]
+      },
+      "properties": {
+        "ID": 107,
+        "NAMA_USAHA": "Toko Ibu Supri",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Seribu",
+        "DESKRIPSI": "Menjual bensin dan kebutuhan sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/107.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229961111111,
+          -5.57222499999999
+        ]
+      },
+      "properties": {
+        "ID": 108,
+        "NAMA_USAHA": "Toko Ibu Sella",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Seribu",
+        "DESKRIPSI": "Menjual atk dan jajanan",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/108.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229897222222,
+          -5.572425
+        ]
+      },
+      "properties": {
+        "ID": 109,
+        "NAMA_USAHA": "Toko Romi",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay Seribu",
+        "DESKRIPSI": "Menuual sembako dan kebutuhan sehari hari, bensin",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/109.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229466666666,
+          -5.57421388888888
+        ]
+      },
+      "properties": {
+        "ID": 110,
+        "NAMA_USAHA": "Revan Jaya Motor",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Kampung Seribu",
+        "DESKRIPSI": "Service motor, terdapat jualan es burger sate obong",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/110.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229505555555,
+          -5.57418333333333
+        ]
+      },
+      "properties": {
+        "ID": 111,
+        "NAMA_USAHA": "Mie Ayam Fiko",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 20.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Kampung Seribu",
+        "DESKRIPSI": "Mie ayam dan bakso",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/111.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229077777777,
+          -5.57512222222222
+        ]
+      },
+      "properties": {
+        "ID": 112,
+        "NAMA_USAHA": "Toko Mita",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jalan Way Ratay Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menjual sembako, atk, lampu, plstik, gas, bensin, dll",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/112.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229138888888,
+          -5.57513333333333
+        ]
+      },
+      "properties": {
+        "ID": 113,
+        "NAMA_USAHA": "Kios Nana",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menjual sembako dan keperluan burung",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/113.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228944444444,
+          -5.57536111111111
+        ]
+      },
+      "properties": {
+        "ID": 114,
+        "NAMA_USAHA": "Jual beli barang bekas",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 19.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Kampung Seribu",
+        "DESKRIPSI": "Jual beli rongsokan",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/114.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228744444444,
+          -5.57587777777777
+        ]
+      },
+      "properties": {
+        "ID": 115,
+        "NAMA_USAHA": "Tia Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Kampung Seribu",
+        "DESKRIPSI": "Menjual sembako, hijab, dan pertamini",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/115.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229058333333,
+          -5.57492499999999
+        ]
+      },
+      "properties": {
+        "ID": 116,
+        "NAMA_USAHA": "Aneka Cemilan Ibu Tasya",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Kampung Seribu",
+        "DESKRIPSI": "Menjual hp, es batu, kuota, keripik, dll",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/116.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229580555555,
+          -5.572925
+        ]
+      },
+      "properties": {
+        "ID": 117,
+        "NAMA_USAHA": "Jiwa Mart dan Jiwa Parfume",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 23.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Kampung Seribu",
+        "DESKRIPSI": "Menjual sembako dan parfume",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/117.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232225,
+          -5.56531944444444
+        ]
+      },
+      "properties": {
+        "ID": 118,
+        "NAMA_USAHA": "Pluto Ban",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay Km 18, Gebang, Teluk Pandan",
+        "DESKRIPSI": "Bengkel motor dan mobil",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/118.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.56527777777777,
+          -5.56527777777777
+        ]
+      },
+      "properties": {
+        "ID": 119,
+        "NAMA_USAHA": "Raffa Steam Motor",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay, KM 18, Gebang, Teluk Pandan",
+        "DESKRIPSI": "Steam motor yang bisa antar jemput",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/119.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105238791.0,
+          -5.554818
+        ]
+      },
+      "properties": {
+        "ID": 323,
+        "NAMA_USAHA": "Toko Danil",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Merupakan salah satu pusat grosir sembako di wilayah ini. Menyediakan berbagai kebutuhan pokok seperti beras, minyak, gula, mie instan, dan kebutuhan rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/323.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.238613,
+          -5.554813
+        ]
+      },
+      "properties": {
+        "ID": 324,
+        "NAMA_USAHA": "Toko Sofia",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual berbagai kebutuhan seperti pakaian, perlengkapan sekolah, dan sembako. Selain itu, toko ini juga melayani transaksi keuangan sebagai agen BRILink.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/324.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2373823,
+          -5.5547
+        ]
+      },
+      "properties": {
+        "ID": 325,
+        "NAMA_USAHA": "Warung Makan",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual berbagai masakan seperti nasi uduk, soto ayam, lontong sayur, ketoprak, juga menjual sembako untuk memenuhi kebutuhan rumah tangga harian.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/325.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2373404,
+          -5.5547024
+        ]
+      },
+      "properties": {
+        "ID": 326,
+        "NAMA_USAHA": "Warung Kamsia",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menyediakan aneka kebutuhan harian seperti sembako, jajanan, dan perlengkapan rumah tangga dalam skala kecil.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/326.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237197,
+          -5.554675
+        ]
+      },
+      "properties": {
+        "ID": 327,
+        "NAMA_USAHA": "Bening Motor",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Melayani servis motor, ganti oli, tambal ban, dan penjualan suku cadang. Menyediakan perawatan berkala untuk berbagai jenis sepeda motor dengan teknisi berpengalaman.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/327.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237014,
+          -5.554515
+        ]
+      },
+      "properties": {
+        "ID": 328,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Melayani penjualan rokok berbagai merek, makanan ringan kemasan, minuman, dan kebutuhan harian sederhana.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/328.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23695,
+          -5.554638
+        ]
+      },
+      "properties": {
+        "ID": 329,
+        "NAMA_USAHA": "Yesa 2 Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "24 Jam",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual berbagai jenis handphone, pulsa, paket data, aksesoris HP, serta melayani isi ulang token listrik. Juga tersedia layanan perbaikan ringan perangkat seluler dan kebutuhan digital lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/329.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2367091,
+          -5.5544798
+        ]
+      },
+      "properties": {
+        "ID": 330,
+        "NAMA_USAHA": "Kios Sayur",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.00 - 16.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual berbagai macam sayur mayur segar, bumbu dapur, dan kebutuhan harian lainnya. Cocok untuk belanja praktis kebutuhan dapur setiap hari.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/330.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236621,
+          -5.554619
+        ]
+      },
+      "properties": {
+        "ID": 331,
+        "NAMA_USAHA": "A2 Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual handphone baru, pulsa, paket data, dan aksesoris HP. Melayani perbaikan software dan hardware HP.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/331.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23638,
+          -5.554612
+        ]
+      },
+      "properties": {
+        "ID": 332,
+        "NAMA_USAHA": "Darel Variasi",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Melayani pemasangan variasi motor serta layanan bengkel seperti servis ringan, ganti oli, tambal ban, dan penjualan suku cadang motor.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/332.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.235285,
+          -5.554579
+        ]
+      },
+      "properties": {
+        "ID": 333,
+        "NAMA_USAHA": "Pangkas Rambut EY",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "09.00 - 21.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menyediakan layanan potong rambut pria dengan hasil rapi dan harga terjangkau. Terbuka setiap hari melayani berbagai model rambut sesuai keinginan pelanggan.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/333.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2346867,
+          -5.5544247
+        ]
+      },
+      "properties": {
+        "ID": 334,
+        "NAMA_USAHA": "Pecel Lele Dua Saudara",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menyajikan berbagai menu seperti ayam geprek, ayam bakar, ayam goreng, pecel lele, dan nasi goreng. Tersedia juga minuman segar seperti es boba, es teh, dan es jeruk. Menerima pesanan untuk acara atau konsumsi harian.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/334.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234672,
+          -5.554548
+        ]
+      },
+      "properties": {
+        "ID": 335,
+        "NAMA_USAHA": "Bubur Ayam Pangandaran",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "06.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual nasi uduk, bubur ayam khas pangandaran, dan berbagai jenis minuman seperti esbuah, pop ice, cappucino, jasjus, dan coffee.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/335.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.234581,
+          -5.554523
+        ]
+      },
+      "properties": {
+        "ID": 336,
+        "NAMA_USAHA": "Alfarizky Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual paket data, pulsa, kartu perdana, paket nelpon, voucher, token listrik, aksesoris HP, top up saldo, top up game, serta buah-buahan segar dan berbagai kebutuhan harian lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/336.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233499,
+          -5.55445
+        ]
+      },
+      "properties": {
+        "ID": 337,
+        "NAMA_USAHA": "Kios Burung",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual berbagai jenis burung hias dan burung kicau, serta menyediakan perlengkapan seperti sangkar, pakan, vitamin, dan aksesoris burung lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/337.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233007,
+          -5.5544911
+        ]
+      },
+      "properties": {
+        "ID": 338,
+        "NAMA_USAHA": "Warung Sembako Reno",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "menyediakan berbagai kebutuhan pokok seperti beras, minyak, gula, mie instan, dan kebutuhan rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/338.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232985,
+          -5.554656
+        ]
+      },
+      "properties": {
+        "ID": 339,
+        "NAMA_USAHA": "Toko Grosir Ratu Pantai",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "09.00 - 20.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Toko Grosir Ratu Pantai menjual berbagai kebutuhan pokok secara grosir maupun eceran. Menyediakan sembako lengkap seperti beras, minyak, gula, telur, dan kebutuhan rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/339.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232285,
+          -5.554936
+        ]
+      },
+      "properties": {
+        "ID": 340,
+        "NAMA_USAHA": "Saung Ummi",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/340.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232083,
+          -5.554959
+        ]
+      },
+      "properties": {
+        "ID": 341,
+        "NAMA_USAHA": "Pratama Motor",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Pratama Motor adalah bengkel motor yang melayani berbagai kebutuhan perawatan sepeda motor seperti servis ringan dan berat, ganti oli, tune up, tambal ban, serta penjualan suku cadang",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/341.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231892,
+          -5.555015
+        ]
+      },
+      "properties": {
+        "ID": 342,
+        "NAMA_USAHA": "TB. Sofia",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual bahan bangunan, alat - alat listrik, besi, baja, dan lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/342.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2313698,
+          -5.554995
+        ]
+      },
+      "properties": {
+        "ID": 343,
+        "NAMA_USAHA": "The Wood's Homestay",
+        "JENIS_USAHA": "Pariwisata dan Jasa Akomodasi",
+        "JAM_OPERASIONAL": "09.00 - 16.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "The Woods Homestay adalah penginapan yang menawarkan kenyamanan dengan nuansa interior bernuansa kayu alami. Desain interiornya yang hangat dan estetik menciptakan suasana tenang dan homey, cocok untuk tempat beristirahat bagi wisatawan di kawasan Teluk Pandan.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/343.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.229701,
+          -5.556772
+        ]
+      },
+      "properties": {
+        "ID": 344,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Warung sembako yang menyediakan kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, kopi, dan bahan kebutuhan rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/344.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230063,
+          -5.556121
+        ]
+      },
+      "properties": {
+        "ID": 345,
+        "NAMA_USAHA": "Warung Camilan",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual berbagai macam aneka cemilan dan makanan berat juga tersedia berbagai macam minuman.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/345.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230128,
+          -5.556043
+        ]
+      },
+      "properties": {
+        "ID": 346,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 16.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual berbagai kebutuhan pokok secara lengkap seperti beras, minyak goreng, gula, telur, mie instan, sabun, detergen, dan kebutuhan rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/346.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2302664,
+          -5.5560088
+        ]
+      },
+      "properties": {
+        "ID": 347,
+        "NAMA_USAHA": "Pangkas Rambut Raja 2",
+        "JENIS_USAHA": "Perawatan Kecantikan",
+        "JAM_OPERASIONAL": "08.00 WIB",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Melayani jasa potong rambut pria dengan berbagai model kekinian. Dilengkapi dengan fasilitas sederhana namun nyaman, cocok untuk segala usia. Pelayanan cepat dan ramah.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/347.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2302845,
+          -5.5559861
+        ]
+      },
+      "properties": {
+        "ID": 348,
+        "NAMA_USAHA": "Lamunan",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "09.00 - 21.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual es dawet segar sebagai minuman khas yang menyegarkan, serta menyediakan layanan konter seperti isi pulsa, paket data, dan penjualan aksesoris HP.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/348.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2307123,
+          -5.5556387
+        ]
+      },
+      "properties": {
+        "ID": 349,
+        "NAMA_USAHA": "Bengkel Motor Supraman",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Melayani servis dan perbaikan motor berbagai jenis. Bengkel Motor Supraman menyediakan layanan ganti oli, tune-up, perbaikan mesin, serta penjualan suku cadang.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/349.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237608,
+          -5.554629
+        ]
+      },
+      "properties": {
+        "ID": 350,
+        "NAMA_USAHA": "Link 3 Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "09.00 - 20.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual pulsa, paket data, kartu perdana, token listrik, dan layanan top up game serta e-wallet. Link 3 Cell juga menyediakan aksesoris handphone dan layanan transfer antar bank.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/350.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237693,
+          -5.554633
+        ]
+      },
+      "properties": {
+        "ID": 351,
+        "NAMA_USAHA": "Bengkel RJM",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Melayani servis dan perawatan mobil, termasuk ganti oli, perbaikan mesin, dan perbaikan ringan lainnya. Bengkel Mobil RJM menjadi pilihan warga sekitar untuk layanan otomotif roda empat.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/351.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237783,
+          -5.554642
+        ]
+      },
+      "properties": {
+        "ID": 352,
+        "NAMA_USAHA": "Qeena Carwash",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Melayani servis dan perawatan mobil serta cuci steam mobil dan motor dengan sistem hidrolik.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/352.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.238084,
+          -5.554659
+        ]
+      },
+      "properties": {
+        "ID": 353,
+        "NAMA_USAHA": "Waroeng Mbok Yuli",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 WIB",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menyediakan berbagai jenis makanan seperti ayam, ikan, bebek, dan nasi rames. Cocok untuk santapan harian dengan pilihan menu yang beragam.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/353.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2381514,
+          -5.5545942
+        ]
+      },
+      "properties": {
+        "ID": 354,
+        "NAMA_USAHA": "Toko Syafiq",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual alat tulis, peralatan kantor, pulsa, token listrik, dan lainnya",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/354.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2382064,
+          -5.5545969
+        ]
+      },
+      "properties": {
+        "ID": 355,
+        "NAMA_USAHA": "Toko Fathir Plastik",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual aneka plastik, bahan kue, dan sembako grosir dan eceran.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/355.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2389427,
+          -5.5548305
+        ]
+      },
+      "properties": {
+        "ID": 356,
+        "NAMA_USAHA": "Toko Pak Udin",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Way Ratai, Gebang, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual berbagai kebutuhan pokok seperti beras, gula, minyak, mie instan, dan kebutuhan rumah tangga lainnya. Cocok untuk belanja harian warga sekitar.",
+        "FOTO": "image/Dokumentasi UMKM/GEBANG/356.jpg"
+      }
+    }
+  ]
+}

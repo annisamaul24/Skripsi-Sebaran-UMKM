@@ -1,0 +1,385 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.220737,
+          -5.459585
+        ]
+      },
+      "properties": {
+        "ID": 297,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, air mineral galon dan dus serta produk rumah tangga lainnya. Menjual alat - alat rumah tangga seperti sapu, pel, botol air minum, payung  dan lainnya, terdapat pula jajanan kemasan dan es krim.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/297.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.220799,
+          -5.459435
+        ]
+      },
+      "properties": {
+        "ID": 298,
+        "NAMA_USAHA": "Raffi Farm",
+        "JENIS_USAHA": "Pertanian dan Perdagangan Bibit",
+        "JAM_OPERASIONAL": "-",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Terima pesanan kambing dan merupakan suflayer kambing qurban",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/298.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.220804,
+          -5.459438
+        ]
+      },
+      "properties": {
+        "ID": 299,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, air mineral galon dan dus serta produk rumah tangga lainnya. Menjual alat - alat rumah tangga seperti sapu, pel, botol air minum, payung  dan lainnya, terdapat pula jajanan kemasan dan es krim.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/299.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.221405,
+          -5.455779
+        ]
+      },
+      "properties": {
+        "ID": 300,
+        "NAMA_USAHA": "Bengkel A",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "09.00 - 16.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Melayani servis motor, ganti oli, tambal ban, servis senapan, dan menyewakan sound system.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/300.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.191769,
+          -5.459907
+        ]
+      },
+      "properties": {
+        "ID": 301,
+        "NAMA_USAHA": "Mini Atm Bersama",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Melayani tarik tunai, transfer, isi token, pulsa, paket kuota, kartu perdana, juga terdapat warung sembako yang menyediakan kebutuhan sehari hari.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/301.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.186721,
+          -5.462034
+        ]
+      },
+      "properties": {
+        "ID": 302,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, air mineral galon dan dus serta produk rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/302.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.186895,
+          -5.462036
+        ]
+      },
+      "properties": {
+        "ID": 303,
+        "NAMA_USAHA": "Toko Rita",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 19.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai kebutuhan pokok secara grosir dan eceran, seperti beras, minyak goreng, gula, mie instan, telur, sabun, dan perlengkapan rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/303.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.187843,
+          -5.461826
+        ]
+      },
+      "properties": {
+        "ID": 304,
+        "NAMA_USAHA": "Amel Make Up Wedding",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Melayani paket wedding, paket make up, dekorasi, menyewan tenda kursi, orgen/musik, foto dan vidio, wedding organizer, dan lain - lain.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/304.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.188222,
+          -5.461685
+        ]
+      },
+      "properties": {
+        "ID": 305,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Merupakan warung sembakoo yang menjual grosir dan eceran, terdapat bbm seperti pertamax, pertalite, dan solar, juga melayani isi ulang air minum",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/305.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.188529,
+          -5.461757
+        ]
+      },
+      "properties": {
+        "ID": 306,
+        "NAMA_USAHA": "Hani Make Up",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menerima jasa make up wedding, make up prewedding, make up engagement, make up party, dan make up wisuda",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/306.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.188529,
+          -5.461782
+        ]
+      },
+      "properties": {
+        "ID": 307,
+        "NAMA_USAHA": "Keripik Pisang Diani",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Tempat pembuatan dan oleh - oleh keripik pisang dengan rasa yang bervariasi.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/307.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.191278,
+          -5.460475
+        ]
+      },
+      "properties": {
+        "ID": 308,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual sembako rumah tangga dan juga menjual gas LPG 3Kg.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/308.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.191413,
+          -5.460282
+        ]
+      },
+      "properties": {
+        "ID": 309,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok harian seperti beras, minyak goreng, gula, mie instan, telur, dan produk rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/309.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.191452,
+          -5.460236
+        ]
+      },
+      "properties": {
+        "ID": 310,
+        "NAMA_USAHA": "Warung Palugada",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai jenis sayur-sayuran segar untuk kebutuhan memasak, serta menyediakan perlengkapan rumah tangga seperti lampu, lakban, wajan, sendal, dan barang kebutuhan sehari-hari lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/310.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.191993,
+          -5.45959
+        ]
+      },
+      "properties": {
+        "ID": 311,
+        "NAMA_USAHA": "Warung Sido Mampir",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyajikan menu bakso dan mie ayam dengan cita rasa rumahan yang digemari oleh pelanggan lokal. Tersedia pilihan bakso kuah, mie ayam polos, mie ayam bakso, serta minuman pendamping yang cocok untuk santap siang atau sore hari.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/311.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.192037,
+          -5.459549
+        ]
+      },
+      "properties": {
+        "ID": 312,
+        "NAMA_USAHA": "Warung Sayur",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.00 - 17.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai macam sayuran segar dan kebutuhan dapur lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/312.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.192837,
+          -5.458918
+        ]
+      },
+      "properties": {
+        "ID": 313,
+        "NAMA_USAHA": "Abis Garden Homestay",
+        "JENIS_USAHA": "Pawisata dan jasa akomodasi",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan layanan penginapan dengan suasana tenang dan asri di kawasan Talang Mulya. Cocok untuk wisatawan maupun tamu keluarga yang membutuhkan tempat menginap yang nyaman dan terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/313.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.195365,
+          -5.457886
+        ]
+      },
+      "properties": {
+        "ID": 314,
+        "NAMA_USAHA": "Konter",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan layanan isi ulang pulsa, paket data, token listrik, serta penjualan kartu perdana dan aksesoris handphone. Selain itu, juga melayani pengisian bahan bakar kendaraan melalui pom mini (pertamini) untuk motor dan mobil.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/314.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.196962,
+          -5.455831
+        ]
+      },
+      "properties": {
+        "ID": 315,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai kebutuhan pokok dan rumah tangga seperti beras, minyak goreng, gula, mie instan, telur, sabun, detergen, air mineral hingga perlengkapan dapur lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/315.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.196974,
+          -5.455437
+        ]
+      },
+      "properties": {
+        "ID": 316,
+        "NAMA_USAHA": "Warung Aira",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Talang Mulya, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai kebutuhan pokok seperti beras, minyak, gula, telur, mie instan, kosmetik, serta perlengkapan rumah tangga dan alat elektronik skala kecil.",
+        "FOTO": "image/Dokumentasi UMKM/TALANG MULYA/316.jpg"
+      }
+    }
+  ]
+}

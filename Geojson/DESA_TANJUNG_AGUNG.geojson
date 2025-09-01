@@ -1,0 +1,575 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.221226,
+          -5.456959
+        ]
+      },
+      "properties": {
+        "ID": 266,
+        "NAMA_USAHA": "Pangkas Rambut Rio",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Pangkas Rambut Rio menyediakan layanan potong rambut untuk anak-anak dan dewasa. Menawarkan potongan yang rapi dengan pelayanan yang sopan dan efisien.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/266.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.220425,
+          -5.460818
+        ]
+      },
+      "properties": {
+        "ID": 267,
+        "NAMA_USAHA": "Warbeng Fazri Official 21",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 19.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Melayani ganti oli, tambal ban, isi angin, penjualan berbagai sparepart kendaraan, dan lain lain. Menyediakan layanan perawatan ringan sepeda motor dengan pelayanan langsung dan harga terjangkau. Usaha ini menjadi solusi praktis bagi pengguna motor yang membutuhkan perawatan rutin maupun penanganan darurat.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/267.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.218965,
+          -5.462625
+        ]
+      },
+      "properties": {
+        "ID": 268,
+        "NAMA_USAHA": "Warung Jajanan",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual aneka jajanan kemasan seperti biskuit, permen, minuman ringan, kebutuhan harian skala kecil seperti minyak goreng, gula, mie instan, dan telur, seta menyediakan layanan pengisian BBM eceran melalui pom mini. Cocok untuk kebutuhan sehari-hari warga sekitar.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/268.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.219368,
+          -5.46269
+        ]
+      },
+      "properties": {
+        "ID": 269,
+        "NAMA_USAHA": "Warung Jajanan",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan aneka jajanan kemasan dan makanan ringan untuk kebutuhan harian masyarakat sekitar.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/269.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.219767,
+          -5.462468
+        ]
+      },
+      "properties": {
+        "ID": 270,
+        "NAMA_USAHA": "Agen LPG Rayon Pesawaran",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Agen resmi penyalur gas LPG untuk wilayah Pesawaran. Menyediakan tabung LPG ukuran 3 kg dan 12 kg untuk kebutuhan rumah tangga maupun pelaku usaha kecil.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/270.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.20776,
+          -5.458802
+        ]
+      },
+      "properties": {
+        "ID": 272,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok seperti beras, minyak, telur, mie instan, serta sayur-sayuran segar untuk kebutuhan memasak sehari-hari. Juga menyediakan aneka jajanan gorengan dan camilan ringan lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/272.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.202435,
+          -5.465641
+        ]
+      },
+      "properties": {
+        "ID": 273,
+        "NAMA_USAHA": "Toko Grosir Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai kebutuhan pokok seperti beras, minyak, gula, mie instan, telur, dan kebutuhan rumah tangga lainnya dalam jumlah grosir maupun eceran. Juga menyediakan layanan pengisian bahan bakar eceran melalui pom mini untuk kendaraan roda dua dan roda empat.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/273.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.202359,
+          -5.465999
+        ]
+      },
+      "properties": {
+        "ID": 274,
+        "NAMA_USAHA": "AA Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.30",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan layanan isi ulang pulsa, paket data, token listrik, serta penjualan kartu perdana dan aksesoris HP. Juga menjual kebutuhan pokok seperti mie instan, beras, telur, minyak goreng, dan produk harian lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/274.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.202016,
+          -5.466676
+        ]
+      },
+      "properties": {
+        "ID": 275,
+        "NAMA_USAHA": "Warung Bu Ani",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "06.00 - 19.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual aneka makanan seperti nasi uduk, gorengan, pecel, dan seblak, serta menyediakan sembako harian seperti beras, minyak, mie instan, dan telur. Juga menjual alat rumah tangga sederhana dan perlengkapan seperti bola, ban sepeda, serta barang kebutuhan lainnya. ",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/275.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.199408,
+          -5.473383
+        ]
+      },
+      "properties": {
+        "ID": 276,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, dan produk rumah tangga lainnya. Juga menjual gas LPG 3 kg untuk keperluan dapur rumah tangga.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/276.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.199343,
+          -5.473518
+        ]
+      },
+      "properties": {
+        "ID": 277,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti, minyak goreng, gula, mie instan, telur, dan produk rumah tangga lainnya. Juga menjual gas LPG 3 kg untuk keperluan dapur rumah tangga.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/277.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.19859,
+          -5.474895
+        ]
+      },
+      "properties": {
+        "ID": 278,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti, minyak goreng, gula, mie instan, telur, dan produk rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/278.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.198885,
+          -5.474535
+        ]
+      },
+      "properties": {
+        "ID": 279,
+        "NAMA_USAHA": "Warung Teh Njun",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 19.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan berbagai menu makanan dan minuman seperti seblak, tekwan, bakso, sosis, aneka gorengan, es campur, dan es teh. Cocok sebagai tempat jajan santai bagi warga sekitar dengan pilihan menu yang beragam dan harga yang terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/279.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.199826,
+          -5.472642
+        ]
+      },
+      "properties": {
+        "ID": 280,
+        "NAMA_USAHA": "Warung Jajanan ",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual aneka jajanan kemasan dan jajanan goreng gorengan juga menjual rokok.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/280.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.19999,
+          -5.471495
+        ]
+      },
+      "properties": {
+        "ID": 281,
+        "NAMA_USAHA": "Warung Yugha",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "warung sembako yang juga menyediakan camilan seperti bakso tusuk, sosis goreng, gorengan, dan juga mie ayam",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/281.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.20187,
+          -5.466959
+        ]
+      },
+      "properties": {
+        "ID": 282,
+        "NAMA_USAHA": "Warung Sayuran",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 16.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai jenis sayur-sayuran segar seperti bayam, kangkung, sawi, tomat, cabai, dan bumbu dapur lainnya untuk kebutuhan masak harian.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/282.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.202023,
+          -5.466713
+        ]
+      },
+      "properties": {
+        "ID": 283,
+        "NAMA_USAHA": "Bengkel motor dan las",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Melayani servis motor seperti tune up, ganti oli, tambal ban, bongkar pasang mesin, pengisian angin, serta penjualan sparepart. Juga menerima jasa bengkel las untuk kebutuhan perbaikan dan pembuatan rangka besi atau konstruksi ringan.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/283.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.198672,
+          -5.466908
+        ]
+      },
+      "properties": {
+        "ID": 284,
+        "NAMA_USAHA": "Panglong Al- Hadi Makmur",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "08.00 - 16.00 ",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai jenis kayu seperti bayur, medang, dan jati, serta menerima pesanan pembuatan kusen, pintu, dan jendela sesuai kebutuhan.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/284.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.214507,
+          -5.459584
+        ]
+      },
+      "properties": {
+        "ID": 285,
+        "NAMA_USAHA": "Pangkalan LPG 3 Kg",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 15.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan tabung gas LPG 3 kg untuk kebutuhan rumah tangga. Melayani pembelian langsung di tempat dengan stok yang rutin tersedia.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/285.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.215258,
+          -5.46011
+        ]
+      },
+      "properties": {
+        "ID": 286,
+        "NAMA_USAHA": "Warung Jajanan",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai jajanan kemasan seperti biskuit, wafer, permen, serta aneka gorengan camilan anak anak hingga orang dewasa.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/286.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.217166,
+          -5.460545
+        ]
+      },
+      "properties": {
+        "ID": 287,
+        "NAMA_USAHA": "Kadeadit Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 19.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan layanan isi ulang pulsa, paket data, kartu perdana, serta penjualan aksesoris HP. Juga melayani servis handphone, mulai dari perbaikan software (reset, flashing, instal ulang) hingga perbaikan hardware (ganti layar, baterai, dan komponen lainnya).",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/287.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.217446,
+          -5.460642
+        ]
+      },
+      "properties": {
+        "ID": 288,
+        "NAMA_USAHA": "Warung sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, dan produk rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/288.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.217533,
+          -5.460661
+        ]
+      },
+      "properties": {
+        "ID": 289,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, dan produk rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/289.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.218155,
+          -5.460789
+        ]
+      },
+      "properties": {
+        "ID": 290,
+        "NAMA_USAHA": "Warung",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, dan produk rumah tangga lainnya. Juga menjual berbagai produk kecantikan untuk bayi hingga dewasa.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/290.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.218289,
+          -5.460789
+        ]
+      },
+      "properties": {
+        "ID": 291,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, dan produk rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/291.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.218531,
+          -5.460809
+        ]
+      },
+      "properties": {
+        "ID": 292,
+        "NAMA_USAHA": "Warung Jajanan",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 16.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual aneka jajanan kemasan dan menjual pulsa dan paket kuota",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/292.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.218918,
+          -5.460788
+        ]
+      },
+      "properties": {
+        "ID": 293,
+        "NAMA_USAHA": "Warung sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, dan produk rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/293.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.219275,
+          -5.460759
+        ]
+      },
+      "properties": {
+        "ID": 294,
+        "NAMA_USAHA": "Ummy Wedding",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Wedding Organizer yang merima tata rias pengantin, walimatul khitan, dekorasi pelaminan, aqiqah, alat - alat pesta, photo dan video shooting, tenda party,, baju adat, dan baju  wisuda",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/294.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.219547,
+          -5.460782
+        ]
+      },
+      "properties": {
+        "ID": 295,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan pokok sehari-hari seperti beras, minyak goreng, gula, mie instan, telur, air mineral galon dan dus serta produk rumah tangga lainnya. Warung ini juga menjual BBM jenis pertalite",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/295.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.219801,
+          -5.460804
+        ]
+      },
+      "properties": {
+        "ID": 296,
+        "NAMA_USAHA": "Bakso dan Mie Ayam Sidodadi",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Tanjung Agung, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyajikan hidangan bakso dan mie ayam dengan cita rasa khas yang cocok dinikmati oleh semua kalangan.",
+        "FOTO": "image/Dokumentasi UMKM/TANJUNG AGUNG/296.jpg"
+      }
+    }
+  ]
+}

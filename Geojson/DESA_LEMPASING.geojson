@@ -1,0 +1,1012 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.248411111111,
+          -5.51234444444444
+        ]
+      },
+      "properties": {
+        "ID": 50,
+        "NAMA_USAHA": "Toko Bu Suratri",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hurun, Kec. Teluk Pandan",
+        "DESKRIPSI": "Menjual sembako dan berbagai kebutuhan sehari-hari untuk rumah tangga.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/50.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249644444444,
+          -5.50403333333333
+        ]
+      },
+      "properties": {
+        "ID": 51,
+        "NAMA_USAHA": "Toko Sembako Sumber Jaya",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual grosir sembako, menyediakan layanan Pertamini, serta berbagai kebutuhan sehari-hari lainnya untuk rumah tangga dan usaha kecil.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/51.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250105555555,
+          -5.50145277777777
+        ]
+      },
+      "properties": {
+        "ID": 52,
+        "NAMA_USAHA": "Alumunium Ahmad",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menerima pembuatan lemari aluminium dan berbagai kebutuhan furnitur aluminium lainnya, sesuai pesanan.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/52.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250219444444,
+          -5.50149444444444
+        ]
+      },
+      "properties": {
+        "ID": 53,
+        "NAMA_USAHA": "Inez Cellullar",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "09.00 - 21.00",
+        "ALAMAT": "Jalan Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Melayani berbagai transaksi perbankan sebagai Agen BRILink, serta menjual alat tulis kantor (ATK) untuk kebutuhan sekolah dan pekerjaan.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/53.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250222222222,
+          -5.50130555555555
+        ]
+      },
+      "properties": {
+        "ID": 54,
+        "NAMA_USAHA": "Afsel Laundry",
+        "JENIS_USAHA": "Kebersihan dan Rumah Tangga",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Melayani jasa cuci setrika, cuci lipat, dan setrika saja untuk berbagai jenis pakaian, termasuk baju, boneka, gorden, dan lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/54.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250227777777,
+          -5.50128888888888
+        ]
+      },
+      "properties": {
+        "ID": 55,
+        "NAMA_USAHA": "Toko Grosir Sembako Tobi",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual grosir sembako dan berbagai kebutuhan sehari-hari lainnya untuk rumah tangga maupun usaha kecil.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/55.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250102777777,
+          -5.50074166666666
+        ]
+      },
+      "properties": {
+        "ID": 56,
+        "NAMA_USAHA": "Warung Ibu Sarinah",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual berbagai kebutuhan sehari-hari, menyediakan layanan isi angin ban, serta jasa parut kelapa untuk keperluan dapur",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/56.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250175,
+          -5.50058888888888
+        ]
+      },
+      "properties": {
+        "ID": 57,
+        "NAMA_USAHA": "Risma Laundry",
+        "JENIS_USAHA": "Kebersihan dan Rumah Tangga",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menyediakan jasa laundry untuk berbagai jenis barang seperti pakaian, seprai, karpet, boneka, dan lainnya – bersih, rapi, dan wangi.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/57.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250172222222,
+          -5.50055277777777
+        ]
+      },
+      "properties": {
+        "ID": 58,
+        "NAMA_USAHA": "Akur Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual pulsa, paket data, voucher internet, serta melayani isi ulang dan berbagai kebutuhan konter lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/58.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250130555555,
+          -5.50052222222222
+        ]
+      },
+      "properties": {
+        "ID": 59,
+        "NAMA_USAHA": "Penjahit Maryam",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Melayani jasa menjahit pakaian sesuai permintaan, serta tersedia warung jajanan untuk kebutuhan harian.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/59.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250113888888,
+          -5.49978888888888
+        ]
+      },
+      "properties": {
+        "ID": 60,
+        "NAMA_USAHA": "Warung Makan Bunda Vika",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "06.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menyediakan berbagai menu makanan seperti Nasi Uduk, Lontong Sayur, Nasi Urap, Ayam Geprek, Seblak, Soto, dan aneka hidangan lezat lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/60.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250108333333,
+          -5.49961388888888
+        ]
+      },
+      "properties": {
+        "ID": 61,
+        "NAMA_USAHA": "Elmahfi Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual pulsa, paket data, rokok berbagai merek, serta perlengkapan listrik seperti lampu dan aksesoris lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/61.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249761111111,
+          -5.49823611111111
+        ]
+      },
+      "properties": {
+        "ID": 62,
+        "NAMA_USAHA": "Nasi Uduk Mba Sri Agung",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menyediakan sayur matang harian, lontong sayur, gorengan, serta menerima jasa masak, pesanan nasi kotak, dan kue. Juga menjual sembako dan berbagai kebutuhan sehari-hari.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/62.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249508333333,
+          -5.49666388888888
+        ]
+      },
+      "properties": {
+        "ID": 63,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual berbagai kebutuhan sehari-hari seperti sembako, alat kebersihan, dan aneka jajanan.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/63.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249486111111,
+          -5.49664444444444
+        ]
+      },
+      "properties": {
+        "ID": 64,
+        "NAMA_USAHA": "Apotek Alfara Farma",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menyediakan berbagai obat-obatan, vitamin, alat kesehatan, dan kebutuhan medis lainnya dengan pelayanan ramah dan terpercaya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/64.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249488888888,
+          -5.49642777777777
+        ]
+      },
+      "properties": {
+        "ID": 65,
+        "NAMA_USAHA": "Toko RT Listrik",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "09.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual berbagai perlengkapan dan barang elektronik seperti lampu, kipas angin, kabel, terminal listrik, dan aksesoris lainnya untuk kebutuhan rumah tangga maupun usaha.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/65.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24945,
+          -5.49638055555555
+        ]
+      },
+      "properties": {
+        "ID": 66,
+        "NAMA_USAHA": "Samudra Durian",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual berbagai jenis durian khas dari Pulau Sumatera dengan kualitas terbaik dan rasa yang lezat.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/66.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249344444444,
+          -5.49565277777777
+        ]
+      },
+      "properties": {
+        "ID": 67,
+        "NAMA_USAHA": "Kios Burung Milo",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 19.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual berbagai jenis burung beserta perlengkapannya secara lengkap, seperti sangkar, pakan, tempat minum, dan aksesoris lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/67.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24955,
+          -5.49601666666666
+        ]
+      },
+      "properties": {
+        "ID": 68,
+        "NAMA_USAHA": "Bengkel Motor Dicky",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Melayani servis kendaraan, ganti oli, penggantian sparepart, tambal ban, dan berbagai layanan perawatan motor",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/68.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249708333333,
+          -5.496175
+        ]
+      },
+      "properties": {
+        "ID": 69,
+        "NAMA_USAHA": "Sinar Jaya Bahan Bangunan",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 16.00",
+        "ALAMAT": "Jalan Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menerima pesanan bahan bangunan seperti batu, pasir, genteng, bata, dan kerokos untuk kebutuhan konstruksi dan renovasi.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/69.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249902777777,
+          -5.49831111111111
+        ]
+      },
+      "properties": {
+        "ID": 70,
+        "NAMA_USAHA": "Sahabat Baby and Kidz",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.30 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual perlengkapan bayi secara grosir dan eceran, mulai dari pakaian, popok, botol susu, mainan, hingga perlengkapan mandi bayi.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/70.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249816666666,
+          -5.49842222222222
+        ]
+      },
+      "properties": {
+        "ID": 71,
+        "NAMA_USAHA": "Toko Eliza",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual alat tulis kantor (ATK) dan berbagai keperluan sehari-hari, serta menyediakan layanan Pertamini untuk isi bahan bakar kendaraan.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/71.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250125,
+          -5.49934444444444
+        ]
+      },
+      "properties": {
+        "ID": 72,
+        "NAMA_USAHA": "Warung Ibu Ros",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "00.00 - 24.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual berbagai kebutuhan sehari-hari untuk rumah tangga, seperti sembako, perlengkapan mandi, jajanan, dan lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/72.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250163888888,
+          -5.49939166666666
+        ]
+      },
+      "properties": {
+        "ID": 73,
+        "NAMA_USAHA": "Desti Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "00.00 - 2400",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual pulsa, paket data, voucher internet, serta menyediakan layanan isi ulang dan aksesoris HP.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/73.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250144444444,
+          -5.49934722222222
+        ]
+      },
+      "properties": {
+        "ID": 74,
+        "NAMA_USAHA": "Ambo Barbershop",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "10.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Melayani jasa potong rambut untuk anak-anak hingga dewasa dengan hasil rapi dan pelayanan ramah.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/74.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250175,
+          -5.49945
+        ]
+      },
+      "properties": {
+        "ID": 75,
+        "NAMA_USAHA": "Warung Serba Serbi Neng Fura",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual berbagai keperluan sehari-hari seperti sembako, jajanan, dan kebutuhan rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/75.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250172222222,
+          -5.49961111111111
+        ]
+      },
+      "properties": {
+        "ID": 76,
+        "NAMA_USAHA": "D’Celup dan Fried Chicken Lutfi",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual ayam krispi dengan berbagai macam pilihan saus, serta menerima pesanan untuk acara ulang tahun, selametan, yasinan, dan berbagai keperluan lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/76.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250241666666,
+          -5.50016111111111
+        ]
+      },
+      "properties": {
+        "ID": 77,
+        "NAMA_USAHA": "Warung Bude",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "00.00 - 24.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual berbagai kebutuhan sehari-hari, menyediakan warung kopi, serta menyajikan nasi uduk untuk sarapan dan santapan harian.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/77.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250236111111,
+          -5.50026944444444
+        ]
+      },
+      "properties": {
+        "ID": 78,
+        "NAMA_USAHA": "Warung Widya",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "00.00 - 24.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual kebutuhan sehari-hari lengkap serta aneka gorengan segar untuk camilan Anda.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/78.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250227777777,
+          -5.50036388888888
+        ]
+      },
+      "properties": {
+        "ID": 79,
+        "NAMA_USAHA": "Arema Motor",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 17.30",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Melayani service motor lengkap serta menjual berbagai spare part dan suku cadang untuk berbagai merek kendaraan.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/79.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250341666666,
+          -5.50091388888888
+        ]
+      },
+      "properties": {
+        "ID": 80,
+        "NAMA_USAHA": "Toko Bumi Lestari",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Kec. Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual sembako secara grosir dengan harga kompetitif untuk memenuhi kebutuhan rumah tangga dan usaha kecil.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/80.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250311111111,
+          -5.50155833333333
+        ]
+      },
+      "properties": {
+        "ID": 81,
+        "NAMA_USAHA": "Callista Cahaya",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "09.00 - 21.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual dan membeli sayur mayur, hasil bumi, serta bahan pangan lainnya",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/81.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250113888888,
+          -5.50291944444444
+        ]
+      },
+      "properties": {
+        "ID": 82,
+        "NAMA_USAHA": "Khanza Celuller",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual pulsa, paket data, dan berbagai kebutuhan sembako di warung lengkap untuk keperluan sehari-hari, dan terdpat pertamini",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/82.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249666666666,
+          -5.50433055555555
+        ]
+      },
+      "properties": {
+        "ID": 83,
+        "NAMA_USAHA": "An Collection",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing",
+        "DESKRIPSI": "Menjual perlengkapan pantai dan aksesoris seperti sendal, tas, serta berbagai jenis pakaian termasuk baju koko dan pakaian sehari-hari.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/83.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.249655555555,
+          -5.50458333333333
+        ]
+      },
+      "properties": {
+        "ID": 84,
+        "NAMA_USAHA": "Warung Ibu Nur",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "05.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Sukajaya Lempasing, Kec. Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual nasi uduk, pecel,, aneka es segar, serta menyediakan warung jajanan lengkap dengan rokok dan kebutuhan lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/84.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.250230555555,
+          -5.50040555555555
+        ]
+      },
+      "properties": {
+        "ID": 86,
+        "NAMA_USAHA": "Agen LPG 3kg Lempasing",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jalan Raya Way Ratay RT/RW 001/006, Sukajaya Lempasing, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan layanan agen gas LPG 3 kg dengan stok lengkap dan harga terjangkau untuk kebutuhan rumah tangga dan usaha.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/86.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2519075,
+          -5.5136997
+        ]
+      },
+      "properties": {
+        "ID": 225,
+        "NAMA_USAHA": "Warmindo Bude Eko",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Warung makan, dan menjual sembako",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/225.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2529066,
+          -5.5143107
+        ]
+      },
+      "properties": {
+        "ID": 226,
+        "NAMA_USAHA": "Green Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Konter",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/226.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.25298,
+          -5.5142079
+        ]
+      },
+      "properties": {
+        "ID": 227,
+        "NAMA_USAHA": "Toko Pakaian Mutun ",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "menjual perlengkapan pantai, seperti pakaian, alat renang, topi pantai, kacamata, dll.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/227.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2555824,
+          -5.5143334
+        ]
+      },
+      "properties": {
+        "ID": 228,
+        "NAMA_USAHA": "Kios Mutun",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 18.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Menjual kelapa muda, minuman botol, dan kebutuhan sehari hari lainnya",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/228.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2560445,
+          -5.5146041
+        ]
+      },
+      "properties": {
+        "ID": 229,
+        "NAMA_USAHA": "Kevin Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Menjual pulsa, kuota, paket telepon, kartu perdana, token listrik, dan sevice hp, serta menjual minuman seperti kopi,teh, kelapa muda, bandrek, dan es krim",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/229.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2611319,
+          -5.5133139
+        ]
+      },
+      "properties": {
+        "ID": 230,
+        "NAMA_USAHA": "Tegal Mas Thomas",
+        "JENIS_USAHA": "Pariwisata dan Jasa Akomodasi",
+        "JAM_OPERASIONAL": "06.00 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Jasa akomodasi yang memiliki fasilitas diving, snorkling, kano, bananaboat, dan terdapat paket penginapan mulai dari 2 jt permalam",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/230.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2606766,
+          -5.5131237
+        ]
+      },
+      "properties": {
+        "ID": 231,
+        "NAMA_USAHA": "Toko Saipul",
+        "JENIS_USAHA": "Perdagangan ",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan sehari hari dan terdapat gorengan, dan pop mie seduh, dan menyediakan toilet untuk wisatawan yang berkunjung",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/231.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2604513,
+          -5.5129017
+        ]
+      },
+      "properties": {
+        "ID": 232,
+        "NAMA_USAHA": "Warung Nasi Aisyah",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Menjual nasi ayam, nasi lele, mie rebus, mie goreng, soto ayam, tekwan, dll",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/232.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2603836,
+          -5.5127626
+        ]
+      },
+      "properties": {
+        "ID": 233,
+        "NAMA_USAHA": "Pemancingan Keramba Sandi",
+        "JENIS_USAHA": "Pariwisata dan Jasa Akomodasi",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Tempat pemancingan langsung di keramba dengan tarif Rp. 20.000,- per orang",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/233.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.260337,
+          -5.5127329
+        ]
+      },
+      "properties": {
+        "ID": 234,
+        "NAMA_USAHA": "Warung Makan Mpok",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Sedia ikan bakar, ayam bakar, ayam goreng, ayam geprek, mie ayam, mie wan,, mie cetek, nasi goreng, seblak, tekwan, dan berbagai macam minuman",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/234.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2602461,
+          -5.5126665
+        ]
+      },
+      "properties": {
+        "ID": 235,
+        "NAMA_USAHA": "Toko Grosir Nita",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Toko grosir dan eceran sembako dan kebutuhan rumah tangga lainnya",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/235.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2601821,
+          -5.5127245
+        ]
+      },
+      "properties": {
+        "ID": 236,
+        "NAMA_USAHA": "Toko Yuli",
+        "JENIS_USAHA": "Perdagangan ",
+        "JAM_OPERASIONAL": "07.00 - 18.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Toko sembako dan menjual kebutuhan rumah tangga ",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/236.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2600658,
+          -5.5124899
+        ]
+      },
+      "properties": {
+        "ID": 237,
+        "NAMA_USAHA": "Kios Pancing Andess Alona",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Menjual perlengkapan mancing, umpan, dan ikan segar",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/237.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2599233,
+          -5.5123935
+        ]
+      },
+      "properties": {
+        "ID": 238,
+        "NAMA_USAHA": "Toko grosir sembako Asep",
+        "JENIS_USAHA": "Perdagangan ",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Menjual grosir dan eceran sembako, serta kebutuhan sehari hari ",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/238.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2594515,
+          -5.5121352
+        ]
+      },
+      "properties": {
+        "ID": 239,
+        "NAMA_USAHA": "Warung Mami Gipa",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 17.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Menjual kebutuhan sehari hari, dan menjual pulsa, paket data, token listrik, token listrik, top up ovo, dana, shopeepay, top up game, dan kirim uang",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/239.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2591377,
+          -5.5116176
+        ]
+      },
+      "properties": {
+        "ID": 240,
+        "NAMA_USAHA": "Villa Singa Laut",
+        "JENIS_USAHA": "Pariwisata dan Jasa Akomodasi",
+        "JAM_OPERASIONAL": "14.00 - 16.00",
+        "ALAMAT": "Jl. Pantai Mutun, Sukajaya Lempasing, Kecamatan Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Villa singa laut adalah penginapan dengan fasilitas lengkap dan harga memadai pelayanan ramah, dan nyaman serta dekat dengan pantai ",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/433.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2500675,
+          -5.4994805
+        ]
+      },
+      "properties": {
+        "ID": 433,
+        "NAMA_USAHA": "Nasi Kapau Safari",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Sukajaya Lempasing, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Restoran Nasi Kapau ala warteg di Teluk Pandan, menyajikan rendang, gulai, hingga sate Padang dengan harga terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/LEMPASING/240.jpg"
+      }
+    }
+  ]
+}

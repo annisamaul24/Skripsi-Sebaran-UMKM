@@ -1,0 +1,3406 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23885,
+          -5.52628333333333
+        ]
+      },
+      "properties": {
+        "ID": 40,
+        "NAMA_USAHA": "Eta’s Galery",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jalan Way Ratay, Desa Hurun, Kec. Teluk Pandan",
+        "DESKRIPSI": "Menyediakan aneka elektronik rumah tangga, perlengkapan dapur, dan berbagai kebutuhan rumah lainnya – praktis dan lengkap di satu tempat!",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/40.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2389,
+          -5.52669722222222
+        ]
+      },
+      "properties": {
+        "ID": 41,
+        "NAMA_USAHA": "TB. Hanura Anugrah",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jalan Raya Way Ratay, Desa Hanura, Kec. Teluk Pandan",
+        "DESKRIPSI": "Menyediakan perlengkapan bangunan lengkap untuk keperluan rumah, renovasi, dan proyek konstruksi.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/41.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.238747222222,
+          -5.52696944444444
+        ]
+      },
+      "properties": {
+        "ID": 42,
+        "NAMA_USAHA": "Helen Laundry",
+        "JENIS_USAHA": "Kebersihan dan Rumah Tangga",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jalan Way Ratay, Desa Hanura, Kec. Teluk Pandan",
+        "DESKRIPSI": "Menyediakan jasa laundry pakaian dengan hasil bersih dan rapi, serta tersedia warung jajanan untuk kebutuhan harian.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/42.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.238433333333,
+          -5.52740833333333
+        ]
+      },
+      "properties": {
+        "ID": 43,
+        "NAMA_USAHA": "Indra Meuble",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jalan Way Ratay, Desa Hanura, Kec. Teluk Pandan",
+        "DESKRIPSI": "Menjual ppasir, batu ata, batu belah, batu split, genteng, kusen, pintu, jendela, paving block, dan lain lain.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/43.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240433333333,
+          -5.52784444444444
+        ]
+      },
+      "properties": {
+        "ID": 44,
+        "NAMA_USAHA": "Warung Rafka",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.30",
+        "ALAMAT": "Jl. Yos Sudarso Komp. BBPBL Desa, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai kebutuhan sehari-hari dan aneka jajanan",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/44.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.238183333333,
+          -5.53078333333333
+        ]
+      },
+      "properties": {
+        "ID": 45,
+        "NAMA_USAHA": "Homestay Soekartini",
+        "JENIS_USAHA": "Pariwisata dan Jasa Akomodasi",
+        "JAM_OPERASIONAL": "07.00 - 18.00",
+        "ALAMAT": "Jl. Pattimura RK. D, Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung 35451",
+        "DESKRIPSI": "Penginapan bersih, nyaman, dan strategis – cocok untuk istirahat, perjalanan dinas, atau liburan keluarga.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/45.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237747222222,
+          -5.53077222222222
+        ]
+      },
+      "properties": {
+        "ID": 46,
+        "NAMA_USAHA": "Bimbel dan Privat Funst Course",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "-",
+        "ALAMAT": "Jl. Pattimura RK. D, Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung 35451",
+        "DESKRIPSI": "Menyediakan layanan bimbingan belajar (Bimbel) Fun Learning yang disesuaikan dengan kurikulum sekolah, membantu siswa belajar dengan cara yang menyenangkan dan efektif.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/46.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240727777777,
+          -5.53087222222222
+        ]
+      },
+      "properties": {
+        "ID": 87,
+        "NAMA_USAHA": "Tredy Elektronik",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jl. Pattimura RK. D, Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung 35451",
+        "DESKRIPSI": "Menerima jasa servis pompa air, mesin cuci, kipas angin, blender, dan berbagai peralatan rumah tangga lainnya dengan pelayanan profesional dan terpercaya",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/87.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2265247,
+          -5.5312146
+        ]
+      },
+      "properties": {
+        "ID": 125,
+        "NAMA_USAHA": "Jual Beli Hasil Bumi",
+        "JENIS_USAHA": "Pertanian dan Perdagangan Bibit",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Siliwangi, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Jual beli hasil bumi seperti pala, coklat, kemiri, cengkeh, cabe jawa, dll.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/125.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2254944,
+          -5.5304361
+        ]
+      },
+      "properties": {
+        "ID": 126,
+        "NAMA_USAHA": "Seblak Reka Prasmanan",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 21.00",
+        "ALAMAT": "Jl. Siliwangi, Dusun A, Desa Hanura",
+        "DESKRIPSI": "Menjual seblak prasmanan, tersedia varian es boba",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/126.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2251786,
+          -5.5300767
+        ]
+      },
+      "properties": {
+        "ID": 127,
+        "NAMA_USAHA": "Jual Ayam Potong",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jalan Siliwangi, Dusun A, Desa Hanura",
+        "DESKRIPSI": "Menjual ayam potong",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/127.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2247562,
+          -5.5302355
+        ]
+      },
+      "properties": {
+        "ID": 128,
+        "NAMA_USAHA": "Warung Sembako Ibu Enung Siliwangi",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Siliwangi, Dusun A, Desa Hanura",
+        "DESKRIPSI": "Menjual sembako, pertamini, dan kebutuhan sehari - hari",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/128.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2232876,
+          -5.5291726
+        ]
+      },
+      "properties": {
+        "ID": 129,
+        "NAMA_USAHA": "Putra Bungsu",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jalan Siliwangi, Dusun A, Desa Hanura",
+        "DESKRIPSI": "Membuat miniatur truk oleng, dan melayani jasa servis kursi, meja, dll.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/129.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2231351,
+          -5.5293502
+        ]
+      },
+      "properties": {
+        "ID": 130,
+        "NAMA_USAHA": "Warung Sembako Desi",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jalan Siliwangi, Dusun A, Desa Hanura",
+        "DESKRIPSI": "Menjual sembako, pulsa, voucher, diamond game, dan jual beli hasil bumi",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/130.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2250187,
+          -5.5300643
+        ]
+      },
+      "properties": {
+        "ID": 131,
+        "NAMA_USAHA": "Jual ayam potong",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jalan Siliwangi, Dusun A, Desa Hanura",
+        "DESKRIPSI": "Menjual ayam potong dan menerima partai kecil/besar",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/131.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2268882,
+          -5.5319595
+        ]
+      },
+      "properties": {
+        "ID": 132,
+        "NAMA_USAHA": "Mebel Cilimus",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jalan Siliwangi, Dusun A, Desa Hanura",
+        "DESKRIPSI": "Menyediakan batu pasir, batu cor, dan terima pesanan kusen pintu, lemari, dll.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/132.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2272758,
+          -5.5323639
+        ]
+      },
+      "properties": {
+        "ID": 133,
+        "NAMA_USAHA": "Warung Feni Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jalan Perintis, Hanura, Teluk Pandan Pesawaran",
+        "DESKRIPSI": "Menyediakan kosmetik, alat tulis, pulsa, voucer, token listrik, sembako, dan lain lain.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/133.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2272097,
+          -5.5323716
+        ]
+      },
+      "properties": {
+        "ID": 134,
+        "NAMA_USAHA": "A'ANG Hasil Bumi",
+        "JENIS_USAHA": "Pertanian dan Perdagangan Bibit",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jalan Perintis, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Menerima hasil bumi seperti coklat, kopi, pala, kemiri, pinang, cengkeh, lada, dll.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/134.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22824,
+          -5.5326029
+        ]
+      },
+      "properties": {
+        "ID": 135,
+        "NAMA_USAHA": "Moesa Fotocopy dan ATK",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Perintis, Dusun Kampung Baru, Cilimus",
+        "DESKRIPSI": "Menerima layanan fotocopy, jilid, scan/printing, aksesoris, jasa pengetikan, cetak photo, dan menjual materai, alat tulis, bingkai, jual/sewa, seragam, profesi",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/135.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2281475,
+          -5.5325805
+        ]
+      },
+      "properties": {
+        "ID": 136,
+        "NAMA_USAHA": "Essila WNR Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jalan Perintis, Dusun Kampung Baru, Cilimus",
+        "DESKRIPSI": "Menjual sambako, pulsa, voucer game, paket data, voucer provider, token listrik, PDAM, BPJS Kesehatan, Service HP",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/136.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2304434,
+          -5.532964
+        ]
+      },
+      "properties": {
+        "ID": 137,
+        "NAMA_USAHA": "Moon Speed",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 23.00",
+        "ALAMAT": "Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Melayani service motor lengkap serta menjual berbagai spare part dan suku cadang untuk berbagai merek kendaraan.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/137.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2309279,
+          -5.5331642
+        ]
+      },
+      "properties": {
+        "ID": 138,
+        "NAMA_USAHA": "Pangkas Rambut Ino",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "09.00 - 16.00",
+        "ALAMAT": "Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Melayani potong rambut pria dewasa dan anak anak",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/138.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2314151,
+          -5.5331275
+        ]
+      },
+      "properties": {
+        "ID": 139,
+        "NAMA_USAHA": "Multi Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Konter ",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/139.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2319421,
+          -5.5332012
+        ]
+      },
+      "properties": {
+        "ID": 140,
+        "NAMA_USAHA": "Toko Echamart Grosir",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual grosir sembako dan berbagai kebutuhan sehari-hari lainnya untuk rumah tangga maupun usaha kecil.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/140.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2327843,
+          -5.5335126
+        ]
+      },
+      "properties": {
+        "ID": 141,
+        "NAMA_USAHA": "Toko Sembako Wahyuni",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual grosir sembako dan berbagai kebutuhan sehari-hari lainnya untuk rumah tangga maupun usaha kecil.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/141.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2332645,
+          -5.5333137
+        ]
+      },
+      "properties": {
+        "ID": 142,
+        "NAMA_USAHA": "Toko Plastik Nengah Wahyuni",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual plastik grosir dan eceran",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/142.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2341392,
+          -5.5335006
+        ]
+      },
+      "properties": {
+        "ID": 143,
+        "NAMA_USAHA": "Depot Agus",
+        "JENIS_USAHA": "Kebersihan dan Rumah Tangga",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Isi ulang galon air minum",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/143.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2353003,
+          -5.5333614
+        ]
+      },
+      "properties": {
+        "ID": 144,
+        "NAMA_USAHA": "Nazwa Snack",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menerima pesanan kue ulang tahun, kue basah dan kering, nasi tumpeng, nasi liwet, dan nasi kotak",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/144.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2360194,
+          -5.5336007
+        ]
+      },
+      "properties": {
+        "ID": 145,
+        "NAMA_USAHA": "Ammai Collections",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Jalan Jend. Suprapto, Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyewakan pakaian adat dan aksesoris lengkap untuk berbagai acara",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/145.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2359688,
+          -5.5336404
+        ]
+      },
+      "properties": {
+        "ID": 146,
+        "NAMA_USAHA": "Onoy Motor",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jalan Jend. Suprapto, Dusun A Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Pos Pameran Motor Honda bisa dibeli lewat cash ataupun credit",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/146.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2364325,
+          -5.5335933
+        ]
+      },
+      "properties": {
+        "ID": 147,
+        "NAMA_USAHA": "Toko Al-Hikmah",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jl. Jend. Suprapto, Hanura, Kec. Teluk Pandan, Kab. Pesawaran",
+        "DESKRIPSI": "Menjual Sembako dan perlengkepan elektronik dan terdapat pom mini",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/147.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2363648,
+          -5.533578
+        ]
+      },
+      "properties": {
+        "ID": 148,
+        "NAMA_USAHA": "Bunda Khanza Ollshop",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Perum Villa Sakti Blok B3 Hanura",
+        "DESKRIPSI": "Menjual berbagai macam pakaian pria, wanita dan anak anak",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/148.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2369894,
+          -5.5333397
+        ]
+      },
+      "properties": {
+        "ID": 149,
+        "NAMA_USAHA": "Ogas Fotocopy",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Jend. Suprapto, Hanura, Kec. Teluk Pandan, Kab. Pesawaran",
+        "DESKRIPSI": "Terdapat warung makan atau kantin, tempat fotocopy dan menjual perlengkapan ATK",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/149.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2369354,
+          -5.532736
+        ]
+      },
+      "properties": {
+        "ID": 150,
+        "NAMA_USAHA": "Mie Ayam dan Bakso Blok M",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "05.30 - 17.00",
+        "ALAMAT": "Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual Mia ayam, bakso, es, dan warung keperluan sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/150.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236921,
+          -5.5327604
+        ]
+      },
+      "properties": {
+        "ID": 151,
+        "NAMA_USAHA": "Rental PS 91",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "10.00 - 23.00",
+        "ALAMAT": "Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Rental ps",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/151.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2369441,
+          -5.532672
+        ]
+      },
+      "properties": {
+        "ID": 152,
+        "NAMA_USAHA": "Galery Mauza",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual Kosmetik, aksesoris, hijab, dan seragam sekolah",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/152.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2367322,
+          -5.5316675
+        ]
+      },
+      "properties": {
+        "ID": 153,
+        "NAMA_USAHA": "Dimsum Receh",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 18.00",
+        "ALAMAT": "Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual dimsum dan berbagai macam es",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/153.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2367356,
+          -5.5316371
+        ]
+      },
+      "properties": {
+        "ID": 154,
+        "NAMA_USAHA": "Kedai Sheza",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual Soto Ayam, Tekwan, dan berbagai macam es",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/154.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2364036,
+          -5.5312176
+        ]
+      },
+      "properties": {
+        "ID": 155,
+        "NAMA_USAHA": "Raygen",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 17.00",
+        "ALAMAT": "Jalan Pramuka, Desa Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran ",
+        "DESKRIPSI": "Menjual pakaian batik dewasa wanita, anak - anak, pria, wanita, tas, dan lain - lain",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/155.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2363175,
+          -5.531224
+        ]
+      },
+      "properties": {
+        "ID": 156,
+        "NAMA_USAHA": "Percetakan MAN",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jalan Pramuka, Desa Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran ",
+        "DESKRIPSI": "fotocopy print cetak foto, buat undangan, banner, bendera, spanduk, sablon kaos/plastik, plakat nama dada, ganci, stempel, sticker, nota, yasin, kalender, atk, dll.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/156.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2365518,
+          -5.5301381
+        ]
+      },
+      "properties": {
+        "ID": 157,
+        "NAMA_USAHA": "Cigobang",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai macam es dengan harga yang ramah di kantong",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/157.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2365354,
+          -5.5301768
+        ]
+      },
+      "properties": {
+        "ID": 158,
+        "NAMA_USAHA": "Berkah Fotocopy",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "jasa foto, fotocopy, print, menjual atk, dll",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/158.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2365431,
+          -5.5302225
+        ]
+      },
+      "properties": {
+        "ID": 159,
+        "NAMA_USAHA": "Warung Alicia",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual sembako dan terdapat pertamini",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/159.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2365492,
+          -5.5302552
+        ]
+      },
+      "properties": {
+        "ID": 160,
+        "NAMA_USAHA": "Toko Listrik",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Mrenjual segala perlengkapan elektronik",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/160.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2366813,
+          -5.5297877
+        ]
+      },
+      "properties": {
+        "ID": 161,
+        "NAMA_USAHA": "Ayam Bakar Mas Gendut",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 00.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual makanan mulai dari ayam ikan dan bebek serta menerima pesanan nasi kotak",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/161.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2368529,
+          -5.5295324
+        ]
+      },
+      "properties": {
+        "ID": 162,
+        "NAMA_USAHA": "Master Trans Rent",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual sticker motor variasi, dan service sarung jok motor",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/162.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2368995,
+          -5.5294663
+        ]
+      },
+      "properties": {
+        "ID": 163,
+        "NAMA_USAHA": "Depot Air Minum Dzaky",
+        "JENIS_USAHA": "Kebersihan dan Rumah Tangga",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Sedia isi ulang air minum ",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/163.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2371134,
+          -5.5290144
+        ]
+      },
+      "properties": {
+        "ID": 164,
+        "NAMA_USAHA": "Indah Cell 3",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan layanan penjualan pulsa, paket data, token listrik, serta aksesoris dan kebutuhan komunikasi lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/164.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237105,
+          -5.5290578
+        ]
+      },
+      "properties": {
+        "ID": 165,
+        "NAMA_USAHA": "Kios burung",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual sega jenis makanan hewan, kandang hewan dan keperluan hewan lainnya, serta menjual burung",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/165.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2371382,
+          -5.528962
+        ]
+      },
+      "properties": {
+        "ID": 166,
+        "NAMA_USAHA": "Bakso dan Mie Ayam AAN",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual bakso dan mie ayam, serta berbagai jenis es",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/166.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237205,
+          -5.5288763
+        ]
+      },
+      "properties": {
+        "ID": 167,
+        "NAMA_USAHA": "Ayam Geprek Mba Yekti",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual ayam geprek dan menerima pesanan nasi ayam geprek",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/167.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2372184,
+          -5.5288155
+        ]
+      },
+      "properties": {
+        "ID": 168,
+        "NAMA_USAHA": "ToNie Percetakaan dan Sablon",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Percetakaan dan sablon hanura mulai dari banner, sablon, undangan, sticker dll. Bisa ditunggu",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/168.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2372308,
+          -5.5287481
+        ]
+      },
+      "properties": {
+        "ID": 169,
+        "NAMA_USAHA": "Syaila Fashion",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Toko serba Rp. 35.000,- terdapaat pakaian, jilbab, dll.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/169.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2373947,
+          -5.5284531
+        ]
+      },
+      "properties": {
+        "ID": 170,
+        "NAMA_USAHA": "Cahaya Jaya Furniture",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Toko yang menjual berbagai furniture rumah ",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/170.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2373729,
+          -5.5285175
+        ]
+      },
+      "properties": {
+        "ID": 171,
+        "NAMA_USAHA": "Cahaya Jaya Elektronik",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Toko yang menjual berbagai perlengkapan elektronik",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/171.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2376599,
+          -5.5284805
+        ]
+      },
+      "properties": {
+        "ID": 172,
+        "NAMA_USAHA": "Toko Samsuri",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 00.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Toko yang menjual berbbagai kebutuhan sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/172.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379235,
+          -5.5277834
+        ]
+      },
+      "properties": {
+        "ID": 173,
+        "NAMA_USAHA": "Bubur Ayam Mbah Win",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "06.00 - 11.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual bubur ayam, sate telur puyuh, ati, amprla, usus, dan telur asin",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/173.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2381853,
+          -5.5274236
+        ]
+      },
+      "properties": {
+        "ID": 174,
+        "NAMA_USAHA": "Vincen Motor Hanura",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 18.30",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Bengkel motor dan mobil serta menjual sparepart",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/174.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2383167,
+          -5.5273178
+        ]
+      },
+      "properties": {
+        "ID": 175,
+        "NAMA_USAHA": "SJM Hanura",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Bengkel motor dan menjual suku cadang berkualitas",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/175.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2384954,
+          -5.5270495
+        ]
+      },
+      "properties": {
+        "ID": 176,
+        "NAMA_USAHA": "Rio Remota Car Wash",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Steam motor dan mobil",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/176.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379469,
+          -5.5280487
+        ]
+      },
+      "properties": {
+        "ID": 177,
+        "NAMA_USAHA": "Toko Duha Jaya",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai mcam sembako grosir dan eceran",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/177.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2373421,
+          -5.52891
+        ]
+      },
+      "properties": {
+        "ID": 178,
+        "NAMA_USAHA": "Eka Busana dan Pempek Eka",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual pempek khas palembang, nasi ayam geprek, dan menyediakan jasa jahit beragai macam pakaian",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/178.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2373062,
+          -5.5291149
+        ]
+      },
+      "properties": {
+        "ID": 179,
+        "NAMA_USAHA": "TB. Kawan Kita",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual material bangunan, dan membeli hasil bumi",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/179.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2372385,
+          -5.5292921
+        ]
+      },
+      "properties": {
+        "ID": 180,
+        "NAMA_USAHA": "Agen BNI Agus",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Disini melayani tarik tunai, transfer, beli pulsa, top up, dll dengan biaya admin murah",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/180.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2372402,
+          -5.5293134
+        ]
+      },
+      "properties": {
+        "ID": 181,
+        "NAMA_USAHA": "Pangkas Rambut Sabay",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "09.00 - 16.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Melayani potong rambut pria dewasa dan anak anak",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/181.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2372449,
+          -5.5293298
+        ]
+      },
+      "properties": {
+        "ID": 182,
+        "NAMA_USAHA": "Tarbiyatus Samaki",
+        "JENIS_USAHA": "Pertanian dan Perdagangan Bibit",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai jenis ikan hias, aquarium, dan berbagai jenis ayam",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/182.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2369066,
+          -5.5298581
+        ]
+      },
+      "properties": {
+        "ID": 183,
+        "NAMA_USAHA": "Tira Salon",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Salon khusus wanita, mulai dari perawatan wajah, rambut, dan kuku",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/183.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2371164,
+          -5.5296625
+        ]
+      },
+      "properties": {
+        "ID": 184,
+        "NAMA_USAHA": "Toko Saminah",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.00 - 13.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "toko yang menjual berbagai macam kebutuhan sehari hari grosir dan eceran",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/184.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236927,
+          -5.5298057
+        ]
+      },
+      "properties": {
+        "ID": 185,
+        "NAMA_USAHA": "Warung Mela",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Warung sembako dan sayuran",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/185.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2369703,
+          -5.530062
+        ]
+      },
+      "properties": {
+        "ID": 186,
+        "NAMA_USAHA": "Homestay Sari Ringgung",
+        "JENIS_USAHA": "Pariwisata dan Jasa Akomodasi",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Homestay keluarga yang dekat dengan pantai wisata yang ada di kecamatan teluk pandan",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/186.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2370417,
+          -5.5312887
+        ]
+      },
+      "properties": {
+        "ID": 187,
+        "NAMA_USAHA": "Bakso Solo Baru",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual bakso dan mie serta berbagai jenis es",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/187.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237955,
+          -5.5332566
+        ]
+      },
+      "properties": {
+        "ID": 189,
+        "NAMA_USAHA": "Bakso dan Mie Ayam Mas No",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Sedia bakso dan mie ayam serta berbagai jenis es",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/189.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379416,
+          -5.5332329
+        ]
+      },
+      "properties": {
+        "ID": 190,
+        "NAMA_USAHA": "Kharisma cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan layanan penjualan pulsa, paket data, token listrik, serta aksesoris dan kebutuhan komunikasi lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/190.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379717,
+          -5.5333497
+        ]
+      },
+      "properties": {
+        "ID": 191,
+        "NAMA_USAHA": "Apotik Mulia",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Apotik yang menjual berbagai jenis obat obatan",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/191.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379711,
+          -5.5333971
+        ]
+      },
+      "properties": {
+        "ID": 192,
+        "NAMA_USAHA": "Mornov",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 23.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Bengkel motor, yang melayani service, dan menjual spare part.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/192.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379751,
+          -5.5334829
+        ]
+      },
+      "properties": {
+        "ID": 193,
+        "NAMA_USAHA": "Toko Yono",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Toko yang menjual sembako dan kebutuhan sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/193.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379902,
+          -5.5335066
+        ]
+      },
+      "properties": {
+        "ID": 194,
+        "NAMA_USAHA": "Toko Evita",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.30 - 02.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Toko yang menjual sembako grosir dan eceran, dan kebutuhan sehari hari serta menjual siomay cabang mangga 2",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/194.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2378715,
+          -5.533869
+        ]
+      },
+      "properties": {
+        "ID": 195,
+        "NAMA_USAHA": "Kios Parfum",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "09.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual parfume dan isi ulang parfume",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/195.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2378591,
+          -5.5339154
+        ]
+      },
+      "properties": {
+        "ID": 196,
+        "NAMA_USAHA": "Pondok Santapp",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 19.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Warung makan yang meneydiakan soto ayam mie ayam, dan seblak serta terdapat minuman",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/196.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2381531,
+          -5.5342568
+        ]
+      },
+      "properties": {
+        "ID": 197,
+        "NAMA_USAHA": "Toko Kreasi Jaya",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Terima pemasangan baja ringan, plafon gypsum, plafon PVC",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/197.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.238197,
+          -5.534436
+        ]
+      },
+      "properties": {
+        "ID": 198,
+        "NAMA_USAHA": "Warung Halimah",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Warung sembako",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/198.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379409,
+          -5.534438
+        ]
+      },
+      "properties": {
+        "ID": 199,
+        "NAMA_USAHA": "Bakso Fazza",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.30 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Sedia aneka bakso dan seblak prasmanan dengan toping suka suka, serta tersedia juga berbagai macam es",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/199.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2387254,
+          -5.5350857
+        ]
+      },
+      "properties": {
+        "ID": 200,
+        "NAMA_USAHA": "Bengkel Motor Agus",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Terima perbaikan motor dan service motor",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/200.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2389859,
+          -5.5354291
+        ]
+      },
+      "properties": {
+        "ID": 201,
+        "NAMA_USAHA": "Steam Motor dan Mobil Hanura",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Jasa cuci kendaraan",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/201.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2392069,
+          -5.5356033
+        ]
+      },
+      "properties": {
+        "ID": 202,
+        "NAMA_USAHA": "Warung Sate Mbah Roji",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "17.00 - 22.30",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Sedia sate ayam, sate kambing, gulai kambing, pecel lele, ayam bakar dan minuman seperti kopi, the hangat/dingin, dll.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/202.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2391211,
+          -5.5358776
+        ]
+      },
+      "properties": {
+        "ID": 203,
+        "NAMA_USAHA": "Bengkel Lehan Racing Team",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Bengkel motor ",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/203.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2394268,
+          -5.5365874
+        ]
+      },
+      "properties": {
+        "ID": 204,
+        "NAMA_USAHA": "Ayam Bakar Mas Gendut",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual makanan mulai dari ayam ikan dan bebek serta menerima pesanan nasi kotak",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/204.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2397118,
+          -5.5372612
+        ]
+      },
+      "properties": {
+        "ID": 205,
+        "NAMA_USAHA": "Bengkel Las Berkah",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menerima pesanan ornamen GRC Karawangan",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/205.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.241928,
+          -5.5350082
+        ]
+      },
+      "properties": {
+        "ID": 206,
+        "NAMA_USAHA": "Alfa Nada",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. RE Martadinata, Hanura, Kec. Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Orgen tunggal",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/206.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24141,
+          -5.5325041
+        ]
+      },
+      "properties": {
+        "ID": 207,
+        "NAMA_USAHA": "WR Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 21.00",
+        "ALAMAT": "Jl. RE Martadinata, Hanura, Kec. Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual sembako, kebutuhan sehari - hari dan jajanan",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/207.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2412843,
+          -5.5314129
+        ]
+      },
+      "properties": {
+        "ID": 208,
+        "NAMA_USAHA": "Pangkalan LPG 3 Kg Frederik",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. RE Martadinata, Hanura, Kec. Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual gas 3 Kg",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/208.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2419233,
+          -5.5278901
+        ]
+      },
+      "properties": {
+        "ID": 209,
+        "NAMA_USAHA": "Warung Pondok Hijau",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 17.00",
+        "ALAMAT": "Jl. Yos Sudarso Komp. BBPBL Desa, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual nasi rames, rawon, sop kikil, sop tulang ayam, urap sayur, dan aneka minuman",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/209.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2420333,
+          -5.5278962
+        ]
+      },
+      "properties": {
+        "ID": 210,
+        "NAMA_USAHA": "Kedai Qinoqila",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jl. Yos Sudarso Komp. BBPBL Desa, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Sedia sate ayam, ketoprak, mie alay, bakso, dan aneka minuman",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/210.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2423239,
+          -5.5278891
+        ]
+      },
+      "properties": {
+        "ID": 211,
+        "NAMA_USAHA": "Penjahit Rini",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Yos Sudarso Komp. BBPBL Desa, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Jasa jahit berbagai macam pakaian dan busana",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/211.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2424306,
+          -5.5278901
+        ]
+      },
+      "properties": {
+        "ID": 212,
+        "NAMA_USAHA": "Warung Sifani",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Yos Sudarso Komp. BBPBL Desa, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Warung sembako kebutuhan sehari hari",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/212.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2362964,
+          -5.5278174
+        ]
+      },
+      "properties": {
+        "ID": 213,
+        "NAMA_USAHA": "Warung pak Iswanto ",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Warung yang menjual kebutuhan rumah tangga dan cemilan ",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/213.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2364901,
+          -5.5274383
+        ]
+      },
+      "properties": {
+        "ID": 214,
+        "NAMA_USAHA": "Zhian Photocopy",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 19.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menerima fotocopy, print, cetak foto dll, menjual ATK, jajanan, menerima pesanan buket, pempek dll.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/214.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2363413,
+          -5.5281761
+        ]
+      },
+      "properties": {
+        "ID": 215,
+        "NAMA_USAHA": "Les Mbak Sari",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "-",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Bimbingan belajar dari kelas 1 -6 SD yang mengikuti kurikulum sekolah",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/215.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2363963,
+          -5.5292841
+        ]
+      },
+      "properties": {
+        "ID": 216,
+        "NAMA_USAHA": "Toko Sembako Umak",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual sembako grosir dan eceran",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/216.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236415,
+          -5.5294653
+        ]
+      },
+      "properties": {
+        "ID": 217,
+        "NAMA_USAHA": "Warung Pojok Dua Futri",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan aneka gorengan, seblak prasmanan, soto ayam, tekwan, pecel lontong, karedok, dan berbagai minuman",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/217.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2364616,
+          -5.5299075
+        ]
+      },
+      "properties": {
+        "ID": 218,
+        "NAMA_USAHA": "Padi Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Konter yang menjual accessories device, dan menyediakan jasa service device, software dan hardware.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/218.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2365428,
+          -5.5300907
+        ]
+      },
+      "properties": {
+        "ID": 219,
+        "NAMA_USAHA": "Kios Berkah",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual sarana pertanian, dan pakan ternak",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/219.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2352748,
+          -5.5303596
+        ]
+      },
+      "properties": {
+        "ID": 220,
+        "NAMA_USAHA": "Nasi Uduk Mas Vali",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "06.00 - 20.00",
+        "ALAMAT": "RKB Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual berbagai paket nasi uduk, dan menerima pesanan nasi uduk",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/220.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2353073,
+          -5.5305018
+        ]
+      },
+      "properties": {
+        "ID": 221,
+        "NAMA_USAHA": "Bimbel Az - Zahra",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "-",
+        "ALAMAT": "RKB Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Bimbingan belajar dari kelas SD dan SMP yang mengikuti kurikulum sekolah",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/221.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2377843,
+          -5.533624
+        ]
+      },
+      "properties": {
+        "ID": 223,
+        "NAMA_USAHA": "Es Dugan Bude Asih",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "09.00 - 16.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual kelapa muda",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/223.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2378329,
+          -5.5336187
+        ]
+      },
+      "properties": {
+        "ID": 224,
+        "NAMA_USAHA": "Siomay dan Batagor Bandung",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 16.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menjual siomay dan batagor goreng dan kuah",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/224.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237105,
+          -5.5294493
+        ]
+      },
+      "properties": {
+        "ID": 246,
+        "NAMA_USAHA": "Apotek Hanura Medika",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan obat-obatan, vitamin, alat kesehatan, serta layanan konsultasi kesehatan dasar untuk masyarakat.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/246.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2365753,
+          -5.5308105
+        ]
+      },
+      "properties": {
+        "ID": 247,
+        "NAMA_USAHA": "RM Safari ",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 20.30",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Rumah Makan Safari merupakan tempat makan populer di Hanura yang menyajikan aneka masakan khas dengan cita rasa rumahan. Cocok untuk wisatawan maupun warga lokal yang ingin menikmati hidangan lezat di lokasi strategis dekat jalur wisata",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/247.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2366031,
+          -5.530922
+        ]
+      },
+      "properties": {
+        "ID": 248,
+        "NAMA_USAHA": "Bakso Solo Baru",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.30 - 20.30",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Bakso Solo Baru merupakan usaha kuliner yang menyajikan aneka bakso dan mie ayam dengan cita rasa khas Solo. Menu andalannya meliputi bakso urat, bakso halus, bakso telur, serta mie ayam dengan racikan bumbu yang gurih dan menggugah selera.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/248.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379097,
+          -5.5327804
+        ]
+      },
+      "properties": {
+        "ID": 249,
+        "NAMA_USAHA": "RM Bagindo",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 20.30",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Rumah Makan Bagindo adalah rumah makan Padang yang menyajikan aneka masakan Minang dengan cita rasa otentik dan bumbu khas. Menyediakan berbagai menu seperti rendang, ayam pop, gulai ayam, dendeng balado, sambal ijo, dan masih banyak lagi.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/249.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379446,
+          -5.5329873
+        ]
+      },
+      "properties": {
+        "ID": 250,
+        "NAMA_USAHA": "RM Kambang Minang",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Rumah Makan Kambang Minang merupakan rumah makan Padang yang menyajikan masakan khas Minangkabau dengan rasa yang kaya rempah dan menggugah selera. Menyediakan berbagai menu favorit seperti rendang sapi, ayam goreng, gulai tunjang, sambal lado ijo, dan aneka sayur padang.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/250.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2378135,
+          -5.5341503
+        ]
+      },
+      "properties": {
+        "ID": 251,
+        "NAMA_USAHA": "Laundry Harum",
+        "JENIS_USAHA": "Kebersihan dan Rumah Tangga",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Gg. Mangga 2, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Laundry Harum adalah layanan cuci pakaian profesional di Hanura yang melayani laundry kiloan, satuan, dan setrika saja. Menggunakan deterjen berkualitas dan pewangi tahan lama untuk memastikan pakaian bersih, harum, dan rapi.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/251.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2281451,
+          -5.5340192
+        ]
+      },
+      "properties": {
+        "ID": 252,
+        "NAMA_USAHA": "Pertamini Tito",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Gg. Mangga, Dusun A Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha penjualan bahan bakar eceran yang berlokasi strategis di Hanura. Menyediakan bensin (Pertalite) untuk kendaraan roda dua dan roda empat dengan takaran literan yang akurat menggunakan mesin digital.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/252.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2300371,
+          -5.5346612
+        ]
+      },
+      "properties": {
+        "ID": 253,
+        "NAMA_USAHA": "Putri Qay Make Up dan Dekorasi",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Brawijaya, RKA Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Putri Qay Makeup & Decoration adalah layanan rias dan dekorasi yang melayani berbagai acara seperti pernikahan, lamaran, wisuda, dan acara spesial lainnya. Menyediakan jasa makeup profesional dengan hasil yang natural hingga glamor sesuai permintaan klien. Selain rias, juga menyediakan paket dekorasi pelaminan, backdrop acara, dan perlengkapan lainnya dengan desain elegan dan kekinian.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/253.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2376492,
+          -5.5321203
+        ]
+      },
+      "properties": {
+        "ID": 254,
+        "NAMA_USAHA": "RM Ika",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "06.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Rumah Makan Ika merupakan tempat kuliner keluarga di Hanura yang menyajikan berbagai masakan khas Lampung. Menu andalannya adalah Pindang Simba—hidangan berkuah asam pedas dengan ikan simba segar, berpadu bumbu rempah khas yang menggugah selera.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/254.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2284519,
+          -5.5343212
+        ]
+      },
+      "properties": {
+        "ID": 255,
+        "NAMA_USAHA": "Rachel Bouqet Flower",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "09.00 - 17.30",
+        "ALAMAT": "Jl. Brawijaya, RKA Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Rachel Bouquet Flower adalah usaha florist yang menyediakan berbagai rangkaian bunga artificial untuk berbagai keperluan, seperti buket wisuda, ulang tahun, lamaran, pernikahan, hingga ucapan duka cita.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/255.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2289692,
+          -5.5343966
+        ]
+      },
+      "properties": {
+        "ID": 256,
+        "NAMA_USAHA": "Kanei Bouquet",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jl. Brawijaya, RKA Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Kanei Bouquet adalah usaha kreatif di bidang florist yang melayani pembuatan berbagai jenis buket, seperti buket bunga artificial, buket snack, buket uang, dan buket custom sesuai permintaan.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/256.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.240838,
+          -5.54053
+        ]
+      },
+      "properties": {
+        "ID": 364,
+        "NAMA_USAHA": "Warung Kelontong",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 16.00",
+        "ALAMAT": "Jl. Way Ratai, Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual berbagai barang kebutuhan sehari-hari seperti makanan ringan, minuman, sabun, detergen, alat tulis, rokok, dan kebutuhan rumah tangga lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/364.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.239469,
+          -5.536683
+        ]
+      },
+      "properties": {
+        "ID": 365,
+        "NAMA_USAHA": "Ayam Bakar Mas Gendut",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jl. Way Ratai, Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran, Lampung",
+        "DESKRIPSI": "Menjual makanan mulai dari ayam ikan dan bebek serta menerima pesanan nasi kotak",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/365.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2389142,
+          -5.5308586
+        ]
+      },
+      "properties": {
+        "ID": 376,
+        "NAMA_USAHA": "Tempe dan Toge Ibu Choiriyah",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Desa Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "UMKM Tempe dan Toge merupakan usaha rumahan yang memproduksi tempe dan tauge segar. Produk diolah secara tradisional dengan menjaga kualitas dan kebersihan sehingga banyak diminati masyarakat sekitar.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/376.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2371057,
+          -5.5336017
+        ]
+      },
+      "properties": {
+        "ID": 377,
+        "NAMA_USAHA": "Pempek Berkah Ibu Muhidin",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Desa Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Sedia pempek kulit, pempek lenjer, pempek telor, pempek kapal selem, rujak tahu. Juga menerima pesanan.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/377.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2371842,
+          -5.5336277
+        ]
+      },
+      "properties": {
+        "ID": 378,
+        "NAMA_USAHA": "Gerai Hijab Annasya",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "09.00 - 16.00",
+        "ALAMAT": "Desa Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Gerai Annasya Hijab menjual berbagai busana muslim, hijab, serta perlengkapan fashion Islami lainnya dengan model kekinian dan harga terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/378.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2381655,
+          -5.5343258
+        ]
+      },
+      "properties": {
+        "ID": 379,
+        "NAMA_USAHA": "Yesa Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Yesa Cell menjual pulsa, paket data, token listrik, aksesoris HP, serta menyediakan layanan penjualan handphone baru maupun bekas.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/379.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2379922,
+          -5.5340332
+        ]
+      },
+      "properties": {
+        "ID": 380,
+        "NAMA_USAHA": "Edo Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "00.01 - 24.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Edo Cell menyediakan layanan service handphone serta menjual pulsa, paket data, token listrik, dan aksesoris HP.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/380.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2318399,
+          -5.5342468
+        ]
+      },
+      "properties": {
+        "ID": 381,
+        "NAMA_USAHA": "Hanura Craftlover",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Dusun A, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Hanura Craftlover merupakan UMKM yang bergerak di bidang kerajinan, menghasilkan berbagai produk unik dan kreatif yang dibuat dari benang wol.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/381.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2338462,
+          -5.5348891
+        ]
+      },
+      "properties": {
+        "ID": 382,
+        "NAMA_USAHA": "Warung Cak Har",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "00.00 - 24.00",
+        "ALAMAT": "Dusun A, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Warung kelontong yang menjual sembako kebuituhan rumah tangga, dan alat kebersihan rumah tangga.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/382.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2377689,
+          -5.5328572
+        ]
+      },
+      "properties": {
+        "ID": 383,
+        "NAMA_USAHA": "Warung Bunda Ibel",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 17.00",
+        "ALAMAT": "Dusun C, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Warung Bunda Ibel merupakan UMKM yang menyajikan berbagai kuliner camilan dengan cita rasa khas, cocok untuk teman bersantai",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/383.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2375996,
+          -5.5324707
+        ]
+      },
+      "properties": {
+        "ID": 384,
+        "NAMA_USAHA": "TB. Wahyu",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.30 - 16.00",
+        "ALAMAT": "Dusun C, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "TB. Wahyu merupakan toko bangunan yang menyediakan berbagai kebutuhan material konstruksi dan perlengkapan rumah tangga, mendukung kebutuhan pembangunan maupun renovasi.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/384.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237556,
+          -5.5323506
+        ]
+      },
+      "properties": {
+        "ID": 385,
+        "NAMA_USAHA": "TB. Sinar Jaya",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 17.00",
+        "ALAMAT": "Dusun C, Hanura, Kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "toko bangunan yang menyediakan berbagai kebutuhan material seperti semen, pasir, cat, besi, paku, dan perlengkapan konstruksi lainnya untuk mendukung pembangunan maupun renovasi rumah.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/385.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2375449,
+          -5.5323065
+        ]
+      },
+      "properties": {
+        "ID": 386,
+        "NAMA_USAHA": "Bilan Motor",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Bilan Motor merupakan bengkel motor yang melayani perbaikan, perawatan, serta menyediakan suku cadang kendaraan roda dua.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/386.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2375168,
+          -5.5322768
+        ]
+      },
+      "properties": {
+        "ID": 389,
+        "NAMA_USAHA": "Fawwaz Barbershop",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "09.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Fawwaz Barbershop menyediakan layanan potong rambut dengan gaya modern maupun klasik, serta perawatan rambut pria agar tetap rapi dan stylish.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/389.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2375084,
+          -5.5321807
+        ]
+      },
+      "properties": {
+        "ID": 390,
+        "NAMA_USAHA": "Dapur Makan Bojo Tian",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 23.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Dapur Makan Bojo Tian menyajikan hidangan mie ayam dan bakso dengan cita rasa khas yang cocok untuk dinikmati semua kalangan.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/390.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2374956,
+          -5.532147
+        ]
+      },
+      "properties": {
+        "ID": 391,
+        "NAMA_USAHA": "Warung Mba Mira",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung yang menyediakan dan menerima pesanan berbagai macam minuman mulai dari sop buah, ketan durian, durian kocok, alpukat kocok, serta aneka jus.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/391.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2374822,
+          -5.532105
+        ]
+      },
+      "properties": {
+        "ID": 392,
+        "NAMA_USAHA": "Nasi Goreng Pak Dhe",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "16.00 - 23.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menyediakan aneka nasi goreng, mie goreng, mie rebus dengan cita rasa yang lezat ",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/392.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2374645,
+          -5.5320716
+        ]
+      },
+      "properties": {
+        "ID": 393,
+        "NAMA_USAHA": "Warung Sate Madura",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "16.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung Sate Madura menyajikan sate khas Madura dengan bumbu kacang yang gurih dan nikmat, cocok disantap bersama lontong atau nasi.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/393.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2374437,
+          -5.5320246
+        ]
+      },
+      "properties": {
+        "ID": 394,
+        "NAMA_USAHA": "Kios Buah Syifa",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Kios Buah Syifa menyediakan berbagai jenis buah-buahan segar dengan kualitas baik, cocok untuk konsumsi harian maupun acara keluarga.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/394.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2374111,
+          -5.5319762
+        ]
+      },
+      "properties": {
+        "ID": 395,
+        "NAMA_USAHA": "Agen BRILink ",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.30 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Agen BRILink melayani berbagai transaksi perbankan seperti transfer, tarik tunai, setor tunai, pembayaran tagihan, serta pembelian pulsa untuk memudahkan kebutuhan finansial masyarakat.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/395.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2373877,
+          -5.5319708
+        ]
+      },
+      "properties": {
+        "ID": 396,
+        "NAMA_USAHA": "Pelangi Parfume",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "08.30 - 20.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Pelangi Parfume menyediakan berbagai jenis parfum dengan beragam aroma pilihan, baik isi ulang maupun kemasan, untuk memenuhi kebutuhan wangi dan penampilan sehari-hari.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/396.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2394148,
+          -5.5367366
+        ]
+      },
+      "properties": {
+        "ID": 397,
+        "NAMA_USAHA": "Bakoel Snack",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "11.00 - 17.30",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual cireng dengan isian yang melimpah tersedia isi ayam suwir, keju, ati ampela, usus, jando/lemak sapi.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/397.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2372975,
+          -5.5317669
+        ]
+      },
+      "properties": {
+        "ID": 398,
+        "NAMA_USAHA": "Toko Perak Hanura  Silver",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual perhiasan perak dan menerima sepuh",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/398.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2372281,
+          -5.5316988
+        ]
+      },
+      "properties": {
+        "ID": 399,
+        "NAMA_USAHA": "Indah Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Indah Cell merupakan konter handphone yang menyediakan layanan penjualan pulsa, paket data, voucher, token listrik, aksesoris HP, serta layanan top up saldo dan game online.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/399.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2371198,
+          -5.5317399
+        ]
+      },
+      "properties": {
+        "ID": 400,
+        "NAMA_USAHA": "Toko Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Toko Sembako ini menyediakan berbagai kebutuhan pokok rumah tangga seperti beras, minyak, gula, tepung, mie instan, jajanan, serta minuman kemasan. Melayani pembelian secara grosir maupun eceran sehingga cocok untuk kebutuhan rumah tangga maupun usaha kecil.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/400.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2369894,
+          -5.5317309
+        ]
+      },
+      "properties": {
+        "ID": 401,
+        "NAMA_USAHA": "Sol Sepatu Mang Abdul",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha ini menyediakan jasa sol sepatu serta menjual berbagai pilihan sepatu dan sandal dengan kualitas baik dan harga terjangkau. Cocok untuk kebutuhan sehari-hari maupun acara tertentu.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/401.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2370655,
+          -5.5317416
+        ]
+      },
+      "properties": {
+        "ID": 402,
+        "NAMA_USAHA": "Yudi Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Yudi Cell menyediakan layanan penjualan pulsa, paket data, token listrik, serta berbagai kebutuhan komunikasi lainnya dengan pelayanan cepat dan praktis.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/402.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2369354,
+          -5.5317362
+        ]
+      },
+      "properties": {
+        "ID": 403,
+        "NAMA_USAHA": "Emi Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Emi Cell merupakan konter yang menyediakan layanan penjualan pulsa, paket data, token listrik, serta aksesoris handphone dengan harga terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/403.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.236871,
+          -5.5317389
+        ]
+      },
+      "properties": {
+        "ID": 404,
+        "NAMA_USAHA": "D'Hery Fried Chicken",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "D'Hery Fried Chicken adalah usaha kuliner yang menyajikan ayam goreng crispy dengan berbagai varian menu, cocok dinikmati oleh masyarakat maupun wisatawan.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/404.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2375768,
+          -5.5323943
+        ]
+      },
+      "properties": {
+        "ID": 405,
+        "NAMA_USAHA": "Bengkel Motor Alam Jaya",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.30 - 16.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Bengkel Motor Alam Jaya melayani perbaikan dan perawatan sepeda motor serta menyediakan berbagai kebutuhan suku cadang untuk mendukung kenyamanan berkendara.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/405.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2375744,
+          -5.532377
+        ]
+      },
+      "properties": {
+        "ID": 406,
+        "NAMA_USAHA": "Toko Baju Humaira",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Raya Way Ratay, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual  berbagai macam model pakaian dewasa dan anak - anak",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/406.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2376536,
+          -5.5312994
+        ]
+      },
+      "properties": {
+        "ID": 407,
+        "NAMA_USAHA": "Warung Berkah Kelapa",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Kompas, Belakang Pasar, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung Berkah Kelapa menyediakan berbagai kebutuhan dapur dan menerima jasa gilingan bumbu seperti cabai, kacang, beras menjadi terigu, beras ketan, gula, kopi, kelapa parut, santan, serta minyak klentik.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/407.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2376646,
+          -5.5313291
+        ]
+      },
+      "properties": {
+        "ID": 408,
+        "NAMA_USAHA": "Intan Plastik",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 15.00",
+        "ALAMAT": "Jl. Kompas, Belakang Pasar, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Toko ini menyediakan berbagai macam kebutuhan kemasan seperti plastik, kantong plastik, plastik kemasan, styrofoam, plastik cup, dus, dan mika.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/408.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2376975,
+          -5.53155
+        ]
+      },
+      "properties": {
+        "ID": 409,
+        "NAMA_USAHA": "Raffles Frozen",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 20.00",
+        "ALAMAT": "Jl. Kompas, Belakang Pasar, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "enjual berbagai produk frozen food (makanan beku) siap masak dan siap saji.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/409.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2400407,
+          -5.5323256
+        ]
+      },
+      "properties": {
+        "ID": 410,
+        "NAMA_USAHA": "Tanto Ayam Potong",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.00 - 17.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha penyedia ayam potong segar yang melayani kebutuhan konsumen rumah tangga, warung makan, hingga usaha kuliner dengan kualitas terjamin.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/410.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23923,
+          -5.5322832
+        ]
+      },
+      "properties": {
+        "ID": 411,
+        "NAMA_USAHA": "Sate Ayam Bude Hanura",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "17.00 - 22.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha kuliner yang menyajikan sate ayam dan soto ayam dengan cita rasa tradisional, cocok untuk dinikmati bersama keluarga maupun teman",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/411.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2380348,
+          -5.5342147
+        ]
+      },
+      "properties": {
+        "ID": 412,
+        "NAMA_USAHA": "Opsi Jaya",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 20.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha yang menyediakan layanan penjualan pulsa, paket data, token listrik, serta berbagai kebutuhan telekomunikasi.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/412.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2388156,
+          -5.5336197
+        ]
+      },
+      "properties": {
+        "ID": 413,
+        "NAMA_USAHA": "Agen Sembako Eceran/Grosir dan Warmindo Mbak Lis",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00  - 20.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menjual segala kebutuhan dapur  secara grosir maupun eceran",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/413.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2388223,
+          -5.5333391
+        ]
+      },
+      "properties": {
+        "ID": 414,
+        "NAMA_USAHA": "Fazaa Salon",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "07.00 - 18.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha jasa perawatan dan kecantikan khusus wanita yang menawarkan layanan salon lengkap untuk menunjang penampilan.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/414.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2386637,
+          -5.5337105
+        ]
+      },
+      "properties": {
+        "ID": 415,
+        "NAMA_USAHA": "Amira  Bordir",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "07.00 - 16.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha kerajinan bordir yang menghasilkan produk jahitan dengan desain rapi dan berkualitas.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/415.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2386386,
+          -5.5335963
+        ]
+      },
+      "properties": {
+        "ID": 416,
+        "NAMA_USAHA": "Warung Emi",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 18.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung jajanan yang menjual aneka makanan ringan seperti nugget, sosis, mie jablay, es, dan berbagai camilan ciki.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/416.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2378909,
+          -5.5336551
+        ]
+      },
+      "properties": {
+        "ID": 417,
+        "NAMA_USAHA": "Bengkel",
+        "JENIS_USAHA": "Otomotif",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha bengkel yang melayani servis, perawatan, dan penyediaan suku cadang sepeda motor.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/417.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2413329,
+          -5.5339064
+        ]
+      },
+      "properties": {
+        "ID": 418,
+        "NAMA_USAHA": "Sri Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha penjualan pulsa, paket data, token listrik, dan kebutuhan layanan telekomunikasi lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/418.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2403224,
+          -5.5366021
+        ]
+      },
+      "properties": {
+        "ID": 420,
+        "NAMA_USAHA": "Keenan Art",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "09.00 - 04.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha kreatif di bidang jasa dokumentasi di Lampung, meliputi foto dan video untuk berbagai acara dan kebutuhan.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/420.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2408712,
+          -5.5369762
+        ]
+      },
+      "properties": {
+        "ID": 421,
+        "NAMA_USAHA": "Kelanting Sumber Rezeki",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha rumahan yang memproduksi camilan tradisional kelanting dengan rasa gurih renyah.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/421.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.237555,
+          -5.5320482
+        ]
+      },
+      "properties": {
+        "ID": 422,
+        "NAMA_USAHA": "Paris Cell",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 23.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha yang menyediakan layanan penjualan pulsa dan kebutuhan telekomunikasi sekaligus menjual berbagai kebutuhan pokok dan sembako.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/422.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2374376,
+          -5.5318347
+        ]
+      },
+      "properties": {
+        "ID": 423,
+        "NAMA_USAHA": "Ayam Bakar Ayu Sari",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 21.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha kuliner yang menyajikan ayam bakar sebagai menu andalan serta berbagai pilihan hidangan lain dengan cita rasa khas.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/423.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2419223,
+          -5.5300066
+        ]
+      },
+      "properties": {
+        "ID": 424,
+        "NAMA_USAHA": "Pemancingan Tidar",
+        "JENIS_USAHA": "Pariwisata dan Jasa Akomodasi",
+        "JAM_OPERASIONAL": "07.00 - 24.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha wisata pemancingan yang menyediakan kolam ikan sekaligus tempat bersantai untuk keluarga dan pengunjung.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/424.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2375855,
+          -5.5320893
+        ]
+      },
+      "properties": {
+        "ID": 425,
+        "NAMA_USAHA": "Kurnia Toys",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 22.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha yang menjual berbagai mainan anak dengan pilihan beragam dan harga terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/425.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2376844,
+          -5.5323049
+        ]
+      },
+      "properties": {
+        "ID": 426,
+        "NAMA_USAHA": "Yuyun Salon dan Baby Shop",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha yang menyediakan layanan salon kecantikan, penjualan perlengkapan bayi, serta jasa dekorasi pernikahan dan acara lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/426.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2377297,
+          -5.532397
+        ]
+      },
+      "properties": {
+        "ID": 427,
+        "NAMA_USAHA": "Toko Atribut",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha yang menjual berbagai perlengkapan dan atribut militer seperti baju loreng, sepatu PDL, topi, serta aksesoris pendukung lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/427.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2376465,
+          -5.5311112
+        ]
+      },
+      "properties": {
+        "ID": 428,
+        "NAMA_USAHA": "Petshop Endah",
+        "JENIS_USAHA": "Pertanian dan Perdagangan Bibit",
+        "JAM_OPERASIONAL": "07.00 - 16.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha yang menyediakan kebutuhan hewan peliharaan seperti pakan, aksesoris, serta layanan perawatan sederhana untuk hewan kesayangan.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/428.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2365656,
+          -5.5303813
+        ]
+      },
+      "properties": {
+        "ID": 429,
+        "NAMA_USAHA": "Roti Bakar dan Kukus AA",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "17.00 -  24.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha kuliner yang menyajikan roti bakar dan roti kukus dengan berbagai pilihan rasa sebagai camilan maupun teman bersantai.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/429.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2416467,
+          -5.5330891
+        ]
+      },
+      "properties": {
+        "ID": 430,
+        "NAMA_USAHA": "Gabin Fla Susu",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 21.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha kuliner yang menawarkan gabin fla susu dengan beragam rasa dan pilihan topping unik, cocok untuk camilan manis kekinian.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/430.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2380867,
+          -5.5314946
+        ]
+      },
+      "properties": {
+        "ID": 431,
+        "NAMA_USAHA": "Dinnails.art",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "08.00 - 22.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Usaha jasa perawatan dan seni kuku (nail art) yang menawarkan desain kreatif serta layanan kecantikan kuku profesional.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/431.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.231693,
+          -5.5332293
+        ]
+      },
+      "properties": {
+        "ID": 432,
+        "NAMA_USAHA": "Jajanan Huhahh",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "09.00 - 17.00",
+        "ALAMAT": "Hanura, kecamatan Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menerima pesanan dan menjual berbagai macam cemilan pedas yang lezat seperti bakso mercon, ceker mercon, tahu isi, dan lain - lain.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/432.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2281445,
+          -5.5343686
+        ]
+      },
+      "properties": {
+        "ID": 434,
+        "NAMA_USAHA": "Lasmi Wedding",
+        "JENIS_USAHA": "Perawatan dan Kecantikan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Gg. Mangga, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Lasmi Makeup menyediakan jasa rias wajah untuk berbagai acara, mulai dari pesta, wisuda, hingga pernikahan dengan layanan profesional.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/434.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2342103,
+          -5.53272
+        ]
+      },
+      "properties": {
+        "ID": 435,
+        "NAMA_USAHA": "Kue Kering Nelly AZ",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Jl. Trubus, Hanura, Kec. Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Kue Kering dan Kukis Nelly memproduksi aneka kue kering dan kukis dengan berbagai varian rasa, cocok untuk sajian keluarga maupun hidangan saat acara.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/435.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2366323,
+          -5.5325381
+        ]
+      },
+      "properties": {
+        "ID": 436,
+        "NAMA_USAHA": "Kedai Finola",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "08.00 - 17.00",
+        "ALAMAT": "Jl. Pramuka, Hanura, Kecamatan Teluk Pandan",
+        "DESKRIPSI": "Kedai Finola menyediakan berbagai macam cemilan dan makanan ringan yang cocok untuk teman bersantai maupun hidangan keluarga.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/436.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2281445,
+          -5.5343686
+        ]
+      },
+      "properties": {
+        "ID": 437,
+        "NAMA_USAHA": "Warung Abah Sapri",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "enyediakan berbagai kebutuhan sehari-hari dan perlengkapan rumah tangga dengan harga terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/437.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2410237,
+          -5.5365347
+        ]
+      },
+      "properties": {
+        "ID": 438,
+        "NAMA_USAHA": "Keramba Untung",
+        "JENIS_USAHA": "Pertanian dan Perdagangan Bibit",
+        "JAM_OPERASIONAL": "-",
+        "ALAMAT": "Hanura, Kec. Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Keramba Untung merupakan usaha budidaya ikan laut yang dikelola secara keramba, menyediakan ikan segar untuk konsumsi maupun pasokan ke warung makan.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/438.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2396136,
+          -5.5350904
+        ]
+      },
+      "properties": {
+        "ID": 439,
+        "NAMA_USAHA": "Warung Jijah",
+        "JENIS_USAHA": "Kuliner",
+        "JAM_OPERASIONAL": "10.00 - 21.00",
+        "ALAMAT": "Gg. Damai, Hanura, Teluk Pandan, Pesawaran",
+        "DESKRIPSI": "Menyediakan berbagai pilihan kuliner seperti sate frozen food, mie jablay, sempol, bakso kuah, serta aneka minuman es yang segar.",
+        "FOTO": "image/Dokumentasi UMKM/HANURA/439.jpg"
+      }
+    }
+  ]
+}

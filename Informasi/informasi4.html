@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<ht lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Rekomendasi UMKM</title>
+
+  <style>
+    .card-expand {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1.05);
+      z-index: 50;
+      max-width: 90%;
+      max-height: 90%;
+      overflow-y: auto;
+      transition: all 0.3s ease;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      background-color: white;
+    }
+  </style>
+</head>
+
+<section class="py-16 max-w-screen-xl mx-auto px-6">
+    <h3 class="text-4xl font-bold text-center mb-10">Sektor UMKM Potensial</h3>
+    <p class="text-center max-w-3xl mx-auto mb-10 text-gray-700">
+    Teluk Pandan memiliki berbagai sektor UMKM potensial yang mendukung perekonomian lokal. Mulai dari kuliner, pariwisata, hingga kerajinan, masing-masing sektor menawarkan peluang besar untuk berkembang.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Card 1 -->
+        <div onclick="expandCard('pariwisata')" class="bg-orange-50 rounded-2xl p-6 shadow hover:shadow-xl transition-all duration-300 cursor-pointer">
+            <img src="/image/pariwisata.jpg" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h4 class="text-xl font-bold">Pariwisata dan Jasa Akomodasi</h4>
+            <p class="text-gray-700 line-clamp-2">Sektor unggulan yang mendukung perekonomian berbasis wisata di Teluk Pandan.</p>
+            <p class="text-orange-600 font-semibold text-right mt-2">Lihat lebih banyak</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div onclick="expandCard('kuliner')" class="bg-orange-50 rounded-2xl p-6 shadow hover:shadow-xl transition-all duration-300 cursor-pointer">
+            <img src="/image/kuliner.jpg" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h4 class="text-xl font-bold">Kuliner</h4>
+            <p class="text-gray-700 line-clamp-2">Sektor yang selalu tumbuh karena kebutuhan sehari-hari dan peluang wisata kuliner lokal.</p>
+            <p class="text-orange-600 font-semibold text-right mt-2">Lihat lebih banyak</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div onclick="expandCard('kerajinan')" class="bg-orange-50 rounded-2xl p-6 shadow hover:shadow-xl transition-all duration-300 cursor-pointer">
+            <img src="/image/kerajinan.jpg" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h4 class="text-xl font-bold">Kerajinan & Kreatif</h4>
+            <p class="text-gray-700 line-clamp-2">Sektor kerajinan dan kreatif yang menghasilkan produk unik, bernilai seni, dan mendukung ekonomi lokal.</p>
+            <p class="text-orange-600 font-semibold text-right mt-2">Lihat lebih banyak</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div onclick="expandCard('perdagangan')" class="bg-orange-50 rounded-2xl p-6 shadow hover:shadow-xl transition-all duration-300 cursor-pointer">
+            <img src="/image/perdagangan.jpg" class="w-full h-48 object-cover rounded-xl mb-4">
+            <h4 class="text-xl font-bold">Perdagangan</h4>
+            <p class="text-gray-700 line-clamp-2">Sektor perdagangan berperan penting dalam mendukung pertumbuhan UMKM dan memperluas jangkauan produk</p>
+            <p class="text-orange-600 font-semibold text-right mt-2">Lihat lebih banyak</p>
+        </div>
+    </div>
+</section>
+
+        <!-- Expanded Card 1 -->
+        <div id="card-pariwisata-expanded" class="hidden card-expand rounded-2xl p-6">
+            <button onclick="closeCard('pariwisata')" class="absolute top-4 right-6 text-gray-600 hover:text-red-600 text-2xl font-bold">&times;</button>
+            <img src="/image/pariwisata.jpg" class="w-full h-60 object-cover rounded-xl mb-4">
+            <h4 class="text-2xl font-bold mb-2">Pariwisata dan Jasa Akomodasi</h4>
+            <p class="text-gray-700 leading-relaxed text-justify">
+            Sektor pariwisata dan jasa akomodasi di Kecamatan Teluk Pandan memiliki potensi besar untuk mendukung pertumbuhan ekonomi lokal. Keberadaan berbagai destinasi wisata pantai, wisata bahari, serta atraksi budaya telah menjadi daya tarik utama bagi wisatawan, baik domestik maupun mancanegara. Perkembangan ini menciptakan peluang luas bagi UMKM untuk terlibat, mulai dari penyediaan layanan transportasi, kuliner khas, hingga penyewaan peralatan wisata.
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
+            Selain itu, jasa akomodasi seperti homestay, penginapan, dan resort skala kecil juga sangat dibutuhkan untuk menunjang kenyamanan wisatawan. Kehadiran UMKM dalam bidang akomodasi mampu memberikan pengalaman lokal yang lebih autentik sekaligus membuka lapangan pekerjaan bagi masyarakat sekitar. Dukungan terhadap sektor pariwisata dan jasa akomodasi akan memperkuat citra Teluk Pandan sebagai destinasi wisata unggulan serta menjadikan UMKM sebagai motor penggerak perekonomian daerah.
+            </p>
+        </div>
+
+        <!-- Expanded Card 2 -->
+        <div id="card-kuliner-expanded" class="hidden card-expand rounded-2xl p-6">
+            <button onclick="closeCard('kuliner')" class="absolute top-4 right-6 text-gray-600 hover:text-red-600 text-2xl font-bold">&times;</button>
+            <img src="/image/kuliner.jpg" class="w-full h-60 object-cover rounded-xl mb-4">
+            <h4 class="text-2xl font-bold mb-2">Kuliner</h4>
+            <p class="text-gray-700 leading-relaxed text-justify">
+                Sektor kuliner menjadi salah satu pilar utama UMKM di Kecamatan Teluk Pandan. Keberadaan warung makan, kafe, pedagang kaki lima, hingga usaha katering menjadikan sektor ini tidak hanya memenuhi kebutuhan konsumsi sehari-hari masyarakat, tetapi juga menjadi daya tarik tersendiri bagi wisatawan.            
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
+            Ragam kuliner lokal dengan cita rasa khas pesisir, seperti olahan seafood, makanan tradisional, hingga camilan khas, berpotensi besar untuk dipromosikan sebagai identitas daerah. Selain memberikan pengalaman gastronomi yang unik, sektor kuliner juga mendorong pemanfaatan hasil perikanan dan pertanian lokal sehingga meningkatkan nilai tambah produk masyarakat.    
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
+            Dukungan pada sektor kuliner akan memperluas peluang usaha, membuka lapangan kerja baru, serta memperkuat keterkaitan antara UMKM dengan sektor pariwisata. Dengan strategi promosi yang tepat, kuliner dapat menjadi magnet utama yang meningkatkan jumlah kunjungan wisata ke Teluk Pandan.
+            </p>
+        </div>
+
+        <!-- Expanded Card 3-->
+        <div id="card-kerajinan-expanded" class="hidden card-expand rounded-2xl p-6">
+            <button onclick="closeCard('kerajinan')" class="absolute top-4 right-6 text-gray-600 hover:text-red-600 text-2xl font-bold">&times;</button>
+            <img src="/image/kerajinan.jpg" class="w-full h-60 object-cover rounded-xl mb-4">
+            <h4 class="text-2xl font-bold mb-2 text-justify">Kerajinan & Kreatif</h4>
+            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
+            Sektor kerajinan dan kreatif mencakup industri yang menghasilkan produk atau karya yang memiliki nilai seni, estetika, atau fungsional dan sering kali dibuat secara handmade atau dengan sentuhan kreatif. Tujuan utamanya adalah memanfaatkan kreativitas untuk menciptakan barang atau jasa yang unik yang bisa dikomersialkan, baik untuk pasar lokal maupun wisatawan.
+            </p>
+        </div>
+
+        <!-- Expanded Card 4 -->
+        <div id="card-perdagangan-expanded" class="hidden card-expand rounded-2xl p-6">
+            <button onclick="closeCard('perdagangan')" class="absolute top-4 right-6 text-gray-600 hover:text-red-600 text-2xl font-bold">&times;</button>
+            <img src="/image/perdagangan.jpg" class="w-full h-60 object-cover rounded-xl mb-4">
+            <h4 class="text-2xl font-bold mb-2">Perdagangan</h4>
+            <p class="text-gray-700 leading-relaxed text-justify">
+            Sektor perdagangan memiliki peran strategis dalam memperkuat ekonomi lokal, membuka peluang usaha, dan meningkatkan daya saing produk UMKM. Aktivitas perdagangan yang efisien mendorong distribusi produk secara lebih luas dan mendukung pertumbuhan ekonomi masyarakat.
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
+            Promosi sektor perdagangan bertujuan memperluas akses pasar bagi produk lokal, meningkatkan visibilitas UMKM, dan mendorong inovasi serta kreativitas dalam menghadapi dinamika pasar.
+            </p>
+        </div>
+
+
+
+<!-- Script Fungsi Buka Tutup Card -->
+<script>
+  // Fungsi untuk buka card
+  function expandCard(id) {
+    // Sembunyikan semua card yang lagi terbuka
+    document.querySelectorAll('.card-expand').forEach(card => {
+      card.classList.add('hidden');
+    });
+
+    // Tampilkan card sesuai id
+    const expandedCard = document.getElementById(`card-${id}-expanded`);
+    if (expandedCard) {
+      expandedCard.classList.remove('hidden');
+    }
+
+    // Tambahin overlay gelap di belakang biar fokus ke card
+    addOverlay();
+  }
+
+  // Fungsi untuk tutup card
+  function closeCard(id) {
+    const expandedCard = document.getElementById(`card-${id}-expanded`);
+    if (expandedCard) {
+      expandedCard.classList.add('hidden');
+    }
+
+    removeOverlay();
+  }
+
+  // Bikin overlay hitam semi transparan
+  function addOverlay() {
+    if (!document.getElementById('overlay')) {
+      const overlay = document.createElement('div');
+      overlay.id = 'overlay';
+      overlay.className = 'fixed inset-0 bg-black/50 z-40';
+      overlay.onclick = () => {
+        document.querySelectorAll('.card-expand').forEach(card => {
+          card.classList.add('hidden');
+        });
+        removeOverlay();
+      };
+      document.body.appendChild(overlay);
+    }
+  }
+
+  // Hapus overlay
+  function removeOverlay() {
+    const overlay = document.getElementById('overlay');
+    if (overlay) {
+      overlay.remove();
+    }
+  }
+</script>
+
+<!--Footer-->
+<footer class="bg-orange-950 text-white py-8">
+    <div class="max-w-screen-xl mx-auto px-4 text-center">
+        <h4 class="text-2xl font-semibold mb-2">Annisa Maulina</h4>
+        <p class="text-sm mb-1">2115013009</p>
+        <p class="text-sm mb-3">Teknik Geodesi dan Geomatika</p>
+    
+        <p class="text-xs text-white/80">© 2025 | WebGIS UMKM Teluk Pandan</p>
+    </div>
+</footer>
+
+</body>
+</html>

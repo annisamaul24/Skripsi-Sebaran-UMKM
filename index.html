@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Konfigurasi Tailwind -->
+  <script>
+    tailwind.config = {
+      corePlugins: {
+        preflight: true, // pastikan CSS reset aktif
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Persebaran UMKM Teluk Pandan</title>
+
+  <!--link CSS-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin="">
+  </script>
+  
+<!-- Leaflet Routing Machine -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.min.js"></script>
+
+  <!-- ... tailwind.css & leaflet.css ... -->
+      <style>
+          /* Pastikan header di atas segalanya */
+          header {
+              z-index: 9999;    /* atau z-[9999] di Tailwind */
+          }
+
+          /* Turunkan semua kontrol Leaflet di dalam #map */
+          #map .leaflet-control {
+              z-index: 0 !important;
+          }   
+      </style>
+</head>
+<body>
+  <!--header-->
+  <header class="bg-orange-950 sticky top-0 z-[1000]">
+    <nav class="text-white max-w-screen-xl mx-auto py-4 flex justify-between items-center px-4">
+        <a href="" class="text-2xl font-bold">UMKM Teluk Pandan</a>
+        <ul class="menu hidden md:flex md:bg-orange-950 md:relative md:top-0 md:divide-y-0">
+            <li class="px-5 py-1 hover:text-cyan-400"><a href="#beranda">Beranda</a></li>
+            <li class="px-5 py-1 hover:text-cyan-400"><a href="#informasi">Informasi</a></li>
+            <li class="px-5 py-1 hover:text-cyan-400"><a href="#peta">Peta</a></li>
+            <li class="px-5 py-1 hover:text-cyan-400"><a href="#event">Event</a></li>
+            <li class="px-5 py-1 hover:text-cyan-400"><a href="#kontak">Kontak</a></li>
+        </ul>
+        <button class="hamburger-menu md:hidden text-2xl">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark hidden"></i>
+        </button>
+    </nav>
+  </header>
+
+ <script>// Menunggu seluruh dokumen HTML selesai dimuat sebelum menjalankan script
+document.addEventListener('DOMContentLoaded', () => {
+    // Mengambil elemen dengan class .menu (menu navigasi)
+    const menu = document.querySelector('.menu');
+    // Mengambil elemen tombol/menu icon (biasanya ikon hamburger)
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    // Mengambil ikon "bars" dari Font Awesome untuk menunjukkan menu tertutup
+    const iconBars = document.querySelector('.fa-bars');
+    // Mengambil ikon "xmark" dari Font Awesome untuk menunjukkan menu terbuka
+    const iconClose = document.querySelector('.fa-xmark');
+    // Mengambil semua elemen link di dalam menu untuk mendeteksi klik pada link
+    const menuLinks = document.querySelectorAll('.menu a'); // Semua link di menu
+
+    // Fungsi untuk menutup menu (menghilangkan menu dan mengatur ikon kembali ke bars)
+    function closeMenu() {
+        menu.classList.add('hidden'); // Menyembunyikan menu
+        iconBars.classList.remove('hidden'); // Menampilkan ikon bars
+        iconClose.classList.add('hidden'); // Menyembunyikan ikon close
+        // Menghapus class yang membuat menu jadi tampak seperti modal/dropdown
+        menu.classList.remove('absolute', 'top-14', 'w-full', 'left-0', 'right-auto', 'bg-yellow-600', 'divide-white', 'divide-y-2');
+    }
+
+    // Fungsi untuk membuka menu (menampilkan menu dan mengganti ikon ke xmark)
+    function openMenu() {
+        menu.classList.remove('hidden'); // Menampilkan menu
+        iconBars.classList.add('hidden'); // Menyembunyikan ikon bars
+        iconClose.classList.remove('hidden'); // Menampilkan ikon close
+        // Menambahkan class yang mengatur posisi dan tampilan menu ketika terbuka
+        menu.classList.add('absolute', 'top-14', 'w-full', 'left-0', 'right-auto', 'bg-yellow-600', 'divide-white', 'divide-y-2');
+    }
+
+    // Event listener saat tombol hamburger di-klik
+    hamburgerMenu.addEventListener('click', () => {
+        // Mengecek apakah menu dalam keadaan terbuka (dengan class absolute)
+        const isOpen = menu.classList.contains('absolute');
+        if (isOpen) {
+            closeMenu(); // Jika terbuka, maka tutup
+        } else {
+            openMenu(); // Jika tertutup, maka buka
+        }
+    });
+
+    // Menambahkan event listener pada setiap link di menu
+    // Jika link diklik, dan window berukuran mobile, maka menu akan ditutup otomatis
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth < 768) { // Hanya berlaku di ukuran layar mobile
+                closeMenu();
+            }
+        });
+    }); 
+
+    // Event listener untuk merespons perubahan ukuran jendela
+    window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768) {
+            // Jika ukuran desktop: pastikan menu terlihat dan ikon bars aktif
+            menu.classList.remove('hidden');
+            menu.classList.remove('absolute', 'top-14', 'w-full', 'left-0', 'right-auto', 'bg-yellow-600', 'divide-white', 'divide-y-2');
+            iconBars.classList.remove('hidden');
+            iconClose.classList.add('hidden');
+        } else {
+            // Jika ukuran mobile: sembunyikan menu
+            closeMenu();
+        }
+    });
+});
+</script> 
+
+<!-- Beranda -->
+<section id="beranda" class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('image/beranda2.png');">
+  <div class="text-center px-4 md:px-8">
+    <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Teluk Pandan Bersinar</h2>
+    <h3 class="text-lg md:text-xl font-semibold text-white mb-4">Dari Tepi Laut, Karya Hebat Tumbuh</h3>
+    <p class="text-sm md:text-base text-white mb-6 max-w-2xl mx-auto">
+      Teluk Pandan bukan sekadar wilayah pesisir, ia adalah rumah bagi kreativitas, semangat, dan ketekunan. Di antara debur ombak dan hamparan alamnya yang indah, tumbuh beragam pelaku usaha yang menghadirkan cita rasa, layanan tulus, kerajinan tangan yang memikat, dan karya seni penuh makna. Melalui peta digital ini, mari kita telusuri bersama cahaya-cahaya kecil yang menyinari Teluk Pandan, menjadikannya bersinar di peta ekonomi kreatif Indonesia.
+    </p>
+    <a href="#informasi" class="bg-cyan-300 text-white py-2 px-6 rounded-xl hover:bg-cyan-700 transition duration-300">
+      Jelajahi Sekarang
+    </a>
+  </div>
+</section>
+
+
+  <!--Informasi-->
+  <section id="informasi" class="bg-white py-28">
+    <div class="w-11/12 max-w-screen-xl mx-auto px-4">
+        <h3 class="text-5xl font-bold text-center mb-5">Informasi UMKM</h3>
+        <p class="text-center mb-5">Dapatkan gambaran lengkap tentang UMKM di Kecamatan Teluk Pandan melalui informasi berikut.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!--informasi 1-->
+          <div class="flex space-x-5 py-8 px-8 bg-[#F4E3C1] rounded-xl items-start">
+              <i class="fas fa-map text-4xl text-yellow-500"></i>
+              <div>
+                  <h4 class="text-2xl font-bold text-[#3E2C23]">Kecamatan Teluk Pandan</h4>
+                  <p class="mb-2 text-[#5A463A]">Kecamatan Teluk Pandan merupakan wilayah pesisir di Kabupaten Pesawaran dengan 6 desa aktif. Potensi wilayahnya sangat mendukung pengembangan UMKM, terutama di sektor kuliner dan wisata.</p>
+                  <a href="Informasi/informasi1.html" class="text-yellow-600 hover:text-yellow-800">Baca Selengkapnya</a>
+              </div>
+          </div>
+
+          <!--informasi 2-->
+          <div class="flex space-x-5 py-8 px-8 bg-[#F4E3C1] rounded-xl items-start">
+              <i class="fas fa-layer-group text-4xl text-yellow-500"></i>
+              <div>
+                  <h4 class="text-2xl font-bold text-[#3E2C23]">Jenis UMKM</h4>
+                  <p class="mb-2 text-[#5A463A]">UMKM terdiri dari usaha mikro, kecil, dan menengah yang dibedakan berdasarkan omzet dan aset. Ketiganya berperan penting dalam mendukung perekonomian.</p>
+                  <a href="Informasi/informasi2.html" class="text-yellow-600 hover:text-yellow-800">Baca Selengkapnya</a>
+              </div>
+          </div>
+
+          <!--informasi 3-->
+          <div class="flex space-x-5 py-8 px-8 bg-[#F4E3C1] rounded-xl items-start">
+              <i class="fas fa-map-marked-alt text-4xl text-yellow-500"></i>
+              <div>
+                  <h4 class="text-2xl font-bold text-[#3E2C23]">Sebaran UMKM</h4>
+                  <p class="mb-2 text-[#5A463A]">UMKM tersebar di hampir seluruh desa, dengan konsentrasi tertinggi di wilayah pesisir dan pusat desa. Pemetaan dilakukan menggunakan WebGIS untuk memudahkan analisis spasial dan akses data.</p>
+                  <a href="Informasi/informasi3.html" class="text-yellow-600 hover:text-yellow-800">Baca Selengkapnya</a>
+              </div>
+          </div>
+
+          <!--informasi 4-->
+          <div class="flex space-x-5 py-8 px-8 bg-[#F4E3C1] rounded-xl items-start">
+              <i class="fas fa-star text-4xl text-yellow-500"></i>
+              <div>
+                  <h4 class="text-2xl font-bold text-[#3E2C23]">Sektor UMKM Potensial</h4>
+                  <p class="mb-2 text-[#5A463A]">Teluk Pandan menyimpan banyak potensi UMKM yang mungkin belum kamu kenal. Mulai dari kuliner lezat, penginapan wisata, hingga kerajinan tangan bernilai tinggi. Yuk, cari tahu sektor mana yang paling menarik perhatianmu!</p>
+                  <a href="Informasi/informasi4.html" class="text-yellow-600 hover:text-yellow-800">Baca Selengkapnya</a>
+              </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+<!-- ======== PETA & DAFTAR UMKM RESPONSIVE ======== -->
+<section class="bg-white py-10">
+  <!-- Anchor untuk scroll -->
+  <span id="peta" class="block scroll-mt-20"></span>
+
+  <div class="max-w-[1400px] mx-auto px-4 lg:flex lg:gap-4">
+    
+<!-- Sidebar Ramping dengan Scroll -->
+<div class="w-full lg:w-1/4 mb-6 lg:mb-0">
+  <div class="bg-white/95 p-5 rounded-xl shadow-lg border border-gray-200 overflow-y-auto"
+       style="height: 86vh;">
+    <h3 class="text-2xl font-bold mb-4 text-center text-gray-800">Daftar UMKM</h3>
+    <div id="info-layer" class="text-sm text-red-600 mb-2">
+    ⚠️ Aktifkan layer Desa di Layer Control agar marker UMKM muncul.
+    </div>
+    <div id="list-umkm" class="space-y-4"></div> 
+  </div>
+</div>
+
+<!-- Peta Lebih Luas -->
+<div class="w-full lg:w-3/4 flex flex-col items-center">
+  <h3 class="text-3xl font-bold text-center mb-2">Peta Sebaran UMKM</h3>
+  <p class="text-center mb-4 text-gray-700 max-w-full px-2">
+    Peta ini menampilkan lokasi sebaran UMKM di Kecamatan Teluk Pandan. Klik ikon pada peta untuk melihat informasi lebih lanjut.
+  </p>
+  <div id="map" class="w-full h-[75vh] rounded-lg shadow-md"></div>
+</div>
+
+  </div>
+</section>
+
+<!-- Memanggil file map.js -->
+<script src="peta.js"></script>
+
+  <!--Event UMKM-->
+  <section id="event" class="py-36 bg-orange-100 min-h-screen">
+    <h3 class="text-5xl font-bold text-center mb-5">Event UMKM</h3>
+    <p class="text-center mb-8">Berisi liputan singkat seputar berbagai event dan berita terbaru UMKM.</p>
+    <div class="grid grid-cols-2 md:grid-cols-4 max-w-screen-xl mx-auto px-4 gap-6">
+        <!--Event UMKM 1-->
+        <div class="shadow-xl bg-white rounded-xl overflow-hidden hover:shadow-2xl transition">
+          <a href="https://lampungnewspaper.disway.id/read/12492/perempuan-cerdas-digital-harapan-baru-umkm-pesawaran-dan-pringsewu-di-era-ai" target="_blank">
+            <img src="https://lampungnewspaper.disway.id/upload/a9b88b72f224f696329fc9cb37530acc.jpg" class="w-full h-48 object-cover" />
+            <div class="p-4">
+              <h4 class="font-bold text-lg mb-2">Perempuan Cerdas Digital: Harapan Baru UMKM</h4>
+              <p class="text-sm text-gray-600">Pelatihan digitalisasi UMKM di Pesawaran dan Pringsewu membekali perempuan untuk adaptif terhadap era AI...</p>
+            </div>
+          </a>
+        </div>
+
+        <!--Event UMKM 2-->
+        <div class="shadow-xl bg-white rounded-xl overflow-hidden hover:shadow-2xl transition">
+          <a href="https://www.instagram.com/p/DM-gsg2vFYb/?img_index=1&igsh=bXNqMXBzb2VnZWQ1" target="_blank">
+            <img src="image/event 2.jpg" class="w-full h-48 object-cover" />
+            <div class="p-4">
+              <h4 class="font-bold text-lg mb-2">UMKM Pesawaran Naik Kelas</h4>
+              <p class="text-sm text-gray-600">Dinas Koperasi UKM & Tenaga Kerja Kabupaten Pesawaran hadirkan sosialisasi perlindungan kerja dan akses pembiayaan untuk dorong skala usaha mikro men...</p>
+            </div>
+          </a>
+        </div>
+
+        <!--Event UMKM 3-->
+        <div class="shadow-xl bg-white rounded-xl overflow-hidden hover:shadow-2xl transition">
+          <a href="https://lampung.kemenag.go.id/berita/detail/ka-kemenag-pesawaran-dukung-penuh-pengembangan-umkm-bersama-kejari-pesawaran" target="_blank">
+            <img src="https://lampung.kemenag.go.id/assets/img/kabar/2025-08-12_221048_kabar.jpeg" class="w-full h-48 object-cover" />
+            <div class="p-4">
+              <h4 class="font-bold text-lg mb-2">Ka. Kemenag Pesawaran Dukung Penuh Pengembangan UMKM Bersama Kejari Pesawaran</h4>
+              <p class="text-sm text-gray-600">Farid Wajedi menyambut baik sinergi lintas sektor ini. Baginya, sertifikasi halal bukan hanya...</p>
+            </div>
+          </a>
+        </div>
+
+        <!--Event UMKM 4-->
+        <div class="shadow-xl bg-white rounded-xl overflow-hidden hover:shadow-2xl transition">
+          <a href="https://bintangpost.com/read/9475/kejari-pesawaran-fasilitasi-umkm-terbitkan-nib-dan-sertifikasi-halal" target="_blank">
+            <img src="http://bintangpost.com/images/media/artikel/7297cd1df86618f28da0a50375e6f637.JPG" class="w-full h-48 object-cover" />
+            <div class="p-4">
+              <h4 class="font-bold text-lg mb-2">Kejari Pesawaran Fasilitasi UMKM Terbitkan NIB dan Sertifikasi Halal</h4>
+              <p class="text-sm text-gray-600">Diketahui, Kejari Pesawaran tampil sebagai motor penggerak pemberdayaan ekonomi masyarakat dengan...</p>
+            </div>
+          </a>
+        </div>
+    </div>
+  </section>
+
+<!-- Kontak -->
+<section id="kontak" class="min-h-screen bg-white text-black py-28">
+  <h3 class="text-3xl md:text-5xl font-bold text-center mb-12">Kontak Kami</h3>
+
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row gap-10 items-center">
+    <!-- Profil (di atas di layar kecil, kiri di layar besar) -->
+    <div class="text-center md:text-left w-full md:w-1/2 mb-8 md:mb-0">
+      <div class="flex justify-center md:justify-start mb-6">
+        <img 
+          src="image/admin.jpg" 
+          alt="Foto Admin" 
+          class="w-32 h-32 md:w-48 md:h-48 object-cover rounded-full shadow-lg"
+        />
+      </div>
+      <p>Annisa Maulina<br>2115013009</p>
+      <p><a href="mailto:annisamaulina87@gmail.com" class="text-blue-400 hover:underline">annisamaulina87@gmail.com</a></p>
+      <p>Program Studi S1 Teknik Geodesi<br>Jurusan Teknik Geodesi dan Geomatika<br>Universitas Lampung</p><br>
+
+      <ul class="flex justify-center md:justify-start space-x-6">
+        <li><a href="https://www.instagram.com/annisamaul24" class="text-2xl text-pink-500 hover:text-pink-700"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/share/15Ee1jeipu/" class="text-2xl text-blue-600 hover:text-blue-800"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://www.tiktok.com/@1sepatukaca" class="text-2xl text-black hover:text-gray-700"><i class="fa-brands fa-tiktok"></i></a></li>
+        <li><a href="#" class="text-2xl text-blue-700 hover:text-blue-900"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+
+    <!-- Form (di bawah di layar kecil, kanan di layar besar) -->
+    <form action="https://formsubmit.co/annisamaulina87@gmail.com" method="POST" class="space-y-4 w-full md:w-1/2">
+      <input type="hidden" name="_captcha" value="false">
+
+      <input type="text" name="name" placeholder="Name" class="w-full p-3 bg-orange-200 border border-orange-950 rounded" required />
+      <input type="text" name="address" placeholder="Address" class="w-full p-3 bg-orange-200 border border-orange-950 rounded" />
+      <textarea name="message" placeholder="Your Message" rows="5" class="w-full p-3 bg-orange-200 border border-orange-950 rounded" required></textarea>
+
+      <button type="submit" class="bg-orange-300 text-black px-6 py-2 font-bold hover:bg-yellow-600 rounded-xl w-full md:w-auto">SEND</button>
+    </form>
+  </div>
+</section>
+
+<!--footer-->
+<footer class="w-11/12 md:container mx-auto py-4 text-center text-orange-950"> &copy; 2025 Peta Sebaran UMKM Teluk Pandan | by Annisa Maulina</footer>
+
+
+
+</body>
+</html>
