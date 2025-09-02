@@ -34,6 +34,7 @@ var batasdesa = L.geoJSON(null, {
 fetch('Geojson/batasdesa.geojson')
     .then(res => res.json())
     .then(data => batasdesa.addData(data));
+    batasdesa.addTo(map);
 
 // ==========================
 // Layer Jaringan Jalan
@@ -375,3 +376,4 @@ var LokasiSayaButton = L.Control.extend({
 });
 
 map.addControl(new LokasiSayaButton());
+
