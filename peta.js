@@ -61,7 +61,7 @@ function popupUMKM(feature, latlng) {
   let foto = feature.properties["FOTO"] || "";
   let deskripsi = feature.properties["DESKRIPSI"] || "";
   let jenis = feature.properties["JENIS_USAHA"] || "-";
-  let jam = feature.properties["JAM OPERASIONAL"] || "-";
+  let jam = feature.properties["JAM_OPERASIONAL"] || "-";
   let alamat = feature.properties["ALAMAT"] || "-";
   let id = feature.properties["ID"] || "";
 
@@ -376,6 +376,7 @@ var LokasiSayaButton = L.Control.extend({
 });
 
 map.addControl(new LokasiSayaButton());
+
 
 
 
