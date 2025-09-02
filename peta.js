@@ -1,7 +1,7 @@
 // ==========================
 // Inisialisasi Peta
 // ==========================
-var map = L.map('map').setView([-5.531802, 105.237589], 11);
+var map = L.map('map').setView([-5.531802, 105.237589], 9);
 
 // Base layer
 var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -376,4 +376,5 @@ var LokasiSayaButton = L.Control.extend({
 });
 
 map.addControl(new LokasiSayaButton());
+
 
