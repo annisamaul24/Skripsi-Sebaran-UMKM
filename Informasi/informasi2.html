@@ -5,360 +5,191 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Sebaran UMKM Kecamatan</title>
+    <title>Jenis UMKM</title>
 </head>
 <body>
+    <!-- Informasi 2 -->
+    <section id="informasi2" class="min-h-screen bg-gradient-to-b from-[#F5F5F0] to-[#FFFFFF] py-20 px-6 text-[#3E2C23] leading-relaxed text-justify">
+        <div class="px-4 sm:px-6 md:px-8 lg:px-36">
+            <h2 class="text-2xl sm:text-3xl md:text-5xl font-bold text-black mb-16 text-center">UMKM</h2>
 
-<!-- Sebaran UMKM -->
-<section id="sebaran" class="py-20 bg-orange-50 min-h-screen">
-  <div class="max-w-screen-xl mx-auto px-4">
-    <h3 class="text-5xl font-bold text-center mb-16 text-orange-600">Sebaran UMKM di Teluk Pandan</h3>
+            <!--Intro-->
+            <div class="text-sm md:text-base text-black leading-relaxed mb-6 w-full mx-auto px-4 sm:px-6 lg:px-20 text-justify">
+                <p>
+                    UMKM memiliki peran penting dalam perekonomian nasional dan daerah. Untuk memahami karakteristik serta kebutuhannya, penting mengetahui klasifikasi UMKM berdasarkan ketentuan hukum yang berlaku. Berikut adalah penjelasan mengenai usaha mikro, kecil, dan menengah sesuai dengan Undang-Undang Nomor 20 Tahun 2008.
+                </p><br>
+                <p> 
+                    Usaha Mikro adalah usaha produktif milik orang perorangan dan atau badan usaha perorangan yang memenuhi kriteria Usaha Mikro. Usaha Kecil adalah usaha ekonomi produktif yang berdiri sendiri, yang dilakukan oleh orang perorangan atau badan usaha yang bukan merupakan anak perusahaan atau bukan cabang perusahaan yang dimiliki, dikuasai, atau menjadi bagian baik langsung maupun tidak langsung dari Usaha Menengah atau Usaha Besar yang memenuhi kriteria Usaha Kecil. Usaha Menengah adalah usaha ekonomi produktif yang berdiri sendiri, yang dilakukan oleh orang perorangan atau badan usaha yang bukan merupakan anak perusahaan atau cabang perusahaan yang dimiliki, dikuasai, atau menjadi bagian baik langsung maupun tidak langsung dengan Usaha Kecil atau Usaha Besar dengan jumlah kekayaan bersih atau hasil penjualan tahunan
+                </p><br>
+                <p>
+                    Usaha Mikro, Kecil, dan Menengah (UMKM) di Indonesia memiliki karakteristik khusus yang membedakannya dari usaha besar. UMKM diklasifikasikan berdasarkan aset (kekayaan bersih) dan omset (hasil penjualan tahunan). Berikut karakteristiknya:
+                </p><br>
+            </div>
+        </div>
 
-  <!-- Narasi -->
-  <div class="mb-6 text-justify max-w-5xl mx-auto">
-    <p class="text-gray-700 leading-relaxed mb-3">
-      UMKM di Kecamatan Teluk Pandan tersebar di seluruh desa dengan jenis usaha yang beragam, mulai dari kuliner,
-      perdagangan, hingga kerajinan. Keberadaan UMKM ini menjadi salah satu penggerak perekonomian masyarakat karena
-      mampu menciptakan lapangan kerja, memanfaatkan potensi lokal, serta mendukung kegiatan pariwisata yang ada di wilayah pesisir.
+        <!--Tabel Kriteria UMKM-->
+        <div class="overflow-x-auto max-w-3xl mx-auto px-4 sm:px-6">
+        <table class="table-auto w-full border border-gray-300 text-sm text-left">
+            <thead class="bg-gray-300">
+            <tr>
+                <th class="border px-4 py-2">Jenis Usaha</th>
+                <th class="border px-4 py-2">Kriteria</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="border px-4 py-2 font-semibold align-top">Usaha Mikro</td>
+                <td class="border px-4 py-2">
+                <ul class="list-disc list-inside space-y-1">
+                    <li>Kekayaan bersih maksimal Rp50 juta (tidak termasuk tanah dan bangunan)</li>
+                    <li>Penjualan tahunan maksimal Rp300 juta</li>
+                    <li>Dimiliki perorangan atau keluarga</li>
+                    <li>Sumber daya terbatas (tenaga kerja/teknologi)</li>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="border px-4 py-2 font-semibold align-top">Usaha Kecil</td>
+                <td class="border px-4 py-2">
+                <ul class="list-disc list-inside space-y-1">
+                    <li>Kekayaan bersih Rp50 juta – Rp500 juta</li>
+                    <li>Penjualan tahunan Rp300 juta – Rp2,5 miliar</li>
+                    <li>Mulai memiliki izin usaha</li>
+                    <li>Tenaga kerja tetap 5–19 orang</li>
+                    <li>Manajemen masih sederhana</li>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="border px-4 py-2 font-semibold align-top">Usaha Menengah</td>
+                <td class="border px-4 py-2">
+                <ul class="list-disc list-inside space-y-1">
+                    <li>Kekayaan bersih Rp500 juta – Rp10 miliar</li>
+                    <li>Penjualan tahunan Rp2,5 miliar – Rp50 miliar</li>
+                    <li>Struktur organisasi lebih formal</li>
+                    <li>Tenaga kerja 20–99 orang</li>
+                </ul>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </section>
+
+    <!-- Informasi Jenis UMKM -->
+    <section id="informasi-jenis-umkm" class="min-h-screen bg-[#FFFFFF] py-10 px-6 text-[#3E2C23] leading-relaxed text-justify">
+        <div class="px-4 sm:px-6 md:px-8 lg:px-56">
+            <!-- Subjudul -->
+            <h3 class="text-xl sm:text-2xl font-semibold mb-6">Jenis UMKM di Kecamatan Teluk Pandan</h3>
+
+    <div class="text-sm md:text-base text-black leading-relaxed space-y-5">
+    <p>
+        Di Kecamatan Teluk Pandan, UMKM berkembang pesat dengan berbagai jenis usaha yang mendukung ekonomi lokal dan kebutuhan masyarakat. Berdasarkan kategori, UMKM di wilayah ini terbagi menjadi beberapa jenis, yaitu:
     </p>
-    <p class="text-gray-700 leading-relaxed">
-      Secara keseluruhan, perkembangan UMKM di Kecamatan Teluk Pandan menunjukkan adanya potensi besar untuk terus
-      dikembangkan. Data pada tabel berikut memberikan gambaran jumlah dan sebaran UMKM di setiap desa yang ada di Kecamatan Teluk Pandan.
+
+    <ol class="list-decimal list-inside space-y-4">
+        <li>
+        <span class="font-semibold">Pariwisata dan Jasa Akomodasi</span>
+        <p class="ml-4">Meliputi penginapan, homestay, dan jasa wisata. UMKM ini berperan penting dalam pengembangan sektor pariwisata dan peningkatan kunjungan wisatawan ke Teluk Pandan.</p>
+        </li>
+        <li>
+        <span class="font-semibold">Perawatan dan Kecantikan</span>
+        <p class="ml-4">UMKM dalam kategori ini menawarkan layanan salon, spa, perawatan kulit, dan kecantikan lainnya. Usaha ini mendukung gaya hidup dan kesehatan masyarakat lokal.</p>
+        </li>
+        <li>
+        <span class="font-semibold">Perdagangan</span>
+        <p class="ml-4">UMKM di sektor perdagangan mencakup penjualan berbagai produk kebutuhan sehari-hari, mulai dari sembako hingga kebutuhan rumah tangga. Usaha ini menjadi tulang punggung distribusi barang di masyarakat.</p>
+        </li>
+        <li>
+        <span class="font-semibold">Pertanian dan Perdagangan Bibit</span>
+        <p class="ml-4">UMKM di sektor ini bergerak dalam produksi pertanian, penjualan bibit, pupuk, dan kebutuhan pertanian lainnya. Sektor ini mendukung ketahanan pangan dan ekonomi agraris lokal.</p>
+        </li>
+        <li>
+        <span class="font-semibold">Kuliner</span>
+        <p class="ml-4">Jenis usaha kuliner meliputi rumah makan, kafe, warung, dan pedagang makanan ringan. Sektor ini tidak hanya menyediakan makanan dan minuman, tetapi juga menjadi daya tarik wisata kuliner bagi pengunjung.</p>
+        </li>
+        <li>
+        <span class="font-semibold">Kerajinan dan Kreatif</span>
+        <p class="ml-4">Meliputi usaha kerajinan tangan, souvenir, dekorasi, dan produk kreatif lainnya. UMKM ini menjadi sarana promosi budaya lokal sekaligus meningkatkan nilai ekonomi kreatif.</p>
+        </li>
+        <li>
+        <span class="font-semibold">Kebersihan dan Rumah Tangga</span>
+        <p class="ml-4">UMKM ini menyediakan jasa kebersihan, laundry, serta berbagai layanan pendukung rumah tangga lainnya.</p>
+        </li>
+        <li>
+        <span class="font-semibold">Otomotif</span>
+        <p class="ml-4">Termasuk bengkel, layanan perawatan kendaraan, dan penjualan aksesoris otomotif. Usaha ini membantu masyarakat dalam perawatan dan perbaikan kendaraan pribadi maupun kendaraan usaha.</p>
+        </li>
+        <li>
+        <span class="font-semibold">Jasa Lainnya</span>
+        <p class="ml-4">Meliputi berbagai jenis usaha jasa yang tidak termasuk dalam kategori di atas, seperti percetakan, fotografi, atau jasa profesional lainnya.</p>
+        </li>
+    </ol>
+
+    <p>
+        Dengan mengenal jenis-jenis UMKM ini, masyarakat dan pengunjung dapat lebih mudah menemukan usaha yang sesuai kebutuhan, sekaligus mendukung pengembangan ekonomi lokal di Teluk Pandan.
     </p>
-  </div>
 
-<!--Tabel Sebaran UMKM-->
-<table class="table-auto border-collapse border border-gray-600 w-4/5 mx-auto mt-6 text-center">
-  <thead>
-    <tr class="bg-orange-500 text-white">
-      <th class="border border-gray-300 px-4 py-2">Desa</th>
-      <th class="border border-gray-300 px-4 py-2">Jenis Usaha</th>
-      <th class="border border-gray-300 px-4 py-2">Jumlah UMKM</th>
-      <th class="border border-gray-300 px-4 py-2">Total UMKM Desa</th>
-    </tr>
-  </thead>
-
-  <!-- Grup Batu Menyan -->
-  <tbody class="group hover:bg-orange-100 transition-colors duration-300">
-    <tr>
-      <td class="border border-gray-300 px-4 py-2 group-hover:bg-orange-100" rowspan="5">Batu Menyan</td>
-      <td class="border border-gray-300 px-4 py-2">Pariwisata & Jasa Akomodasi</td>
-      <td class="border border-gray-300 px-4 py-2">12</td>
-      <td class="border px-4 py-2 font-semibold" rowspan="5">39</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perdagangan</td>
-      <td class="border border-gray-300 px-4 py-2">13</td>
-    </tr>
-        <tr>
-      <td class="border border-gray-300 px-4 py-2">Kuliner</td>
-      <td class="border border-gray-300 px-4 py-2">11</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kerajinan & Kreatif</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-        <tr>
-      <td class="border border-gray-300 px-4 py-2">Jasa Lainnya</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-  </tbody>
-
-  <!-- Grup Gebang -->
-  <tbody class="group hover:bg-orange-100 transition-colors duration-300">
-    <tr>
-      <td class="border border-gray-300 px-4 py-2 group-hover:bg-orange-100" rowspan="7">Gebang</td>
-      <td class="border border-gray-300 px-4 py-2">Pariwisata & Jasa Akomodasi</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-      <td class="border px-4 py-2 font-semibold" rowspan="7">70</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perawatan & Kecantikan</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perdagangan</td>
-      <td class="border border-gray-300 px-4 py-2">39</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Pertanian & Perdagangan Bibit</td>
-      <td class="border border-gray-300 px-4 py-2">3</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kuliner</td>
-      <td class="border border-gray-300 px-4 py-2">11</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Otomotif</td>
-      <td class="border border-gray-300 px-4 py-2">12</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Jasa Lainnya</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-  </tbody>
-
-    <!-- Grup Sidodadi -->
-  <tbody class="group hover:bg-orange-100 transition-colors duration-300">
-    <tr>
-      <td class="border border-gray-300 px-4 py-2 group-hover:bg-orange-100" rowspan="5">Sidodadi</td>
-      <td class="border border-gray-300 px-4 py-2">Perawatan & Kecantikan</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-      <td class="border px-4 py-2 font-semibold" rowspan="5">22</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perdagangan</td>
-      <td class="border border-gray-300 px-4 py-2">12</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Pertanian & Perdagangan Bibit</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kuliner</td>
-      <td class="border border-gray-300 px-4 py-2">3</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Otomotif</td>
-      <td class="border border-gray-300 px-4 py-2">4</td>
-    </tr>
-  </tbody>
-
-      <!-- Grup Hanura -->
-  <tbody class="group hover:bg-orange-100 transition-colors duration-300">
-    <tr>
-      <td class="border border-gray-300 px-4 py-2 group-hover:bg-orange-100" rowspan="9">Hanura</td>
-      <td class="border border-gray-300 px-4 py-2">Pariwisata & Jasa Akomodasi</td>
-      <td class="border border-gray-300 px-4 py-2">3</td>
-      <td class="border px-4 py-2 font-semibold" rowspan="9">179</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perawatan & Kecantikan</td>
-      <td class="border border-gray-300 px-4 py-2">11</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perdagangan</td>
-      <td class="border border-gray-300 px-4 py-2">72</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Pertanian & Perdagangan Bibit</td>
-      <td class="border border-gray-300 px-4 py-2">5</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kuliner</td>
-      <td class="border border-gray-300 px-4 py-2">45</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kerajinan & Kreatif</td>
-      <td class="border border-gray-300 px-4 py-2">11</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kebersihan dan Rumah Tangga</td>
-      <td class="border border-gray-300 px-4 py-2">4</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Otomotif</td>
-      <td class="border border-gray-300 px-4 py-2">12</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Jasa Lainnya</td>
-      <td class="border border-gray-300 px-4 py-2">16</td>
-    </tr>
-  </tbody>
-
-      <!-- Grup Cilimus -->
-  <tbody class="group hover:bg-orange-100 transition-colors duration-300">
-    <tr>
-      <td class="border border-gray-300 px-4 py-2 group-hover:bg-orange-100" rowspan="1">Cilimus</td>
-      <td class="border border-gray-300 px-4 py-2">Perdagangan</td>
-      <td class="border border-gray-300 px-4 py-2">5</td>
-      <td class="border px-4 py-2 font-semibold" rowspan="1">5</td>
-    </tr>
-  </tbody>
-
-      <!-- Grup Hurun -->
-  <tbody class="group hover:bg-orange-100 transition-colors duration-300">
-    <tr>
-      <td class="border border-gray-300 px-4 py-2 group-hover:bg-orange-100" rowspan="7">Hurun</td>
-      <td class="border border-gray-300 px-4 py-2">Perawatan & Kecantikan</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-      <td class="border px-4 py-2 font-semibold" rowspan="7">24</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perdagangan</td>
-      <td class="border border-gray-300 px-4 py-2">9</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Pertanian & Perdagangan Bibit</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kuliner</td>
-      <td class="border border-gray-300 px-4 py-2">4</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kebersihan & Rumah Tangga</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-        <tr>
-      <td class="border border-gray-300 px-4 py-2">Otomotif</td>
-      <td class="border border-gray-300 px-4 py-2">3</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Jasa Lainnya</td>
-      <td class="border border-gray-300 px-4 py-2">3</td>
-    </tr>
-  </tbody>
-
-      <!-- Grup Lempasing -->
-  <tbody class="group hover:bg-orange-100 transition-colors duration-300">
-    <tr>
-      <td class="border border-gray-300 px-4 py-2 group-hover:bg-orange-100" rowspan="8">Sukajaya Lempasing</td>
-      <td class="border border-gray-300 px-4 py-2">Pariwisata & Jasa Akomodasi 3</td>
-      <td class="border border-gray-300 px-4 py-2">3</td>
-      <td class="border px-4 py-2 font-semibold" rowspan="8">53</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perawatan dan Kecantikan</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perdagangan</td>
-      <td class="border border-gray-300 px-4 py-2">34</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kuliner</td>
-      <td class="border border-gray-300 px-4 py-2">8</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kerajinan & Kreatif</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kebersihan & Rumah Tangga</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Otomotif</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Jasa Lainnya</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-  </tbody>
-
-      <!-- Grup Tanjung Agung -->
-  <tbody class="group hover:bg-orange-100 transition-colors duration-300">
-    <tr>
-      <td class="border border-gray-300 px-4 py-2 group-hover:bg-orange-100" rowspan="6">Tanjung Agung</td>
-      <td class="border border-gray-300 px-4 py-2">Perawatan & Kecantikan</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-      <td class="border px-4 py-2 font-semibold" rowspan="6">30</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perdagangan</td>
-      <td class="border border-gray-300 px-4 py-2">22</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kuliner</td>
-      <td class="border border-gray-300 px-4 py-2">3</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kerajinan & Kreatif</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Otomotif</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Jasa Lainnya</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-  </tbody>
-
-      <!-- Grup Talang Mulya -->
-  <tbody class="group hover:bg-orange-100 transition-colors duration-300">
-    <tr>
-      <td class="border border-gray-300 px-4 py-2 group-hover:bg-orange-100" rowspan="7">Talang Mulya</td>
-      <td class="border border-gray-300 px-4 py-2">Pariwisata & Jasa Akomodasi</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-      <td class="border px-4 py-2 font-semibold" rowspan="7">20</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perawatan & Kecantikan</td>
-      <td class="border border-gray-300 px-4 py-2">2</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Perdagangan</td>
-      <td class="border border-gray-300 px-4 py-2">13</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Pertanian & Perdagangan Bibit</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Kuliner</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Otomotif</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-    <tr>
-      <td class="border border-gray-300 px-4 py-2">Jasa Lainnya</td>
-      <td class="border border-gray-300 px-4 py-2">1</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- Narasi Transisi -->
-<div class="max-w-5xl mx-auto mt-8 mb-8 text-justify text-gray-700 leading-relaxed">
-  <p>
-    Dari data pada tabel di atas dapat dilihat bahwa UMKM di Kecamatan Teluk Pandan memiliki sebaran yang cukup merata di setiap desa, meskipun jumlahnya tidak sama. Beberapa desa memiliki kontribusi yang lebih besar, salah satunya adalah <span class="font-semibold text-orange-600">Desa Hanura</span> yang tercatat sebagai wilayah dengan jumlah UMKM terbanyak. 
-  </p>
-  <p class="mt-3">
-    Selain itu, jenis usaha yang paling mendominasi di wilayah ini adalah sektor <span class="font-semibold text-orange-600">perdagangan</span>, yang menunjukkan tingginya aktivitas ekonomi masyarakat dalam bidang jual beli barang dan jasa. 
-  </p>
-</div>
-
-
-    <!-- Statistik Ringkas -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center mb-12">
-      <div class="bg-white rounded-2xl p-6 shadow-lg">
-        <p class="text-3xl font-bold text-orange-500">442</p>
-        <p class="text-sm mt-1 text-gray-600">Total UMKM</p>
-      </div>
-      <div class="bg-white rounded-2xl p-6 shadow-lg">
-        <p class="text-3xl font-bold text-orange-500">Desa Hanura</p>
-        <p class="text-sm mt-1 text-gray-600">Wilayah Terbanyak</p>
-      </div>
-      <div class="bg-white rounded-2xl p-6 shadow-lg">
-        <p class="text-3xl font-bold text-orange-500">Perdagangan</p>
-        <p class="text-sm mt-1 text-gray-600">Jenis UMKM Dominan</p>
-      </div>
     </div>
-
-    <!-- tombol ke peta -->
-    <div class="text-center mt-12">
-      <a href="/index.html#peta" class="inline-block bg-orange-500 hover:bg-orange-600 text-white py-3 px-8 rounded-xl shadow-lg transition">
-        Lihat Peta Persebaran UMKM
-      </a>
-    </div>
-  </div>
 </section>
 
-<!--Footer-->
-<footer class="bg-orange-950 text-white py-8">
-    <div class="max-w-screen-xl mx-auto px-4 text-center">
-        <h4 class="text-2xl font-semibold mb-2">Annisa Maulina</h4>
-        <p class="text-sm mb-1">2115013009</p>
-        <p class="text-sm mb-3">Teknik Geodesi dan Geomatika</p>
-    
-        <p class="text-xs text-white/80">© 2025 | WebGIS UMKM Teluk Pandan</p>
-    </div>
-</footer>
 
+
+    <!--Referensi-->
+    <section>
+        <hr class="my-8 border-gray-300"/>
+        <div class="w-full mx-auto px-4 sm:px-6 lg:px-20 pb-6 text-xs text-gray-600 mb-5">
+            <h2 class="text-sm font-semibold mb-2">Referensi</h2>
+            <ol class="list-decimal pl-5 space-y-2">
+                <li>
+                    Badan Pusat Statistik Kabupaten Pesawaran. (2024). 
+                    <em>Kecamatan Teluk Pandan Dalam Angka 2024</em>. 
+                    <a href="https://pesawarankab.bps.go.id/id/publication/2024/09/26/7e5bd83175e57577735f4946/kecamatan-teluk-pandan-dalam-angka-2024.html" 
+                    class="text-blue-500 hover:underline" 
+                    target="_blank" rel="noopener noreferrer">
+                    [Link]
+                    </a>
+                </li>
+                <li>
+                    IIB Darmajaya. (2023). 
+                    <em>Pemberdayaan Masyarakat Desa Cilimus Melalui Pengembangan UMKM</em>. 
+                    <a href="https://tapisberseri.ubl.ac.id/index.php/jpmtapisberseri/article/view/51" 
+                    class="text-blue-500 hover:underline" 
+                    target="_blank" rel="noopener noreferrer">
+                    [Link]
+                    </a>
+                </li>
+                <li>
+                    Dinas Koperasi Pesawaran. (2024). 
+                    <em>UMKM di Pesawaran Terus Alami Pertumbuhan Pesat</em>. 
+                    <a href="https://pantaulampung.com/2024/09/30/umkm-di-pesawaran-terus-alami-pertumbuhan-pesat/" 
+                    class="text-blue-500 hover:underline" 
+                    target="_blank" rel="noopener noreferrer">
+                    [Link]
+                    </a>
+                </li>
+                <li>
+                    Pesawaran Inside. (2025). 
+                    <em>Kolaborasi BUMDes Teluk Pandan dan Bank Mandiri</em>. 
+                    <a href="https://pesawaran.pikiran-rakyat.com/berita/pr-3588947790/bank-mandiri-dan-bumdes-teluk-pandan-kolaborasi-perluas-potensi-bisnis-desa" 
+                    class="text-blue-500 hover:underline" 
+                    target="_blank" rel="noopener noreferrer">
+                    [Link]
+                    </a>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-orange-950 text-white py-8">
+        <div class="max-w-screen-xl mx-auto px-4 text-center">
+            <h4 class="text-2xl font-semibold mb-2">Annisa Maulina</h4>
+            <p class="text-sm mb-1">2115013009</p>
+            <p class="text-sm mb-3">Teknik Geodesi dan Geomatika</p>
+        
+            <p class="text-xs text-white/80">© 2025 | WebGIS UMKM Teluk Pandan</p>
+        </div>
+    </footer>
 </body>
 </html>
