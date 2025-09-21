@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   <!--Informasi-->
-  <section id="informasi" class="bg-white py-24 scroll mt-14">
+  <section id="informasi" class="bg-white py-24 scroll-mt-16">
     <div class="w-11/12 max-w-screen-xl mx-auto px-4">
         <h3 class="text-5xl font-bold text-center mb-5">Informasi UMKM</h3>
         <p class="text-center mb-5">Dapatkan gambaran lengkap tentang UMKM di Kecamatan Teluk Pandan melalui informasi berikut.</p>
@@ -182,36 +182,57 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
   </section>
 
+
 <!-- ======== PETA & DAFTAR UMKM ======== -->
 <section class="bg-white py-10">
   <!-- Anchor untuk scroll -->
   <span id="peta" class="block scroll-mt-20"></span>
 
   <div class="max-w-[1400px] mx-auto px-4 lg:flex lg:gap-4">
-    
-<!-- Peta -->
-<div class="w-full lg:w-3/4 flex flex-col items-center">
-  <h3 class="text-3xl font-bold text-center mb-2">Peta Sebaran UMKM</h3>
-  <p class="text-center mb-4 text-gray-700 max-w-full px-2">
-    Peta ini menampilkan lokasi sebaran UMKM di Kecamatan Teluk Pandan. Klik ikon pada peta untuk melihat informasi lebih lanjut.
-  </p>
-  <div id="map" class="w-full h-[75vh] rounded-lg shadow-md"></div>
-</div>
 
-<!-- Sidebar dengan Scroll -->
-<div class="w-full lg:w-1/4 mb-6 lg:mb-0">
-  <div class="bg-white/95 p-5 rounded-xl shadow-lg border border-gray-200 overflow-y-auto"
-       style="height: 86vh;">
-    <h3 class="text-2xl font-bold mb-4 text-center text-gray-800">Daftar UMKM</h3>
-    <div id="info-layer" class="text-sm text-red-600 mb-2">
-    ⚠️ Aktifkan layer Desa di Layer Control agar marker UMKM muncul.
+    <!-- Peta -->
+    <div class="w-full lg:w-3/4 flex flex-col items-center">
+      <h3 class="text-3xl font-bold text-center mb-2">Peta Sebaran UMKM</h3>
+      <p class="text-center mb-4 text-gray-700 max-w-full px-2">
+        Peta ini menampilkan lokasi sebaran UMKM di Kecamatan Teluk Pandan. Klik ikon pada peta untuk melihat informasi lebih lanjut.
+      </p>
+      <div id="map" class="w-full h-[75vh] rounded-lg shadow-md"></div>
     </div>
-    <div id="list-umkm" class="space-y-4"></div> 
-  </div>
-</div>
+
+    <!-- Sidebar dengan Scroll -->
+    <div class="w-full lg:w-1/4 mb-6 lg:mb-0">
+      <div class="bg-white/95 p-5 rounded-xl shadow-lg border border-gray-200 overflow-y-auto"
+          style="height: 86vh;">
+        <h3 class="text-2xl font-bold mb-4 text-center text-gray-800">Daftar UMKM</h3>
+        <div id="info-layer" class="text-sm text-red-600 mb-2">
+        ⚠️ Aktifkan layer Desa di Layer Control agar marker UMKM muncul.
+        </div>
+        <div id="list-umkm" class="space-y-4"></div> 
+      </div>
+    </div>
 
   </div>
 </section>
+
+<!-- Expanded Foto -->
+<div id="expandedCard" 
+     class="hidden fixed inset-0 bg-black bg-opacity-70 z-[99999] flex items-center justify-center">
+  <div class="bg-white rounded-2xl shadow-xl p-3 w-[400px] relative">
+    <button onclick="closeExpandedCard()" 
+            class="absolute top-3 right-3 text-gray-600 hover:text-black text-2xl">&times;</button>
+    <img id="expandedImage" class="w-full rounded-xl">
+  </div>
+</div>
+
+<script>
+function expandCard(foto) {
+  document.getElementById("expandedImage").src = foto;
+  document.getElementById("expandedCard").classList.remove("hidden");
+}
+function closeExpandedCard() {
+  document.getElementById("expandedCard").classList.add("hidden");
+}
+</script>
 
 <!-- Memanggil file map.js -->
 <script src="peta.js"></script>
@@ -311,10 +332,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
-
-
-
-
-
-
-
