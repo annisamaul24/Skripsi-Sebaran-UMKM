@@ -59,6 +59,7 @@ var markerMap = {}; // <-- menyimpan marker UMKM
 function popupUMKM(feature, latlng) {
   let nama = feature.properties["NAMA_USAHA"] || "-";
   let foto = feature.properties["FOTO"] || "";
+  let foto2 = feature.properties["FOTO2"] || ""; // tambahan untuk foto kedua
   let deskripsi = feature.properties["DESKRIPSI"] || "";
   let jenis = feature.properties["JENIS_USAHA"] || "-";
   let jam = feature.properties["JAM_OPERASIONAL"] || "-";
@@ -72,13 +73,36 @@ function popupUMKM(feature, latlng) {
     return `
       <div class="max-w-xs max-h-72 overflow-y-auto bg-white rounded-xl shadow-md p-3">
         <h3 class="text-base font-bold text-center text-gray-800 mb-2">${nama}</h3>
-        ${foto ? `<div class="mb-2 text-center"><img src="${foto}" class="mx-auto w-36 rounded-lg shadow"></div>` : ''}
+        
+${(foto || foto2) ? `
+  <div class="mb-2 flex space-x-3 overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400">
+    ${foto ? `
+      <div class="rounded-2xl p-2 shadow hover:shadow-lg transition-all duration-300 cursor-pointer w-40 flex-shrink-0"
+           onclick="expandCard('${foto}')">
+        <img src="${foto}" class="w-full h-38 object-cover rounded-xl"
+             onerror="this.parentElement.style.display='none'">
+      </div>
+    ` : ''}
+
+    ${foto2 ? `
+      <div class="rounded-2xl p-2 shadow hover:shadow-lg transition-all duration-300 cursor-pointer w-40 flex-shrink-0"
+           onclick="expandCard('${foto2}')">
+        <img src="${foto2}" class="w-full h-38 object-cover rounded-xl"
+             onerror="this.parentElement.style.display='none'">
+      </div>
+    ` : ''}
+  </div>
+` : ''}
+
+        
         ${deskripsi ? `<p class="mb-2 text-sm text-gray-700 text-justify">${deskripsi.replace(/\n/g, "<br>&emsp;")}</p>` : ''}
+        
         <div class="grid grid-cols-[auto,1fr] gap-x-1 gap-y-1 text-sm">
           <span class="font-semibold">Jenis Usaha</span><span>: ${jenis}</span>
           <span class="font-semibold">Jam Operasional</span><span>: ${jam}</span>
           <span class="font-semibold">Alamat</span><span>: ${alamat}</span>
         </div>
+        
         <div class="mt-3 text-center space-x-2">
           <button onclick="tampilkanRute(${latlng.lat}, ${latlng.lng}, '${id}')"
             class="bg-blue-500 hover:bg-blue-600 text-white text-xs px-3 py-1 rounded">Rute</button>
@@ -95,34 +119,51 @@ function popupUMKM(feature, latlng) {
 }
 
 // ==========================
-// Fungsi Buat List di Sidebar
+// Fungsi Buat List di Sidebar (versi kelompok per jenis usaha)
 // ==========================
 function tambahListUMKM(namaDesa, data) {
   let listContainer = document.getElementById("list-umkm");
 
   // Judul desa
   let desaDiv = document.createElement("div");
-  desaDiv.innerHTML = `<h4 class="font-semibold text-lg text-gray-700 border-b pb-1 mb-2">${namaDesa}</h4>`;
-  
-  // List usaha
-  let ul = document.createElement("ul");
-  ul.className = "space-y-2";
+  desaDiv.innerHTML = `<h4 class="font-bold text-lg text-gray-700 border-b pb-1 mb-2">${namaDesa}</h4>`;
 
+  // === 1. Group data per jenis usaha ===
+  let grouped = {};
   data.features.forEach(f => {
-    let id = f.properties["ID"];
-    let nama = f.properties["NAMA_USAHA"];
-
-    let li = document.createElement("li");
-    li.innerHTML = `
-      <button class="w-full text-left px-2 py-1 rounded hover:bg-blue-50"
-        onclick="fokusUMKM('${id}', [${f.geometry.coordinates[1]}, ${f.geometry.coordinates[0]}])">
-        ${nama}
-      </button>
-    `;
-    ul.appendChild(li);
+    let jenis = f.properties["JENIS_USAHA"] || "Lainnya";
+    if (!grouped[jenis]) grouped[jenis] = [];
+    grouped[jenis].push(f);
   });
 
-  desaDiv.appendChild(ul);
+  // === 2. Render tiap jenis usaha ===
+  for (let jenis in grouped) {
+    // Subjudul jenis usaha
+    let jenisDiv = document.createElement("div");
+    jenisDiv.innerHTML = `<p class="ml-2 font-medium text-blue-700">${jenis}</p>`;
+
+    // List UMKM dalam jenis usaha
+    let ul = document.createElement("ul");
+    ul.className = "ml-6 space-y-1 list-disc";
+
+    grouped[jenis].forEach(f => {
+      let id = f.properties["ID"];
+      let nama = f.properties["NAMA_USAHA"];
+
+      let li = document.createElement("li");
+      li.innerHTML = `
+        <button class="w-full text-left px-2 py-1 rounded hover:bg-blue-50"
+          onclick="fokusUMKM('${id}', [${f.geometry.coordinates[1]}, ${f.geometry.coordinates[0]}])">
+          ${nama}
+        </button>
+      `;
+      ul.appendChild(li);
+    });
+
+    jenisDiv.appendChild(ul);
+    desaDiv.appendChild(jenisDiv);
+  }
+
   listContainer.appendChild(desaDiv);
 }
 
@@ -376,7 +417,3 @@ var LokasiSayaButton = L.Control.extend({
 });
 
 map.addControl(new LokasiSayaButton());
-
-
-
-
