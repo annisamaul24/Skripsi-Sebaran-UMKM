@@ -223,6 +223,7 @@ var HANURA               = L.geoJSON(null, { pointToLayer: popupUMKM });
 var CILIMUS              = L.geoJSON(null, { pointToLayer: popupUMKM });
 var HURUN                = L.geoJSON(null, { pointToLayer: popupUMKM });
 var SUKAJAYALEMPASING    = L.geoJSON(null, { pointToLayer: popupUMKM });
+var MUNCA                = L.geoJSON(null, { pointToLayer: popupUMKM });
 var TANJUNGAGUNG         = L.geoJSON(null, { pointToLayer: popupUMKM });
 var TALANGMULYA          = L.geoJSON(null, { pointToLayer: popupUMKM });
 
@@ -283,6 +284,14 @@ fetch("Geojson/DESA_LEMPASING.geojson")
       tambahListUMKM("Desa Sukajaya Lempasing", data);
   });
 
+//MUNCA
+fetch("Geojson/DESA_MUNCA.geojson")
+  .then(res => res.json())
+  .then(data => {
+      MUNCA.addData(data);
+      tambahListUMKM("Desa Munca", data);
+  });
+
 //TANJUNG AGUNG
 fetch("Geojson/DESA_TANJUNG_AGUNG.geojson")
   .then(res => res.json())
@@ -318,6 +327,7 @@ var overlayMaps = {
     "Desa Cilimus": CILIMUS,
     "Desa Hurun" : HURUN,
     "Desa Sukajaya Lempasing" : SUKAJAYALEMPASING,
+    "Desa MUNCA" : MUNCA,
     "Desa Tanjung Agung": TANJUNGAGUNG,
     "Desa Talang Mulya" : TALANGMULYA
 };
