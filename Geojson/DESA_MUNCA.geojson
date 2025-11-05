@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.233967,
+          -5.490948
+        ]
+      },
+      "properties": {
+        "ID": 447,
+        "NAMA_USAHA": "Ayam Potong Mamah Dede",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "06.00 - 17.00",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menyediakan ayam potong segar tanpa suntikan, dipotong setiap hari sehingga terjamin kebersihan dan kualitasnya. Ayam tersedia dalam kondisi utuh maupun dipotong sesuai permintaan pembeli, sehingga praktis dan siap dimasak. Melayani kebutuhan harian rumah tangga hingga pesanan dalam jumlah besar untuk hajatan dengan harga yang terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/447.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/447.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232102,
+          -5.491601
+        ]
+      },
+      "properties": {
+        "ID": 448,
+        "NAMA_USAHA": "Warung Jajanan Bu Dina",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 17.30",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung yang menyediakan berbagai jajanan untuk semua kalangan, mulai dari jajanan ringan kemasan hingga jajanan yang dimasak langsung, seperti aneka sosis-sosisan dan camilan hangat lainnya. Dengan harga terjangkau dan rasa yang disukai anak-anak maupun orang dewasa, warung ini menjadi pilihan warga sekitar untuk membeli jajanan praktis dan lezat setiap hari.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/448.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/448.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.230557,
+          -5.492384
+        ]
+      },
+      "properties": {
+        "ID": 449,
+        "NAMA_USAHA": "MH Florist",
+        "JENIS_USAHA": "Kerajinan dan Kreatif",
+        "JAM_OPERASIONAL": "09.00 - 16.30",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha florist yang melayani pembuatan produk made by order sesuai permintaan pelanggan. Menyediakan berbagai layanan seperti bouquet request, hampers, hantaran pernikahan, mahar pernikahan, hingga snack tower. Setiap pesanan dikerjakan dengan kreativitas dan ketelitian sehingga hasilnya menarik, elegan, dan sesuai kebutuhan acara. Cocok untuk hadiah, perayaan, maupun momen spesial lainnya.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/449.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/449.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228701,
+          -5.494513
+        ]
+      },
+      "properties": {
+        "ID": 450,
+        "NAMA_USAHA": "Warung Emak",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 17.00",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung kelontong yang menyediakan kebutuhan sehari-hari serta aneka jajanan ringan. Selain menjual es, kopi, dan es krim, warung ini juga melayani mie instan yang dimasak langsung di tempat, sehingga praktis untuk dinikmati langsung oleh pembeli. Cocok sebagai tempat belanja harian sekaligus tempat singgah warga sekitar.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/450.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/450.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.228376,
+          -5.494812
+        ]
+      },
+      "properties": {
+        "ID": 451,
+        "NAMA_USAHA": "Warung Sembako",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.00 - 20.00",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung yang menyediakan berbagai kebutuhan pokok sehari-hari seperti beras, minyak, gula, dan jajanan ringan. Selain itu, juga melayani pengisian bahan bakar melalui pertamini, sehingga memudahkan warga sekitar untuk berbelanja sekaligus mengisi bensin di satu tempat dengan harga terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/451.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/451.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22899,
+          -5.492655
+        ]
+      },
+      "properties": {
+        "ID": 452,
+        "NAMA_USAHA": "Dua Putri Printing",
+        "JENIS_USAHA": "Jasa Lainnya",
+        "JAM_OPERASIONAL": "07.00 - 21.00",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Usaha percetakan yang melayani jasa print dan fotokopi dokumen dengan hasil rapi dan cepat. Selain itu, tersedia layanan cetak foto berbagai ukuran, cetak undangan, hingga cetak kartu syukuran sesuai kebutuhan pelanggan. Cocok untuk pelajar, mahasiswa, maupun masyarakat umum yang membutuhkan layanan percetakan dengan harga terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/452.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/452.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.238467,
+          -5.488059
+        ]
+      },
+      "properties": {
+        "ID": 453,
+        "NAMA_USAHA": "Pangkalan LPG 3Kg Budi Setiarso",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Menyediakan tabung gas LPG 3 kg resmi dengan stok terjamin dan harga sesuai ketentuan. Melayani kebutuhan harian masyarakat sekitar, baik untuk rumah tangga maupun usaha kecil, dengan pelayanan cepat dan lokasi yang mudah dijangkau.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/453.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/453.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.22905,
+          -5.49275
+        ]
+      },
+      "properties": {
+        "ID": 454,
+        "NAMA_USAHA": "Warung Sembako The Minah",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "07.30 - 21.00",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung sembako yang menyediakan berbagai kebutuhan sehari-hari seperti beras, minyak, gula, dan perlengkapan rumah tangga. Selain itu, juga menjual gas LPG, jajanan ringan, es krim, serta aneka minuman dingin. Warung ini menjadi tempat andalan warga sekitar untuk belanja praktis dengan harga terjangkau.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/454.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/454.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232045,
+          -5.491601
+        ]
+      },
+      "properties": {
+        "ID": 455,
+        "NAMA_USAHA": "Warung Jajanan",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 -16.00",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung yang menjual beragam camilan untuk anak-anak maupun orang dewasa. Tersedia jajanan ringan kemasan seperti ciki, biskuit, dan permen, serta jajanan yang dimasak langsung seperti sosis-sosisan dan gorengan.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/455.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/455.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.232267,
+          -5.49149
+        ]
+      },
+      "properties": {
+        "ID": 456,
+        "NAMA_USAHA": "Warung Yuli",
+        "JENIS_USAHA": "Perdagangan",
+        "JAM_OPERASIONAL": "08.00 - 16.00",
+        "ALAMAT": "Desa Munca, Kecamatan Teluk Pandan, Kabupaten Pesawaran",
+        "DESKRIPSI": "Warung yang menyediakan berbagai camilan untuk anak sekolah, mulai dari jajanan ringan kemasan seperti ciki, permen, dan biskuit hingga jajanan hangat seperti sosis-sosisan dan gorengan. Dengan harga terjangkau dan pilihan jajanan yang beragam, warung ini menjadi tempat favorit anak-anak untuk jajan setiap hari sepulang sekolah.",
+        "FOTO": "image/Dokumentasi UMKM/MUNCA/456.jpg",
+        "FOTO2": "image/Dokumentasi UMKM/MUNCA 2/456.jpg"
+      }
+    }
+  ]
+}
