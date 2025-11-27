@@ -3,186 +3,242 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--TailwindCSS-->
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>Rekomendasi UMKM</title>
-
-  <style>
-    .card-expand {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%) scale(1.05);
-      z-index: 50;
-      max-width: 90%;
-      max-height: 90%;
-      overflow-y: auto;
-      transition: all 0.3s ease;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-      background-color: white;
-    }
-  </style>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <title>Sektor Potensial UMKM</title>
 </head>
-
-<section class="py-16 max-w-screen-xl mx-auto px-6">
-    <h3 class="text-4xl font-bold text-center mb-10">Sektor UMKM Potensial</h3>
+<body>
+<section class="py-16 max-w-screen-xl mx-auto px-6 w-full">
+    <h3 class="text-4xl font-bold text-center mb-10">Sektor Potensial UMKM</h3>
     <p class="text-center max-w-3xl mx-auto mb-10 text-gray-700">
-    Teluk Pandan memiliki berbagai sektor UMKM potensial yang mendukung perekonomian lokal. Mulai dari kuliner, pariwisata, hingga kerajinan, masing-masing sektor menawarkan peluang besar untuk berkembang.
-    </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Card 1 -->
-        <div onclick="expandCard('pariwisata')" class="bg-orange-50 rounded-2xl p-6 shadow hover:shadow-xl transition-all duration-300 cursor-pointer">
-            <img src="../image/pariwisata.jpg" class="w-full h-48 object-cover rounded-xl mb-4">
-            <h4 class="text-xl font-bold">Pariwisata dan Jasa Akomodasi</h4>
-            <p class="text-gray-700 line-clamp-2">Sektor unggulan yang mendukung perekonomian berbasis wisata di Teluk Pandan.</p>
-            <p class="text-orange-600 font-semibold text-right mt-2">Lihat lebih banyak</p>
-        </div>
+    Halaman ini menampilkan hasil analisis spasial mengenai sebaran UMKM di Kecamatan Teluk Pandan yang berada dalam jarak 1000 meter dari objek wisata, pasar, dan jalan utama. </p>
 
-        <!-- Card 2 -->
-        <div onclick="expandCard('kuliner')" class="bg-orange-50 rounded-2xl p-6 shadow hover:shadow-xl transition-all duration-300 cursor-pointer">
-            <img src="../image/kuliner.jpg" class="w-full h-48 object-cover rounded-xl mb-4">
-            <h4 class="text-xl font-bold">Kuliner</h4>
-            <p class="text-gray-700 line-clamp-2">Sektor yang selalu tumbuh karena kebutuhan sehari-hari dan peluang wisata kuliner lokal.</p>
-            <p class="text-orange-600 font-semibold text-right mt-2">Lihat lebih banyak</p>
-        </div>
+<!--Paragraf-->
+<h3 class="text-xl font-semibold mb-2">Distribusi UMKM Dekat Dengan Objek Wisata</h3>
+<p class="text-gray-700 mb-8">Analisis keterjangkauan UMKM terhadap objek wisata di Kecamatan Teluk Pandan menunjukkan bahwa dari 452 UMKM, sebanyak 119 UMKM (26,3%) berada dalam radius 1.000 meter dari destinasi wisata, terutama yang berlokasi di Desa Sukajaya Lempasing, Desa Ketapang, dan Desa Sidodadi. UMKM dalam zona ini didominasi sektor perdagangan (54,6%) dan kuliner (16,0%), diikuti pariwisata dan jasa akomodasi (12,6%) serta kategori usaha lainnya. Pola ini mengindikasikan bahwa UMKM yang dekat objek wisata berpotensi memperoleh manfaat langsung dari aktivitas pariwisata, baik melalui kunjungan wisatawan maupun permintaan layanan pendukung, sehingga kawasan wisata menjadi faktor penting dalam mendorong perkembangan usaha di wilayah ini. Selaras dengan informasi tersebut, grafik di bawah ini menampilkan jumlah dan persentase UMKM per jenis yang berada dalam radius 1000 meter dari objek wisata.
+</p>
 
-        <!-- Card 3 -->
-        <div onclick="expandCard('kerajinan')" class="bg-orange-50 rounded-2xl p-6 shadow hover:shadow-xl transition-all duration-300 cursor-pointer">
-            <img src="../image/kerajinan.jpg" class="w-full h-48 object-cover rounded-xl mb-4">
-            <h4 class="text-xl font-bold">Kerajinan & Kreatif</h4>
-            <p class="text-gray-700 line-clamp-2">Sektor kerajinan dan kreatif yang menghasilkan produk unik, bernilai seni, dan mendukung ekonomi lokal.</p>
-            <p class="text-orange-600 font-semibold text-right mt-2">Lihat lebih banyak</p>
-        </div>
+<!-- CHART OBJEK WISATA -->
+<div class="max-w-5xl mx-auto bg-white rounded-xl shadow-lg p-6 mb-14">
+  <h2 class="text-2xl font-semibold mb-4 text-center">UMKM Dekat Objek Wisata</h2>
+  <div class="w-full overflow-x-auto">
+    <canvas id="umkmGabunganChart" class="w-full h-80"></canvas>
+  </div>
+</div>
 
-        <!-- Card 4 -->
-        <div onclick="expandCard('perdagangan')" class="bg-orange-50 rounded-2xl p-6 shadow hover:shadow-xl transition-all duration-300 cursor-pointer">
-            <img src="../image/perdagangan.jpg" class="w-full h-48 object-cover rounded-xl mb-4">
-            <h4 class="text-xl font-bold">Perdagangan</h4>
-            <p class="text-gray-700 line-clamp-2">Sektor perdagangan berperan penting dalam mendukung pertumbuhan UMKM dan memperluas jangkauan produk</p>
-            <p class="text-orange-600 font-semibold text-right mt-2">Lihat lebih banyak</p>
-        </div>
-    </div>
-</section>
-
-        <!-- Expanded Card 1 -->
-        <div id="card-pariwisata-expanded" class="hidden card-expand rounded-2xl p-6">
-            <button onclick="closeCard('pariwisata')" class="absolute top-4 right-6 text-gray-600 hover:text-red-600 text-2xl font-bold">&times;</button>
-            <img src="../image/pariwisata.jpg" class="w-full h-60 object-cover rounded-xl mb-4">
-            <h4 class="text-2xl font-bold mb-2">Pariwisata dan Jasa Akomodasi</h4>
-            <p class="text-gray-700 leading-relaxed text-justify">
-            Sektor pariwisata dan jasa akomodasi di Kecamatan Teluk Pandan memiliki potensi besar untuk mendukung pertumbuhan ekonomi lokal. Keberadaan berbagai destinasi wisata pantai, wisata bahari, serta atraksi budaya telah menjadi daya tarik utama bagi wisatawan, baik domestik maupun mancanegara. Perkembangan ini menciptakan peluang luas bagi UMKM untuk terlibat, mulai dari penyediaan layanan transportasi, kuliner khas, hingga penyewaan peralatan wisata.
-            </p>
-            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
-            Selain itu, jasa akomodasi seperti homestay, penginapan, dan resort skala kecil juga sangat dibutuhkan untuk menunjang kenyamanan wisatawan. Kehadiran UMKM dalam bidang akomodasi mampu memberikan pengalaman lokal yang lebih autentik sekaligus membuka lapangan pekerjaan bagi masyarakat sekitar. Dukungan terhadap sektor pariwisata dan jasa akomodasi akan memperkuat citra Teluk Pandan sebagai destinasi wisata unggulan serta menjadikan UMKM sebagai motor penggerak perekonomian daerah.
-            </p>
-        </div>
-
-        <!-- Expanded Card 2 -->
-        <div id="card-kuliner-expanded" class="hidden card-expand rounded-2xl p-6">
-            <button onclick="closeCard('kuliner')" class="absolute top-4 right-6 text-gray-600 hover:text-red-600 text-2xl font-bold">&times;</button>
-            <img src="../image/kuliner.jpg" class="w-full h-60 object-cover rounded-xl mb-4">
-            <h4 class="text-2xl font-bold mb-2">Kuliner</h4>
-            <p class="text-gray-700 leading-relaxed text-justify">
-                Sektor kuliner menjadi salah satu pilar utama UMKM di Kecamatan Teluk Pandan. Keberadaan warung makan, kafe, pedagang kaki lima, hingga usaha katering menjadikan sektor ini tidak hanya memenuhi kebutuhan konsumsi sehari-hari masyarakat, tetapi juga menjadi daya tarik tersendiri bagi wisatawan.            
-            </p>
-            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
-            Ragam kuliner lokal dengan cita rasa khas pesisir, seperti olahan seafood, makanan tradisional, hingga camilan khas, berpotensi besar untuk dipromosikan sebagai identitas daerah. Selain memberikan pengalaman gastronomi yang unik, sektor kuliner juga mendorong pemanfaatan hasil perikanan dan pertanian lokal sehingga meningkatkan nilai tambah produk masyarakat.    
-            </p>
-            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
-            Dukungan pada sektor kuliner akan memperluas peluang usaha, membuka lapangan kerja baru, serta memperkuat keterkaitan antara UMKM dengan sektor pariwisata. Dengan strategi promosi yang tepat, kuliner dapat menjadi magnet utama yang meningkatkan jumlah kunjungan wisata ke Teluk Pandan.
-            </p>
-        </div>
-
-        <!-- Expanded Card 3-->
-        <div id="card-kerajinan-expanded" class="hidden card-expand rounded-2xl p-6">
-            <button onclick="closeCard('kerajinan')" class="absolute top-4 right-6 text-gray-600 hover:text-red-600 text-2xl font-bold">&times;</button>
-            <img src="../image/kerajinan.jpg" class="w-full h-60 object-cover rounded-xl mb-4">
-            <h4 class="text-2xl font-bold mb-2 text-justify">Kerajinan & Kreatif</h4>
-            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
-            Sektor kerajinan dan kreatif mencakup industri yang menghasilkan produk atau karya yang memiliki nilai seni, estetika, atau fungsional dan sering kali dibuat secara handmade atau dengan sentuhan kreatif. Tujuan utamanya adalah memanfaatkan kreativitas untuk menciptakan barang atau jasa yang unik yang bisa dikomersialkan, baik untuk pasar lokal maupun wisatawan.
-            </p>
-        </div>
-
-        <!-- Expanded Card 4 -->
-        <div id="card-perdagangan-expanded" class="hidden card-expand rounded-2xl p-6">
-            <button onclick="closeCard('perdagangan')" class="absolute top-4 right-6 text-gray-600 hover:text-red-600 text-2xl font-bold">&times;</button>
-            <img src="../image/perdagangan.jpg" class="w-full h-60 object-cover rounded-xl mb-4">
-            <h4 class="text-2xl font-bold mb-2">Perdagangan</h4>
-            <p class="text-gray-700 leading-relaxed text-justify">
-            Sektor perdagangan memiliki peran strategis dalam memperkuat ekonomi lokal, membuka peluang usaha, dan meningkatkan daya saing produk UMKM. Aktivitas perdagangan yang efisien mendorong distribusi produk secara lebih luas dan mendukung pertumbuhan ekonomi masyarakat.
-            </p>
-            <p class="text-gray-700 leading-relaxed mt-2 text-justify">
-            Promosi sektor perdagangan bertujuan memperluas akses pasar bagi produk lokal, meningkatkan visibilitas UMKM, dan mendorong inovasi serta kreativitas dalam menghadapi dinamika pasar.
-            </p>
-        </div>
-
-
-
-<!-- Script Fungsi Buka Tutup Card -->
 <script>
-  // Fungsi untuk buka card
-  function expandCard(id) {
-    // Sembunyikan semua card yang lagi terbuka
-    document.querySelectorAll('.card-expand').forEach(card => {
-      card.classList.add('hidden');
-    });
+const ctx = document.getElementById('umkmGabunganChart').getContext('2d');
 
-    // Tampilkan card sesuai id
-    const expandedCard = document.getElementById(`card-${id}-expanded`);
-    if (expandedCard) {
-      expandedCard.classList.remove('hidden');
+// Label kategori UMKM
+const labels = ['Perdagangan','Kuliner','Pariwisata & Jasa Akomodasi','Perawatan & Kecantikan',
+  'Kerajinan & Kreatif','Otomotif','Kebersihan & Rumah Tangga','Lainnya','Pertanian dan Perdagangan Bibit'];
+
+// Data jumlah dan persentase
+const jumlahData = [65,19,15,2,2,7,2,6,1]; // Jumlah UMKM
+const persenData = [54.6,16,12.6,1.7,1.7,5.9,1.7,5,0.8]; // Persentase
+
+// Warna chart
+const barColor = '#a855f7'; // Ungu Tailwind
+const lineColor = '#f97316'; // Oranye Tailwind
+
+new Chart(ctx, {
+  data: {
+    labels: labels,
+    datasets: [
+      // Bar = jumlah UMKM
+      {
+        type: 'bar',
+        label: 'Jumlah UMKM',
+        data: jumlahData,
+        backgroundColor: barColor,
+        borderRadius: 5
+      },
+      // Line = persentase
+      {
+        type: 'line',
+        label: 'Persentase (%)',
+        data: persenData,
+        borderColor: lineColor,
+        borderWidth: 3,
+        fill: false,
+        yAxisID: 'y1',
+        tension: 0.2,
+        pointBackgroundColor: lineColor,
+        pointRadius: 5
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      tooltip: { mode: 'index', intersect: false },
+      legend: {
+        display: true,
+        position: 'top',
+        labels: {
+          generateLabels: chart => chart.data.datasets.map((d,i) => ({
+            text: d.label,
+            fillStyle: d.type === 'bar' ? d.backgroundColor : undefined, // Kotak untuk bar
+            strokeStyle: d.type === 'line' ? d.borderColor : undefined, // Garis untuk line
+            lineWidth: d.type === 'line' ? d.borderWidth : 0,
+            usePointStyle: d.type === 'line',
+            pointStyle: d.type === 'line' ? 'line' : 'rect', // Line legend = garis
+            datasetIndex: i
+          }))
+        }
+      }
+    },
+    scales: {
+      y: { beginAtZero: true, title: { display: true, text: 'Jumlah UMKM' } },
+      y1: { beginAtZero: true, position: 'right', max: 60, title: { display: true, text: 'Persentase (%)' }, grid: { drawOnChartArea: false } },
+      x: { ticks: { autoSkip: false }, title: { display: true, text: 'Jenis UMKM' } }
     }
-
-    // Tambahin overlay gelap di belakang biar fokus ke card
-    addOverlay();
   }
-
-  // Fungsi untuk tutup card
-  function closeCard(id) {
-    const expandedCard = document.getElementById(`card-${id}-expanded`);
-    if (expandedCard) {
-      expandedCard.classList.add('hidden');
-    }
-
-    removeOverlay();
-  }
-
-  // Bikin overlay hitam semi transparan
-  function addOverlay() {
-    if (!document.getElementById('overlay')) {
-      const overlay = document.createElement('div');
-      overlay.id = 'overlay';
-      overlay.className = 'fixed inset-0 bg-black/50 z-40';
-      overlay.onclick = () => {
-        document.querySelectorAll('.card-expand').forEach(card => {
-          card.classList.add('hidden');
-        });
-        removeOverlay();
-      };
-      document.body.appendChild(overlay);
-    }
-  }
-
-  // Hapus overlay
-  function removeOverlay() {
-    const overlay = document.getElementById('overlay');
-    if (overlay) {
-      overlay.remove();
-    }
-  }
+});
 </script>
 
+
+<!--Paragraf 2-->
+<h3 class="text-xl font-semibold mb-2">Distribusi UMKM Dekat Pasar</h3>
+<p class="text-gray-700">
+Analisis menunjukkan bahwa 167 dari 452 UMKM di Kecamatan Teluk Pandan (36,9%) berada dalam radius 1 km dari pasar tradisional di Desa Hanura, sehingga memiliki akses dekat ke pusat aktivitas ekonomi. UMKM yang dekat pasar didominasi sektor perdagangan (39,5%) dan kuliner (26,9%), diikuti sektor lain seperti jasa, otomotif, dan perawatan. Kedekatan ini memudahkan UMKM mendapatkan bahan baku, menjual produk, dan mendukung operasional usaha. Informasi lebih rinci dapat dilihat melalui tabel statistik distribusi UMKM berdasarkan jenis usaha dan persentasenya, yang mempermudah pemahaman pola sebaran dan potensi pengembangan UMKM di wilayah tersebut.
+</p><br>
+
+<!-- CHART PASAR -->
+<div class="max-w-5xl mx-auto bg-white rounded-xl shadow-lg p-6 mb-14">
+  <h2 class="text-2xl font-semibold mb-4 text-center">UMKM Dekat Pasar</h2>
+  <div class="w-full overflow-x-auto">
+    <canvas id="umkmPasarChart" class="w-full h-80"></canvas>
+  </div>
+</div>
+
+<script>
+const ctxPasar = document.getElementById('umkmPasarChart').getContext('2d');
+const labelsPasar = ['Perdagangan','Kuliner','Pariwisata & Jasa Akomodasi','Perawatan & Kecantikan',
+  'Kerajinan & Kreatif','Otomotif','Kebersihan & Rumah Tangga','Lainnya','Pertanian & Perdagangan Bibit'];
+const jumlahPasar = [66,45,3,10,7,12,5,15,4];
+const persenPasar = [39.5,26.9,1.8,6,4,7.2,3,9,2.4];
+
+const barColorPasar = '#22c55e'; // hijau Tailwind
+const lineColorPasar = '#f97316'; // oranye Tailwind
+
+new Chart(ctxPasar, {
+  data: {
+    labels: labelsPasar,
+    datasets: [
+      { type: 'bar', label: 'Jumlah UMKM', data: jumlahPasar, backgroundColor: barColorPasar, borderRadius: 5 },
+      { type: 'line', label: 'Persentase (%)', data: persenPasar, borderColor: lineColorPasar, borderWidth: 3, fill: false, yAxisID: 'y1', tension:0.2, pointBackgroundColor: lineColorPasar, pointRadius:5 }
+    ]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    plugins:{
+      tooltip:{mode:'index',intersect:false},
+      legend:{
+        display:true,
+        position:'top',
+        labels:{
+          generateLabels: chart => chart.data.datasets.map((d,i)=>({
+            text: d.label,
+            fillStyle: d.type==='bar'?d.backgroundColor:undefined,
+            strokeStyle: d.type==='line'?d.borderColor:undefined,
+            lineWidth: d.type==='line'?d.borderWidth:0,
+            usePointStyle:d.type==='line',
+            pointStyle:d.type==='line'?'line':'rect',
+            datasetIndex:i
+          }))
+        }
+      }
+    },
+    scales:{
+      y:{beginAtZero:true,title:{display:true,text:'Jumlah UMKM'}},
+      y1:{beginAtZero:true,position:'right',max:50,title:{display:true,text:'Persentase (%)'},grid:{drawOnChartArea:false}},
+      x:{ticks:{autoSkip:false},title:{display:true,text:'Jenis UMKM'}}
+    }
+  }
+});
+</script>
+
+
+<!--Paragraf 3-->
+<h3 class="text-xl font-semibold mb-2">Distribusi UMKM Dekat Jalan Utama</h3>
+<p class="text-gray-700">
+Selain dekat dengan objek wisata dan pasar, sebagian besar UMKM di Kecamatan Teluk Pandan juga berada di sekitar jalan utama, khususnya jalan kolektor. Dari total 452 UMKM, terdapat 360 UMKM yang berada dekat jalan utama.
+Berdasarkan jenisnya, UMKM tersebut terdiri dari Perdagangan (164 UMKM), Kuliner (79 UMKM), Otomotif (32 UMKM), Jasa Lainnya (25 UMKM), Pariwisata dan Jasa Akomodasi (16 UMKM), Perawatan dan Kecantikan (16 UMKM), Kerajinan dan Kreatif (11 UMKM), Pertanian (9 UMKM), dan Kebersihan dan Rumah Tangga (8 UMKM).
+Informasi ini membantu memahami proporsi masing-masing jenis UMKM yang memiliki akses mudah ke jalur transportasi utama, serta mengetahui jenis usaha yang paling banyak berlokasi strategis untuk dijangkau konsumen dan wisatawan.
+</p><br>
+
+<!-- CHART JALAN UTAMA -->
+<div class="max-w-5xl mx-auto bg-white rounded-xl shadow-lg p-6 mb-8">
+  <h2 class="text-2xl font-semibold mb-4 text-center">Distribusi UMKM Dekat Jalan Utama</h2>
+  <div class="w-full h-[400px]">
+    <canvas id="umkmJalanChart"></canvas>
+  </div>
+</div>
+
+<script>
+const ctxJalan = document.getElementById('umkmJalanChart').getContext('2d');
+const labelsJalan = ['Perdagangan','Kuliner','Jasa Lainnya','Otomotif','Kerajinan & Kreatif','Pariwisata & Jasa Akomodasi','Perawatan & Kecantikan','Kebersihan & Rumah Tangga','Pertanian & Perdagangan Bibit'];
+const jumlahJalan = [164,79,25,32,11,16,16,8,9];
+const persenJalan = [45.7,21.9,6.9,8.9,3.1,4.4,4.4,2.2,2.5];
+
+const barColorJalan = '#4F46E5'; // biru Tailwind
+const lineColorJalan = '#F59E0B'; // oranye Tailwind
+
+new Chart(ctxJalan, {
+  data:{
+    labels: labelsJalan,
+    datasets:[
+      {type:'bar',label:'Jumlah UMKM',data:jumlahJalan,backgroundColor:barColorJalan,borderRadius:8},
+      {type:'line',label:'Persentase (%)',data:persenJalan,borderColor:lineColorJalan,borderWidth:3,fill:false,yAxisID:'y1',tension:0.3,pointBackgroundColor:lineColorJalan,pointRadius:6}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{
+      tooltip:{mode:'index',intersect:false,callbacks:{
+        label:function(context){
+          return context.dataset.label+(context.dataset.type==='bar'?': '+context.raw:': '+context.raw+'%');
+        }
+      }},
+      legend:{
+        display:true,
+        position:'top',
+        labels:{
+          generateLabels: chart => chart.data.datasets.map((d,i)=>({
+            text: d.label,
+            fillStyle: d.type==='bar'?d.backgroundColor:undefined,
+            strokeStyle: d.type==='line'?d.borderColor:undefined,
+            lineWidth: d.type==='line'?d.borderWidth:0,
+            usePointStyle:d.type==='line',
+            pointStyle:d.type==='line'?'line':'rect',
+            datasetIndex:i
+          }))
+        }
+      }
+    },
+    scales:{
+      y:{beginAtZero:true,title:{display:true,text:'Jumlah UMKM'}},
+      y1:{beginAtZero:true,position:'right',max:50,title:{display:true,text:'Persentase (%)'},grid:{drawOnChartArea:false}},
+      x:{ticks:{autoSkip:false},title:{display:true,text:'Jenis UMKM'}}
+    }
+  }
+});
+</script>
+</section>
+
 <!--Footer-->
-<footer class="bg-orange-950 text-white py-8">
-    <div class="max-w-screen-xl mx-auto px-4 text-center">
-        <h4 class="text-2xl font-semibold mb-2">Annisa Maulina</h4>
-        <p class="text-sm mb-1">2115013009</p>
-        <p class="text-sm mb-3">Teknik Geodesi dan Geomatika</p>
-    
-        <p class="text-xs text-white/80">© 2025 | WebGIS UMKM Teluk Pandan</p>
-    </div>
+<footer class="bottom-0 left-0 w-full text-white py-4 text-center bg-orange-950">
+  <div class="text-center">
+    <h4 class="text-2xl font-semibold mb-2">Annisa Maulina</h4>
+    <p class="text-sm mb-1">2115013009</p>
+    <p class="text-sm mb-3">Teknik Geodesi dan Geomatika</p>
+    <p class="text-xs text-white/80">© 2025 | WebGIS UMKM Teluk Pandan</p>
+  </div>
 </footer>
 
 </body>
-
 </html>
-
