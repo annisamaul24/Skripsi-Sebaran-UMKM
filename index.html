@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="1rDnrtB9eSyxI-X1LDWKr_5Va9at-ds1WVnlPOlWmGw" />
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Konfigurasi Tailwind -->
   <script>
@@ -16,12 +15,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Persebaran UMKM Teluk Pandan</title>
 
-  <!--link CSS-->
+  <!--link CSS Leaflet-->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
   crossorigin=""/>
 
-  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <!-- Leaflet.js -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
   crossorigin="">
@@ -51,7 +50,8 @@
     </nav>
   </header>
 
- <script>// Menunggu seluruh dokumen HTML selesai dimuat sebelum menjalankan script
+ <script>
+ // Menunggu seluruh dokumen HTML selesai dimuat sebelum menjalankan script
 document.addEventListener('DOMContentLoaded', () => {
     // Mengambil elemen dengan class .menu (menu navigasi)
     const menu = document.querySelector('.menu');
@@ -174,8 +174,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="flex space-x-5 py-8 px-8 bg-[#F4E3C1] rounded-xl items-start">
               <i class="fas fa-star text-4xl text-yellow-500"></i>
               <div>
-                  <h4 class="text-2xl font-bold text-[#3E2C23]">Sektor UMKM Potensial</h4>
-                  <p class="mb-2 text-[#5A463A]">Teluk Pandan menyimpan banyak potensi UMKM yang mungkin belum kamu kenal. Mulai dari kuliner lezat, penginapan wisata, hingga kerajinan tangan bernilai tinggi. Yuk, cari tahu sektor mana yang paling menarik perhatianmu!</p>
+                  <h4 class="text-2xl font-bold text-[#3E2C23]">Sektor Potensial UMKM</h4>
+                  <p class="mb-2 text-[#5A463A]">Banyak usaha yang tersebar dekat destinasi wisata dan pasar tradisional, dan sebagian besar lainnya berjejer di sepanjang jalan utama yang jadi jalur mobilitas masyarakat.</p>
                   <a href="Informasi/informasi4.html" class="text-yellow-600 hover:text-yellow-800">Baca Selengkapnya</a>
               </div>
           </div>
@@ -200,17 +200,28 @@ document.addEventListener('DOMContentLoaded', () => {
       <div id="map" class="w-full h-[75vh] rounded-lg shadow-md"></div>
     </div>
 
-    <!-- Sidebar dengan Scroll -->
-    <div class="w-full lg:w-1/4 mb-6 lg:mb-0">
-      <div class="bg-white/95 p-5 rounded-xl shadow-lg border border-gray-200 overflow-y-auto"
-          style="height: 86vh;">
-        <h3 class="text-2xl font-bold mb-4 text-center text-gray-800">Daftar UMKM</h3>
-        <div id="info-layer" class="text-sm text-red-600 mb-2">
-        ⚠️ Aktifkan layer Desa di Layer Control agar marker UMKM muncul.
+     <!-- Sidebar dengan Scroll -->
+     <div class="w-full lg:w-1/4 mb-6 lg:mb-0">
+       <div class="bg-white/95 p-5 rounded-xl shadow-lg border border-gray-200 overflow-y-auto"
+           style="height: 86vh;">
+
+         <!-- Judul Daftar UMKM -->
+          <h3 class="text-2xl font-bold mb-4 text-center text-gray-800">Daftar UMKM</h3>
+
+          <div id="info-layer" class="text-sm text-red-600 mb-2">
+            ⚠️ Aktifkan layer Desa di Layer Control agar marker UMKM muncul.
+          </div>
+
+          <!-- Legend -->
+          <h3 class="text-xl font-bold mb-2 text-gray-800">Legenda Jenis Usaha</h3>
+          <div id="legend-content" class="space-y-1 max-h-[300px]">
+            <!-- Legend marker akan masuk sini via JS -->
+          </div>
+    
+          <!-- Daftar UMKM -->
+          <div id="list-umkm" class="space-y-4 mb-4 mt-3"></div>    
         </div>
-        <div id="list-umkm" class="space-y-4"></div> 
-      </div>
-    </div>
+     </div>
 
   </div>
 </section>
@@ -310,8 +321,8 @@ function closeExpandedCard() {
       <ul class="flex justify-center md:justify-start space-x-6">
         <li><a href="https://www.instagram.com/annisamaul24" class="text-2xl text-pink-500 hover:text-pink-700"><i class="fa-brands fa-instagram"></i></a></li>
         <li><a href="https://www.facebook.com/share/15Ee1jeipu/" class="text-2xl text-blue-600 hover:text-blue-800"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="https://www.tiktok.com/@seepatukaca?_r=1&_t=ZS-919LYmsBogM" class="text-2xl text-black hover:text-gray-700"><i class="fa-brands fa-tiktok"></i></a></li>
-        <li><a href="https://id.linkedin.com/in/annisamaulina?trk=people-guest_people_search-card" class="text-2xl text-blue-700 hover:text-blue-900"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://www.tiktok.com/@1sepatukaca" class="text-2xl text-black hover:text-gray-700"><i class="fa-brands fa-tiktok"></i></a></li>
+        <li><a href="#" class="text-2xl text-blue-700 hover:text-blue-900"><i class="fa-brands fa-linkedin"></i></a></li>
       </ul>
     </div>
 
@@ -333,5 +344,3 @@ function closeExpandedCard() {
 
 </body>
 </html>
-
-
