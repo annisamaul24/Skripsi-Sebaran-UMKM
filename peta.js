@@ -47,6 +47,18 @@ fetch('Geojson/Jaringanjalan.geojson')
     .then(data => Jaringanjalan.addData(data));
 
 // ==========================
+// Layer Buffer UMKM
+// ==========================
+var BufferUMKM = L.geoJSON(null, {
+    style: function(feature) {
+        return { color: "cyan", weight: 2, opacity: 1, fillOpacity: 0.2 };
+    }
+});
+fetch('Geojson/BufferUMKM.geojson')
+    .then(res => res.json())
+    .then(data => BufferUMKM.addData(data));
+
+// ==========================
 // Variabel Global untuk Routing
 // ==========================
 var routingControl = null;
@@ -54,21 +66,49 @@ var activeRouteMarkerId = null;
 var markerMap = {}; // <-- menyimpan marker UMKM
 
 // ==========================
-// Fungsi Popup UMKM
+// Warna marker balon Leaflet bawaan (PNG)
 // ==========================
+const warnaMarker = {
+  "Jasa Lainnya": "grey",
+  "Kebersihan dan Rumah Tangga": "orange",
+  "Kerajinan dan Kreatif": "yellow",
+  "Kuliner": "red",
+  "Otomotif": "black",
+  "Perawatan dan Kecantikan": "violet",
+  "Perdagangan": "green",
+  "Pariwisata dan Jasa Akomodasi": "blue",
+  "Pertanian dan Perdagangan Bibit": "green"
+};
+
 function popupUMKM(feature, latlng) {
   let nama = feature.properties["NAMA_USAHA"] || "-";
   let foto = feature.properties["FOTO"] || "";
-  let foto2 = feature.properties["FOTO2"] || ""; // tambahan untuk foto kedua
+  let foto2 = feature.properties["FOTO2"] || "";
   let deskripsi = feature.properties["DESKRIPSI"] || "";
   let jenis = feature.properties["JENIS_USAHA"] || "-";
   let jam = feature.properties["JAM_OPERASIONAL"] || "-";
   let alamat = feature.properties["ALAMAT"] || "-";
   let id = feature.properties["ID"] || "";
+  
 
-  var marker = L.marker(latlng);
+  // Pilih warna marker, default biru
+  let color = warnaMarker[jenis] || "blue";
+
+  // Gunakan icon balon Leaflet warna berbeda
+  var icon = new L.Icon({
+    iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${color}.png`,
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  });
+
+  var marker = L.marker(latlng, { icon: icon });
   markerMap[id] = marker; // simpan marker berdasarkan ID
+  
 
+  // Bind popup lengkap
   marker.popupTemplate = function(infoTambahan = '') {
     return `
       <div class="max-w-xs max-h-72 overflow-y-auto bg-white rounded-xl shadow-md p-3">
@@ -94,21 +134,25 @@ ${(foto || foto2) ? `
   </div>
 ` : ''}
 
-        
         ${deskripsi ? `<p class="mb-2 text-sm text-gray-700 text-justify">${deskripsi.replace(/\n/g, "<br>&emsp;")}</p>` : ''}
-        
+
         <div class="grid grid-cols-[auto,1fr] gap-x-1 gap-y-1 text-sm">
           <span class="font-semibold">Jenis Usaha</span><span>: ${jenis}</span>
           <span class="font-semibold">Jam Operasional</span><span>: ${jam}</span>
           <span class="font-semibold">Alamat</span><span>: ${alamat}</span>
         </div>
-        
+
         <div class="mt-3 text-center space-x-2">
           <button onclick="tampilkanRute(${latlng.lat}, ${latlng.lng}, '${id}')"
             class="bg-blue-500 hover:bg-blue-600 text-white text-xs px-3 py-1 rounded">Rute</button>
           <button onclick="hapusRute()"
             class="bg-red-500 hover:bg-red-600 text-white text-xs px-3 py-1 rounded">Hapus</button>
-        </div>
+          <button 
+            onclick="toggleBuffer('${id}')" 
+            data-buffer="${id}"
+            class="bg-green-500 hover:bg-green-600 text-white text-xs px-3 py-1 rounded">
+            Buffer
+          </button>
         ${infoTambahan}
       </div>
     `;
@@ -118,31 +162,126 @@ ${(foto || foto2) ? `
   return marker;
 }
 
+// ==========================================
+// VARIABLE PENYIMPAN BUFFER
+// ==========================================
+
+// Menyimpan seluruh data GeoJSON buffer hasil fetch
+var bufferGeojsonData = null;  
+
+// Menyimpan layer buffer yang sedang tampil di map
+var activeBufferLayer = null;
+var activeBufferID = null; // <- ID UMKM yang buffer-nya sedang tampil
+
+// ==========================================
+// LOAD GEOJSON BUFFER DARI FILE
+// ==========================================
+fetch("Geojson/BufferUMKM.geojson")
+  .then(res => res.json())
+  .then(data => {
+    bufferGeojsonData = data;   // Simpan hasil load ke variabel global
+  });
+
+function toggleBuffer(idUMKM) {
+  // Kalau buffer sedang aktif untuk UMKM yang sama, berarti ini mode hapus
+  if (activeBufferID === idUMKM) {
+    if (activeBufferLayer) {
+      map.removeLayer(activeBufferLayer);
+    }
+    activeBufferLayer = null;
+    activeBufferID = null;
+
+    // Ubah tombol kembali ke BUFFER
+    updateBufferButtonText(idUMKM, "Buffer");
+    return;
+  }
+
+  // Kalau buffer sedang aktif untuk UMKM lain, hapus dulu
+  if (activeBufferLayer) {
+    map.removeLayer(activeBufferLayer);
+  }
+
+  // Cari fitur buffer yang sesuai ID UMKM
+  let feature = bufferGeojsonData.features.find(
+    f => f.properties.ID == idUMKM
+  );
+  if (!feature) return;
+
+  activeBufferLayer = L.geoJSON(feature, {
+    style: {
+      color: "cyan",
+      weight: 2,
+      fillOpacity: 0.15
+    }
+  }).addTo(map);
+
+  activeBufferID = idUMKM;
+
+  // Ubah tombol jadi HAPUS BUFFER
+  updateBufferButtonText(idUMKM, "Hapus Buffer");
+}
+
+function updateBufferButtonText(idUMKM, text) {
+  let btn = document.querySelector(`button[data-buffer='${idUMKM}']`);
+  if (btn) btn.innerText = text;
+}
+
+//  LEGENDA PETA
+const legendDiv = document.getElementById("legend-content");
+
+for (let key in warnaMarker) {
+    const img = document.createElement("img");
+    img.src = `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${warnaMarker[key]}.png`;
+    img.style.width = "15px";
+    img.style.height = "24px";
+    img.style.verticalAlign = "middle";
+    img.style.marginRight = "5px";
+
+    const label = document.createElement("span");
+    label.textContent = key;
+
+    const row = document.createElement("div");
+    row.className = "flex items-center mb-1";
+    row.appendChild(img);
+    row.appendChild(label);
+
+    legendDiv.appendChild(row);
+}
+
 // ==========================
 // Fungsi Buat List di Sidebar (versi kelompok per jenis usaha)
 // ==========================
 function tambahListUMKM(namaDesa, data) {
   let listContainer = document.getElementById("list-umkm");
 
-  // Judul desa
   let desaDiv = document.createElement("div");
   desaDiv.innerHTML = `<h4 class="font-bold text-lg text-gray-700 border-b pb-1 mb-2">${namaDesa}</h4>`;
 
-  // === 1. Group data per jenis usaha ===
   let grouped = {};
+
+  // Kelompokkan per jenis usaha
   data.features.forEach(f => {
     let jenis = f.properties["JENIS_USAHA"] || "Lainnya";
     if (!grouped[jenis]) grouped[jenis] = [];
     grouped[jenis].push(f);
   });
 
-  // === 2. Render tiap jenis usaha ===
-  for (let jenis in grouped) {
-    // Subjudul jenis usaha
+  // Ambil semua jenis usaha lalu sort
+  let jenisList = Object.keys(grouped).sort((a, b) => a.localeCompare(b));
+
+  // Render per jenis usaha yang sudah diurutkan
+  jenisList.forEach(jenis => {
+
+    // Sort UMKM di dalamnya berdasarkan nama usaha
+    grouped[jenis].sort((a, b) => {
+      let namaA = a.properties["NAMA_USAHA"]?.toLowerCase() || "";
+      let namaB = b.properties["NAMA_USAHA"]?.toLowerCase() || "";
+      return namaA.localeCompare(namaB);
+    });
+
     let jenisDiv = document.createElement("div");
     jenisDiv.innerHTML = `<p class="ml-2 font-medium text-blue-700">${jenis}</p>`;
 
-    // List UMKM dalam jenis usaha
     let ul = document.createElement("ul");
     ul.className = "ml-6 space-y-1 list-disc";
 
@@ -162,7 +301,7 @@ function tambahListUMKM(namaDesa, data) {
 
     jenisDiv.appendChild(ul);
     desaDiv.appendChild(jenisDiv);
-  }
+  });
 
   listContainer.appendChild(desaDiv);
 }
@@ -234,6 +373,7 @@ fetch("Geojson/DESA_BATU_MENYAN.geojson")
   .then(data => {
       BATUMENYAN.addData(data);
       tambahListUMKM("Desa Batu Menyan", data);
+      BATUMENYAN.addTo(map);
   });
 
 //GEBANG
@@ -242,6 +382,7 @@ fetch("Geojson/DESA_GEBANG.geojson")
   .then(data => {
       GEBANG.addData(data);
       tambahListUMKM("Desa Gebang", data);
+      GEBANG.addTo(map);
   });
 
 //SIDODADI
@@ -250,6 +391,7 @@ fetch("Geojson/DESA_SIDODADI.geojson")
   .then(data => {
       SIDODADI.addData(data);
       tambahListUMKM("Desa Sidodadi", data);
+      SIDODADI.addTo(map);
   });  
 
 //Hanura
@@ -258,6 +400,7 @@ fetch("Geojson/DESA_HANURA.geojson")
   .then(data => {
       HANURA.addData(data);
       tambahListUMKM("Desa Hanura", data);
+      HANURA.addTo(map);
   });  
 
 //CILIMUS
@@ -266,14 +409,16 @@ fetch("Geojson/DESA_CILIMUS.geojson")
   .then(data => {
       CILIMUS.addData(data);
       tambahListUMKM("Desa Cilimus", data);
+      CILIMUS.addTo(map);
   });
 
-//SIDODADI
+//HURUN
 fetch("Geojson/DESA_HURUN.geojson")
   .then(res => res.json())
   .then(data => {
       HURUN.addData(data);
       tambahListUMKM("Desa Hurun", data);
+      HURUN.addTo(map);
   });  
 
 //SUKAJAYA LEMPASING
@@ -282,6 +427,7 @@ fetch("Geojson/DESA_LEMPASING.geojson")
   .then(data => {
       SUKAJAYALEMPASING.addData(data);
       tambahListUMKM("Desa Sukajaya Lempasing", data);
+      SUKAJAYALEMPASING.addTo(map);
   });
 
 //MUNCA
@@ -290,6 +436,7 @@ fetch("Geojson/DESA_MUNCA.geojson")
   .then(data => {
       MUNCA.addData(data);
       tambahListUMKM("Desa Munca", data);
+      MUNCA.addTo(map);
   });
 
 //TANJUNG AGUNG
@@ -298,6 +445,7 @@ fetch("Geojson/DESA_TANJUNG_AGUNG.geojson")
   .then(data => {
       TANJUNGAGUNG.addData(data);
       tambahListUMKM("Desa Tanjung Agung", data);
+      TANJUNGAGUNG.addTo(map);
   });
 
 //TALANG MULYA
@@ -306,7 +454,78 @@ fetch("Geojson/DESA_TALANG_MULYA.geojson")
   .then(data => {
       TALANGMULYA.addData(data);
       tambahListUMKM("Desa Talang Mulya", data);
+      TALANGMULYA.addTo(map);
   });
+
+// ==========================
+// Icon marker untuk destinasi publik
+// ==========================
+var publicIcon = L.icon({
+  iconUrl: 'image/pin.png',
+  iconSize: [30, 30],
+  iconAnchor: [15, 30],
+  popupAnchor: [0, -30]
+});
+
+// ==========================
+// Fungsi popup destinasi publik 
+// ==========================
+function popupDestinasi(feature, latlng) {
+    // Ambil atribut dari GeoJSON
+    let tempat = feature.properties.TEMPAT || "-";
+    let jenis = feature.properties.JENIS || "-";
+    let waktu = feature.properties.WAKTU_OPERASIONAL || "-";
+    let deskripsi = feature.properties.DESKRIPSI || "-";
+    let foto1 = feature.properties.FOTO || "";
+    let foto2 = feature.properties.FOTO2 || "";
+
+    // Konten popup
+    let popupContent = `
+        <div class="max-w-xs max-h-72 overflow-y-auto bg-white rounded-xl shadow-md p-3">
+            <h3 class="text-lg font-bold text-center text-gray-800 mb-2">${tempat}</h3>
+
+            ${(foto1 || foto2) ? `
+            <div class="mb-2 flex space-x-3 overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400">
+                ${foto1 ? `
+                <div class="rounded-2xl p-2 shadow hover:shadow-lg transition-all duration-300 cursor-pointer w-40 flex-shrink-0"
+                     onclick="expandCard('${foto1}')">
+                    <img src="${foto1}" class="w-full h-32 object-cover rounded-xl"
+                         onerror="this.parentElement.style.display='none'">
+                </div>` : ''}
+
+                ${foto2 ? `
+                <div class="rounded-2xl p-2 shadow hover:shadow-lg transition-all duration-300 cursor-pointer w-40 flex-shrink-0"
+                     onclick="expandCard('${foto2}')">
+                    <img src="${foto2}" class="w-full h-32 object-cover rounded-xl"
+                         onerror="this.parentElement.style.display='none'">
+                </div>` : ''}
+            </div>` : ''}
+
+            ${deskripsi ? `<p class="mb-2 text-sm text-gray-700 text-justify">${deskripsi.replace(/\n/g, "<br>&emsp;")}</p>` : ''}
+
+            <div class="grid grid-cols-[auto,1fr] gap-x-1 gap-y-1 text-sm">
+                <span class="font-semibold">Jenis Destinasi</span><span>: ${jenis}</span>
+                <span class="font-semibold">Jam Operasional</span><span>: ${waktu}</span>
+            </div>
+        </div>
+    `;
+
+    // Buat marker dengan popup
+    return L.marker(latlng, { icon: publicIcon }).bindPopup(popupContent);
+}
+
+// ==========================
+// Load GeoJSON Destinasi Publik
+// ==========================
+var destinasiPublikLayer = L.geoJSON(null, {
+    pointToLayer: popupDestinasi
+})
+
+// Misal file GeoJSON-nya berada di folder 'data'
+fetch('Geojson/DestinasiPublik.geojson')
+    .then(res => res.json())
+    .then(data => destinasiPublikLayer.addData(data));
+
 
 // ==========================
 // Layer Control
@@ -319,7 +538,9 @@ var baseMaps = {
 
 var overlayMaps = { 
     "Batas Desa": batasdesa, 
-    "Jaringan Jalan": Jaringanjalan, 
+    "Jaringan Jalan": Jaringanjalan,
+    "Buffer UMKM (1km)": BufferUMKM,
+    "Wisata dan Pasar" : destinasiPublikLayer,
     "Desa Batu Menyan": BATUMENYAN,
     "Desa Gebang" : GEBANG,
     "Desa Sidodadi" : SIDODADI,
@@ -327,7 +548,7 @@ var overlayMaps = {
     "Desa Cilimus": CILIMUS,
     "Desa Hurun" : HURUN,
     "Desa Sukajaya Lempasing" : SUKAJAYALEMPASING,
-    "Desa MUNCA" : MUNCA,
+    "Desa Munca" : MUNCA,
     "Desa Tanjung Agung": TANJUNGAGUNG,
     "Desa Talang Mulya" : TALANGMULYA
 };
@@ -352,7 +573,7 @@ function tampilkanRute(latTujuan, lngTujuan, id) {
             lineOptions: { styles: [{ color: 'blue', opacity: 0.7, weight: 5 }] },
             createMarker: function() { return null; },
             routeWhileDragging: false,
-            show: false,
+            show: true,
             addWaypoints: false
         }).addTo(map)
         .on('routesfound', function(e) {
